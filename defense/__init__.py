@@ -1,0 +1,1 @@
+"""Defense component package."""

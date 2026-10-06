@@ -1,0 +1,48 @@
+project:
+  name: TCLAD-FL
+  seed: 42
+  output_root: results
+  mode: quick
+
+dataset:
+  name: mnist
+  data_dir: data
+  download: true
+  subset_size: 5000
+  validation_fraction: 0.1
+  partition:
+    type: iid
+    clients: 5
+    dirichlet_alpha: 0.5
+
+model:
+  name: mnist_cnn
+  num_classes: 10
+
+training:
+  device: auto
+  rounds: 20
+  local_epochs: 1
+  batch_size: 64
+  learning_rate: 0.01
+  client_fraction: 1.0
+  num_workers: 0
+  deterministic: true
+
+attack:
+  enabled: true
+  name: conventional_backdoor
+  malicious_fraction: 0.2
+  target_class: 0
+  poison_fraction: 0.5
+  attack_rounds: [16, 17, 18, 19, 20]
+  trigger: {type: bottom_right_square, size: 3, value: 1.0}
+  selected_layers: []
+  smoothing_tau: 0.8
+  smoothing_lambda: 1.0
+
+defense:
+  enabled: false
+  weights: {layer: 1.0, temporal: 1.0, cross_layer: 1.0}
+  threshold: {strategy: validation, value: null, percentile: 95.0}
+  mitigation: reject

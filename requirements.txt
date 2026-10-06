@@ -1,0 +1,16 @@
+# TCLAD-FL dependency pins validated in the current Python 3.14.6 Windows environment.
+# PyTorch CPU wheel command used locally:
+#   pip install torch==2.11.0 torchvision==0.26.0 --index-url https://download.pytorch.org/whl/cpu
+# Choose the official PyTorch CUDA wheel index for compatible NVIDIA environments.
+numpy==2.5.2
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+seaborn==0.13.2
+PyYAML==6.0.3
+torch==2.11.0
+torchvision==0.26.0
+flwr==1.39.0
+tqdm==4.67.1
+pytest==9.1.1

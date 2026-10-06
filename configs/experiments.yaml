@@ -1,0 +1,15 @@
+project:
+  name: TCLAD-FL
+  seed: [11, 22, 33]
+  output_root: results
+  mode: paper
+matrix:
+  datasets: [mnist, cifar10]
+  distributions: [iid, non_iid]
+  malicious_fractions: [0.1, 0.2, 0.4]
+  defenses: [none, whole_update, layer_only, temporal_only, cross_layer_only, tclad]
+  ablations: [A_layer, B_layer_temporal, C_layer_cross_layer, D_temporal_cross_layer, E_full]
+  rounds: 50
+  clients: 20
+  attack_strengths: [low, medium, high]
+  seeds: [11, 22, 33]

@@ -1,0 +1,3177 @@
+[
+  {
+    "path": ".gitignore",
+    "sha": "05618dc21008343e22bbb93f071948b93de7aabc4cefd09c8da6c380ec94670b",
+    "len": 460
+  },
+  {
+    "path": "LICENSE",
+    "sha": "6c93e1d5c514c9f0fdde1ab44e90fc28c916ddbfc2a3612cf8a6eee3ac88b2c9",
+    "len": 829
+  },
+  {
+    "path": "README.md",
+    "sha": "cdbc8dba6ccdff7c1b6fc5aba35f2e7a9193eb03727491b6cecb4fbf59770243",
+    "len": 9099
+  },
+  {
+    "path": "requirements.txt",
+    "sha": "af4ca081134e9937841b068c1fd586b908db06ad35a01ab0fddf82b831f01108",
+    "len": 496
+  },
+  {
+    "path": "attacks/__init__.py",
+    "sha": "cefe28a051f0336d9de79e13970afb51b0b9ae0a612065ee4711fe6b3b2e9d59",
+    "len": 42
+  },
+  {
+    "path": "attacks/base_attack.py",
+    "sha": "2b34b29682ff542925e43e6b63962f3a9eafe56fa431ed413bb8be48f81f50fa",
+    "len": 1431
+  },
+  {
+    "path": "attacks/lsa.py",
+    "sha": "9d20b995505a28357825d2c09785ea5a86102fefbd0b188abdca9525118bf29d",
+    "len": 2006
+  },
+  {
+    "path": "configs/cifar10.yaml",
+    "sha": "d1b1df0c29affe7f11b74024fcb2e2872938ad699ae73f68ab650b67746d3f03",
+    "len": 863
+  },
+  {
+    "path": "configs/experiments.yaml",
+    "sha": "b5a45e2103d48034371b40f21e967c6be90c3783b9c5d884e40d25a239b29a4e",
+    "len": 461
+  },
+  {
+    "path": "configs/mnist_conventional_late.yaml",
+    "sha": "b94df413630fab2ecd06e00dd5be60636ce5ece4c77e3024f98b2e69e86a56a9",
+    "len": 907
+  },
+  {
+    "path": "configs/mnist_lsa_high_fraction.yaml",
+    "sha": "515ef2c62e8c75839969b1c2baa22cd43a8177a98c1cf0fd397e7a445a3fcdd6",
+    "len": 921
+  },
+  {
+    "path": "configs/mnist_lsa_late_coordinate_median.yaml",
+    "sha": "bee7ff11496bb0178817366cb900b729e5de9e72ceae4cfc3cc395bcec8a509b",
+    "len": 1000
+  },
+  {
+    "path": "configs/mnist_lsa_late_multi_krum.yaml",
+    "sha": "1105ec780d80362342c6ff887821ac612d8f4618ac943fc86c71684a972fb6ec",
+    "len": 993
+  },
+  {
+    "path": "configs/mnist_lsa_late_seed21.yaml",
+    "sha": "5d0ad0202ef77739d9b678d33c069f66b2efc92f7b3c1d6a834d8a29222c1808",
+    "len": 1007
+  },
+  {
+    "path": "configs/mnist_lsa_late_seed7.yaml",
+    "sha": "c2a5a0e0727a10f967cffc746fd755ef4d200aa85f99f6956e6eea1f0d3c1b8b",
+    "len": 920
+  },
+  {
+    "path": "configs/mnist_lsa_late_trimmed_mean.yaml",
+    "sha": "586dca289baf95ede04ddfadb95a58c78979c71180714508e04caa5f1358f84a",
+    "len": 995
+  },
+  {
+    "path": "configs/mnist_lsa_late.yaml",
+    "sha": "85ecf0e9143c943394ee1fa4b0a6ada8fe8d71301e67653b879f5d8b3620eb45",
+    "len": 921
+  },
+  {
+    "path": "configs/mnist_lsa_noniid.yaml",
+    "sha": "f418aba887a357ec0cc4a7024c4865f5c7ef345a6f84f9796b956ed524502747",
+    "len": 925
+  },
+  {
+    "path": "configs/mnist_noniid.yaml",
+    "sha": "d3d5790d23c46ac9325b08e73e9a0a6c94eed5eea23c961f89098c8efad81586",
+    "len": 902
+  },
+  {
+    "path": "configs/mnist_seed21.yaml",
+    "sha": "e8a9abbea98f436b6d9dafb2182de26a5b1e2bcbe95797447705e57e84825f21",
+    "len": 961
+  },
+  {
+    "path": "configs/mnist_seed7.yaml",
+    "sha": "12beaa8506de9fbd8448da70861f1ada1d7cbd2c24cea31ab396e7be4dda17fc",
+    "len": 895
+  },
+  {
+    "path": "configs/mnist.yaml",
+    "sha": "60a71a3f69f2b3c36dbe6299fdd9e7fdf09943b86ecf2953fec44b100b8b6d8a",
+    "len": 896
+  },
+  {
+    "path": "dataset/__init__.py",
+    "sha": "305e5c2b65be8ae9e470c8cfa83576b9f211575c2329ad8bf332e80c1eb56057",
+    "len": 56
+  },
+  {
+    "path": "dataset/loader.py",
+    "sha": "1d51d49f82d4575ffd560bc330cb582c578f2eeab9240dfda0e18665c7fb5c3a",
+    "len": 1215
+  },
+  {
+    "path": "dataset/partition.py",
+    "sha": "3d0abac2ce84dcf343883706560cd2ff871f134b1fe7aa28535a7c0c920abfb7",
+    "len": 2009
+  },
+  {
+    "path": "defense/__init__.py",
+    "sha": "d43271270e2f1afa48b88e5303ca31036716ad2afa73aa1f4efc6ac06a491262",
+    "len": 34
+  },
+  {
+    "path": "defense/anomaly_detector.py",
+    "sha": "377f53f1887dff767a9c8de9402ca16fd3819edd4a93aebab2b1f3244f0d7bca",
+    "len": 8172
+  },
+  {
+    "path": "defense/cross_layer.py",
+    "sha": "3038934249b9b7aeda0d94e5dd1140348d75d0b1959d9d772f650967d574d5da",
+    "len": 1840
+  },
+  {
+    "path": "defense/fingerprints.py",
+    "sha": "6d78e96fe0edc1a1951f28aeaff657b97427407ad156735fe8e4a562345e94fe",
+    "len": 3123
+  },
+  {
+    "path": "defense/mitigation.py",
+    "sha": "4646123d93a43d692e24972053caaf4f244ee005183324bbf68a6324ded0ea02",
+    "len": 731
+  },
+  {
+    "path": "defense/reference.py",
+    "sha": "67091d5fb7627e0284b68f7c6ce532197043ec6d9a393986659889f809f213e1",
+    "len": 1564
+  },
+  {
+    "path": "defense/temporal.py",
+    "sha": "1aa47e9b986a020c9a87ba79178cf26fcbddb0f0c99e4f9ecf4a5921e6594bcb",
+    "len": 2563
+  },
+  {
+    "path": "evaluation/__init__.py",
+    "sha": "61a86d715ee080faf228496ac6eb269a77f827cead02831f4822a6a108e494bf",
+    "len": 35
+  },
+  {
+    "path": "evaluation/metrics.py",
+    "sha": "966036804377a2b596d0d62c4075d2f33896b712159de214dcd9dc22a9fc0a53",
+    "len": 1829
+  },
+  {
+    "path": "evaluation/overhead.py",
+    "sha": "77eee755d81bd66204e586d542dd398bf19e056481effadea386d518b9e9408f",
+    "len": 2418
+  },
+  {
+    "path": "evaluation/statistical_tests.py",
+    "sha": "a5a3ca80acfabd8de492a5675e2a5e66bfb981ee4758030dbc985e33f852c2b9",
+    "len": 1273
+  },
+  {
+    "path": "experiments/__init__.py",
+    "sha": "fc3eb47d7f5723ef25e54ddd7a1d3c5b97870caaceee3eebe7a29960bd451a45",
+    "len": 32
+  },
+  {
+    "path": "experiments/ablation.py",
+    "sha": "d2702d12245a70ee3ffeb19913af85b10fef3a739c2b7d74f207667dd1a9ccfb",
+    "len": 132
+  },
+  {
+    "path": "experiments/baseline.py",
+    "sha": "8f9eb9b0e8bb5af1a6a766f11163b78ab4080913b803657c2dfc232eb77b8c56",
+    "len": 6990
+  },
+  {
+    "path": "experiments/defense_experiment.py",
+    "sha": "527068bc5c63019ae3d08982ae13319081882be67fe7c232d16ad11b88e4ab22",
+    "len": 8808
+  },
+  {
+    "path": "experiments/generate_results.py",
+    "sha": "c1134b62ceb13a7f73023141c91bdc8966e0c01bb75a64922e1b592bc52d90dd",
+    "len": 15580
+  },
+  {
+    "path": "experiments/lsa_experiment.py",
+    "sha": "99e9b39ff42d47db2ff213a10aaac6ad7857523d8d0b5fec82ccd238d4b8011a",
+    "len": 892
+  },
+  {
+    "path": "experiments/mitigation_ablation.py",
+    "sha": "b5d81f004e55e84c8691d80b1aa2bd6034a99dce97f01f187d04f8a0608b64b4",
+    "len": 1982
+  },
+  {
+    "path": "experiments/sensitivity.py",
+    "sha": "ff8aff543f3161e0b1f4ace8749acf8cd7cf52ce095c45634a85fa96d019062b",
+    "len": 3864
+  },
+  {
+    "path": "federated/__init__.py",
+    "sha": "3fd45ffb0a57719c0401edb59adc04863122d18c675039301fbbefdde961c6d6",
+    "len": 42
+  },
+  {
+    "path": "federated/client.py",
+    "sha": "2af7feb2a9ef0447e2a043528a3ea2ea56de0250ea36ee5dad9e56a6c397ccdc",
+    "len": 3651
+  },
+  {
+    "path": "federated/server.py",
+    "sha": "ca3b5cf730f8177ad7ea6e038ce541ce5a7b8748a86b6a88bf09a92155ec7aef",
+    "len": 16246
+  },
+  {
+    "path": "federated/strategy.py",
+    "sha": "2e7770e63eb9593d01df0f9f72ca69fd50b42e29d52a198ae4f47cad68ee0aa8",
+    "len": 5328
+  },
+  {
+    "path": "models/__init__.py",
+    "sha": "cc748e19e134817893522269497ca70f3e734e80634739879cda96c7947a291e",
+    "len": 20
+  },
+  {
+    "path": "models/cnn.py",
+    "sha": "4f51c84c24a698de3ffe361a5cb15cf59ede837732cc6f64ae910ba0522ebb8c",
+    "len": 3646
+  },
+  {
+    "path": "research/ENVIRONMENT.md",
+    "sha": "19506d0ebfa241376e19d8347a99b3efbf9aaa5513f3c57c91e7fe58c7ed09ef",
+    "len": 1238
+  },
+  {
+    "path": "research/EXPERIMENT_PLAN.md",
+    "sha": "313c9335ac3efc9ae007f30e27a0b5d442ff1a389707edf9ebce4df93b7e9e36",
+    "len": 3896
+  },
+  {
+    "path": "research/FAILURE_ANALYSIS.md",
+    "sha": "71870e8460bef1ca2d91df5e5da21125709dfb7053a030857ff0785f95cbed04",
+    "len": 3809
+  },
+  {
+    "path": "research/FINAL_EXPERIMENT_REPORT.md",
+    "sha": "7d8ee432a8d8cb043b1167c27067792c4ef1ec4b2255bf215db062831424673a",
+    "len": 16638
+  },
+  {
+    "path": "research/LITERATURE_REVIEW.md",
+    "sha": "e87a3e02ad6bf2a20a51982b09e7d3d0541eda8ba398ea7491e4d3c6c9f20366",
+    "len": 10101
+  },
+  {
+    "path": "research/METHODOLOGY.md",
+    "sha": "bc3ec9d9669f212b1e67011bd7eaaa8b7efc437fed051510dab356d284cb6534",
+    "len": 5623
+  },
+  {
+    "path": "research/references.bib",
+    "sha": "4e00e85b444f1a0f6cc791fe8019d23e9af1d020ce5be0b26c7965e81479114e",
+    "len": 5489
+  },
+  {
+    "path": "research/RESEARCH_GAP.md",
+    "sha": "a42f343caf3d2543025eb47707718c974e9cc8edd3bc47d1e7e124a77bb62ca5",
+    "len": 5394
+  },
+  {
+    "path": "research/RESEARCH_NOTES.md",
+    "sha": "03e4448593367d2f9608ab72415260f198eff693b40ac8c8a3658feb5f731182",
+    "len": 9205
+  },
+  {
+    "path": "results/figures/attack_comparison.png",
+    "sha": "1b762acb263e43839f2d02b37708fa44a85cbac6d8aa253e3ae6c61cbb3cb1cd",
+    "len": 215124
+  },
+  {
+    "path": "results/figures/attack_factor_sensitivity.png",
+    "sha": "7f90cb2ee516bf2ff13f0abddb9068a7e150ed9f614f0b58223d3ac159561ed3",
+    "len": 78615
+  },
+  {
+    "path": "results/figures/conventional-backdoor-mnist-iid-late20-20261004_learning.png",
+    "sha": "cbbb0f56187f64c9fb46a808b76440d3db924bf964ddb254cd729ef23f242576",
+    "len": 102656
+  },
+  {
+    "path": "results/figures/detector_f1.png",
+    "sha": "81fdea1c69afb9f78e89d87e839cb6157bd5fd4e4302469ee1a0d2ed574e2543",
+    "len": 134314
+  },
+  {
+    "path": "results/figures/detector_roc_auc.png",
+    "sha": "b9b8a8411a08e1da4cf31e3f4226180c8a767036fdfa6a62c06b35c0b0daf428",
+    "len": 114708
+  },
+  {
+    "path": "results/figures/fedavg-fingerprint-smoke-20261004_learning.png",
+    "sha": "f12a8ef315f92bccc21ef7237811b1456a53c7726b71d21d1e871f9586bda168",
+    "len": 50419
+  },
+  {
+    "path": "results/figures/fedavg-mnist-dirichlet-a01-20-20261004_learning.png",
+    "sha": "8135759f769f51d0fee1d411d7e3ba09b32f780364517753e69b7f85b467b15d",
+    "len": 83069
+  },
+  {
+    "path": "results/figures/fedavg-mnist-iid-quick-10rounds-20261004_learning.png",
+    "sha": "284f89804322413f56ed52e4e549f0a6e4e62b2df7659fbcf8758efedf1601bc",
+    "len": 70907
+  },
+  {
+    "path": "results/figures/fedavg-mnist-iid-quick-20261004_learning.png",
+    "sha": "fc07721f28fd3ef05219a2cd1db9c2956ed1e06e061822ff5fcd30c1fc7b9dee",
+    "len": 83386
+  },
+  {
+    "path": "results/figures/fedavg-mnist-iid-quick-20rounds-20261004_learning.png",
+    "sha": "484fccb5f5210a3afa73a04b89537aa2af7b024b9dc580516a4a7747b789bbd9",
+    "len": 83456
+  },
+  {
+    "path": "results/figures/fedavg-mnist-iid-reference-20-20261004_learning.png",
+    "sha": "484fccb5f5210a3afa73a04b89537aa2af7b024b9dc580516a4a7747b789bbd9",
+    "len": 83456
+  },
+  {
+    "path": "results/figures/fedavg-mnist-iid-reference-seed21-20261004_learning.png",
+    "sha": "9c3b96cc12fa7cb55d3715725c0e84f29211c22104aa59b3101e1bc0a5b3fa44",
+    "len": 81323
+  },
+  {
+    "path": "results/figures/fedavg-mnist-iid-reference-seed7-20261004_learning.png",
+    "sha": "06c022797e558078e24be8b786aca852cc6b631a4444eda9a4eb0f9beeb55a62",
+    "len": 81611
+  },
+  {
+    "path": "results/figures/lsa-coordinate-median-late20-seed42-20261004_learning.png",
+    "sha": "af4701a87a169c8d83778e91a5e2c78753da4f92568a76bf932cecb884f59769",
+    "len": 95951
+  },
+  {
+    "path": "results/figures/lsa-inspired-high-malicious40-late20-seed42-20261004_learning.png",
+    "sha": "0337924a4a48530349fb4a1045a53142378e71fe74231304dd11be57dc2ee4fc",
+    "len": 100073
+  },
+  {
+    "path": "results/figures/lsa-inspired-late-mnist-20-20261004_learning.png",
+    "sha": "025a00900f51fa0aaef59bd5db5bb2ed6b1a18c36339c51f5c92c1e68c743d1e",
+    "len": 97879
+  },
+  {
+    "path": "results/figures/lsa-inspired-late-mnist-seed21-20261004_learning.png",
+    "sha": "fb25340946c81631ef2b2a7ded2980f95a38a27d6e17c7fad94f33204ff801b2",
+    "len": 93169
+  },
+  {
+    "path": "results/figures/lsa-inspired-late-mnist-seed7-20261004_learning.png",
+    "sha": "c2eb40fefeb05281ff0f2fbe3072206a12c5ec45ab192045ae4acdefd6bf5d3f",
+    "len": 97962
+  },
+  {
+    "path": "results/figures/lsa-inspired-mnist-iid-quick-20-20261004_learning.png",
+    "sha": "ccd7d84e5f09d818dff750f2c051c82ce433cd74636257522728d9b4a5639098",
+    "len": 99131
+  },
+  {
+    "path": "results/figures/lsa-inspired-noniid-alpha01-late20-seed42-20261004_learning.png",
+    "sha": "a1db72af677943a089956a2568371b02d4c79d0c1b92842b542148b5cb589e76",
+    "len": 102298
+  },
+  {
+    "path": "results/figures/lsa-mnist-attack-smoke-20261004_learning.png",
+    "sha": "28ca823af1d13e9cf2c051972e7c71f005a2ea807a05ef30e6dacd95b9b6c3e4",
+    "len": 91097
+  },
+  {
+    "path": "results/figures/lsa-mnist-reject-smoke-20261004_learning.png",
+    "sha": "880066fa766438615d5ae52db7046ae9e770a5c683339f6b925a73a646a07339",
+    "len": 83272
+  },
+  {
+    "path": "results/figures/lsa-multi-krum-late20-seed42-20261004_learning.png",
+    "sha": "65370d0b2b7d2af522bd8aa993e06d9a6c808dc6723a814933c15bb7020be665",
+    "len": 100549
+  },
+  {
+    "path": "results/figures/lsa-tclad-downweight-late20-attacked-20261004_learning.png",
+    "sha": "e751d911098c72a237a8e3c42e1df0ad1d68040bb532dae67d3e8346138d30d3",
+    "len": 103503
+  },
+  {
+    "path": "results/figures/lsa-tclad-reject-late20-20261004_learning.png",
+    "sha": "1ef73f5ae5f78855a8b78e0352cd16c6f45fb0bd4e7feeb36b7e81b966ab95c1",
+    "len": 82730
+  },
+  {
+    "path": "results/figures/lsa-tclad-reject-late20-attacked-20261004_learning.png",
+    "sha": "ea1a4b80f50dbc69ff726a6cbd5358031bd74910f48d2ed489c5a1c4e7cd7f22",
+    "len": 94249
+  },
+  {
+    "path": "results/figures/lsa-trimmed-mean-late20-seed42-20261004_learning.png",
+    "sha": "d1e0c06e5c8a0f7eaf3ad79b991092c054c394fb2c32dfed1aaac3c79724d0df",
+    "len": 95998
+  },
+  {
+    "path": "results/figures/tclad-ablation-seed42-20261004-down_weight-A_layer_learning.png",
+    "sha": "39ecc91d72c7e2021c5341a535bd5990c312ce0eade4db3ae6a2c23d6120fe0d",
+    "len": 96158
+  },
+  {
+    "path": "results/figures/tclad-ablation-seed42-20261004-down_weight-B_layer_temporal_learning.png",
+    "sha": "047f07b7cefae090bc8c642c0afc8289c908f8c703944d16850a1fe19ee7126d",
+    "len": 98119
+  },
+  {
+    "path": "results/figures/tclad-ablation-seed42-20261004-down_weight-C_layer_cross_layer_learning.png",
+    "sha": "ca191eb5550a09566395e13740eabc68d786c5db03cd249c853cf322ad6b67ea",
+    "len": 102288
+  },
+  {
+    "path": "results/figures/tclad-ablation-seed42-20261004-down_weight-D_temporal_cross_layer_learning.png",
+    "sha": "9d297f842c883a9af09070b52f3be59086b0f7f352f407298c5e412098f93c87",
+    "len": 93386
+  },
+  {
+    "path": "results/figures/tclad-ablation-seed42-20261004-down_weight-E_full_tclad_learning.png",
+    "sha": "c224326168c832f0e85634efcbdcdc0fd113edbb7f3ce66d01e862e018bbd9cb",
+    "len": 98909
+  },
+  {
+    "path": "results/figures/tclad-conventional-late-20-robust-scale-20261004_cross_layer.png",
+    "sha": "fe80e014650c51fa308d6fd4e74368792b61f0757e06481df7ee3564e1a22524",
+    "len": 72153
+  },
+  {
+    "path": "results/figures/tclad-conventional-late-20-robust-scale-20261004_layer_heatmap.png",
+    "sha": "d1ba12c78b744a538685335eb85634990676640c234c5df5376ea5a446b24be7",
+    "len": 56091
+  },
+  {
+    "path": "results/figures/tclad-conventional-late-20-robust-scale-20261004_roc_pr.png",
+    "sha": "08fe39672bc3082a82f4e31934a18d447be583982d1939920665734373169a08",
+    "len": 79941
+  },
+  {
+    "path": "results/figures/tclad-conventional-late-20-robust-scale-20261004_score_distribution.png",
+    "sha": "f728807237441ed336bcf0c030012a5db245c88f157f0ac9c0ce702517b34814",
+    "len": 44121
+  },
+  {
+    "path": "results/figures/tclad-conventional-late-20-robust-scale-20261004_temporal.png",
+    "sha": "a10f11121efcad7b4a829899f9c479fceac1211717b55db5a61ad6f9f265e7bf",
+    "len": 124415
+  },
+  {
+    "path": "results/figures/tclad-conventional-seed42-bounded-20261004_cross_layer.png",
+    "sha": "fe80e014650c51fa308d6fd4e74368792b61f0757e06481df7ee3564e1a22524",
+    "len": 72153
+  },
+  {
+    "path": "results/figures/tclad-conventional-seed42-bounded-20261004_layer_heatmap.png",
+    "sha": "d7d1228b70ed300e24a59373080de0b150aee4a23cafd89d6d0301ae3c63fc4a",
+    "len": 65592
+  },
+  {
+    "path": "results/figures/tclad-conventional-seed42-bounded-20261004_roc_pr.png",
+    "sha": "08fe39672bc3082a82f4e31934a18d447be583982d1939920665734373169a08",
+    "len": 79941
+  },
+  {
+    "path": "results/figures/tclad-conventional-seed42-bounded-20261004_score_distribution.png",
+    "sha": "2eefcd23ffeb8c13db896af9da5f821a9f464d765701d80c516aa09c61052113",
+    "len": 75164
+  },
+  {
+    "path": "results/figures/tclad-conventional-seed42-bounded-20261004_temporal.png",
+    "sha": "a10f11121efcad7b4a829899f9c479fceac1211717b55db5a61ad6f9f265e7bf",
+    "len": 124415
+  },
+  {
+    "path": "results/figures/tclad-downweight-bounded-seed42-20261004_learning.png",
+    "sha": "c224326168c832f0e85634efcbdcdc0fd113edbb7f3ce66d01e862e018bbd9cb",
+    "len": 98909
+  },
+  {
+    "path": "results/figures/tclad-high-fraction-seed42-bounded-20261004_cross_layer.png",
+    "sha": "766d9dc3af277319b65b8d6a323f89efd03a397703934b0012a2f90744dac839",
+    "len": 73286
+  },
+  {
+    "path": "results/figures/tclad-high-fraction-seed42-bounded-20261004_layer_heatmap.png",
+    "sha": "93e9ad2d7a99cbbf348b7f35354678758d5a16d4a68eadc83e5063b1f44ecd87",
+    "len": 60047
+  },
+  {
+    "path": "results/figures/tclad-high-fraction-seed42-bounded-20261004_roc_pr.png",
+    "sha": "fe05d22fb1205d6f3ae90639840c39bf1a6d9982fa7d5fcf4959edae968c65d6",
+    "len": 80221
+  },
+  {
+    "path": "results/figures/tclad-high-fraction-seed42-bounded-20261004_score_distribution.png",
+    "sha": "74016dad8e0cf940733e340a8650b2e291e24ea9f1379a63919d8cb115a3d644",
+    "len": 82261
+  },
+  {
+    "path": "results/figures/tclad-high-fraction-seed42-bounded-20261004_temporal.png",
+    "sha": "e49831081989c1e35f357c9e61065d457979d2bb5313f5a2be14493cdd63bbd4",
+    "len": 140647
+  },
+  {
+    "path": "results/figures/tclad-lsa-late-20-robust-scale-20261004_cross_layer.png",
+    "sha": "fd7eebf475644b8f9833e53b377934afea0216045e08412176905adb5989b929",
+    "len": 72895
+  },
+  {
+    "path": "results/figures/tclad-lsa-late-20-robust-scale-20261004_layer_heatmap.png",
+    "sha": "a76248d962f4eb55e7a72ccc14efc8405432aad319d8a1c4cfc106d3887f287e",
+    "len": 60193
+  },
+  {
+    "path": "results/figures/tclad-lsa-late-20-robust-scale-20261004_roc_pr.png",
+    "sha": "08fe39672bc3082a82f4e31934a18d447be583982d1939920665734373169a08",
+    "len": 79941
+  },
+  {
+    "path": "results/figures/tclad-lsa-late-20-robust-scale-20261004_score_distribution.png",
+    "sha": "4c86af71cb6f0a478dbe7148ef1c56486e4f5677e1f8b8a81fec524fba04772c",
+    "len": 47226
+  },
+  {
+    "path": "results/figures/tclad-lsa-late-20-robust-scale-20261004_temporal.png",
+    "sha": "7cd8783d2ca617ab6685ff32cccb205ac230acb94cc30fd38ff4c3dd52ac9564",
+    "len": 144045
+  },
+  {
+    "path": "results/figures/tclad-lsa-late-seed42-bounded-20261004_cross_layer.png",
+    "sha": "fd7eebf475644b8f9833e53b377934afea0216045e08412176905adb5989b929",
+    "len": 72895
+  },
+  {
+    "path": "results/figures/tclad-lsa-late-seed42-bounded-20261004_layer_heatmap.png",
+    "sha": "e891859523064f1f92c904585d2bccc8f304c7c3125cca7419ce72081b91c8e5",
+    "len": 65725
+  },
+  {
+    "path": "results/figures/tclad-lsa-late-seed42-bounded-20261004_roc_pr.png",
+    "sha": "08fe39672bc3082a82f4e31934a18d447be583982d1939920665734373169a08",
+    "len": 79941
+  },
+  {
+    "path": "results/figures/tclad-lsa-late-seed42-bounded-20261004_score_distribution.png",
+    "sha": "3f49f914a90479bf68aa90898ace34b907fc8723305a56166cda9bcf6871d227",
+    "len": 52051
+  },
+  {
+    "path": "results/figures/tclad-lsa-late-seed42-bounded-20261004_temporal.png",
+    "sha": "7cd8783d2ca617ab6685ff32cccb205ac230acb94cc30fd38ff4c3dd52ac9564",
+    "len": 144045
+  },
+  {
+    "path": "results/figures/tclad-lsa-late-seed7-20261004_cross_layer.png",
+    "sha": "fb4e09ce5fa94d4b54499b639fd05464ac2321c641f2fcb814951d3649b64ab2",
+    "len": 74538
+  },
+  {
+    "path": "results/figures/tclad-lsa-late-seed7-20261004_layer_heatmap.png",
+    "sha": "07f905fe5563dbbe8d149603db7a6c56fb7bf917f3e4f4717a60fa7bba876c06",
+    "len": 63587
+  },
+  {
+    "path": "results/figures/tclad-lsa-late-seed7-20261004_roc_pr.png",
+    "sha": "08fe39672bc3082a82f4e31934a18d447be583982d1939920665734373169a08",
+    "len": 79941
+  },
+  {
+    "path": "results/figures/tclad-lsa-late-seed7-20261004_score_distribution.png",
+    "sha": "958a265092a4976aa28df11488029e77b2feeff59f797512366adfeea1f7b826",
+    "len": 57192
+  },
+  {
+    "path": "results/figures/tclad-lsa-late-seed7-20261004_temporal.png",
+    "sha": "191d9830c837d008dec0c7f520d7594e8a8201a057386b1d5be4be83bf952a1c",
+    "len": 122305
+  },
+  {
+    "path": "results/figures/tclad-lsa-late-seed7-bounded-20261004_cross_layer.png",
+    "sha": "fb4e09ce5fa94d4b54499b639fd05464ac2321c641f2fcb814951d3649b64ab2",
+    "len": 74538
+  },
+  {
+    "path": "results/figures/tclad-lsa-late-seed7-bounded-20261004_layer_heatmap.png",
+    "sha": "284d82a15bedfea921924deb845655b2b2f39c0bc5e12e5fbd6e25d89b1bc3f6",
+    "len": 65894
+  },
+  {
+    "path": "results/figures/tclad-lsa-late-seed7-bounded-20261004_roc_pr.png",
+    "sha": "08fe39672bc3082a82f4e31934a18d447be583982d1939920665734373169a08",
+    "len": 79941
+  },
+  {
+    "path": "results/figures/tclad-lsa-late-seed7-bounded-20261004_score_distribution.png",
+    "sha": "c04e118995e6bbb0dff9e3b7ce0103b876f3ed00a958fb395eaab62be42b93d6",
+    "len": 60837
+  },
+  {
+    "path": "results/figures/tclad-lsa-late-seed7-bounded-20261004_temporal.png",
+    "sha": "191d9830c837d008dec0c7f520d7594e8a8201a057386b1d5be4be83bf952a1c",
+    "len": 122305
+  },
+  {
+    "path": "results/figures/tclad-noniid-seed42-bounded-20261004_cross_layer.png",
+    "sha": "8c1213372533d96fadfab0a473896f33fe5f084954e6848a4c8ec87ebe8da7ca",
+    "len": 71956
+  },
+  {
+    "path": "results/figures/tclad-noniid-seed42-bounded-20261004_layer_heatmap.png",
+    "sha": "9ac122ee97c09c39236d311fdf721cad293bd8c3dd373bab4885ff2eead42768",
+    "len": 63091
+  },
+  {
+    "path": "results/figures/tclad-noniid-seed42-bounded-20261004_roc_pr.png",
+    "sha": "3a0c2e445de8ae5d5480c7d0063e8dba350baaf304c5036e49ff9799dba930a5",
+    "len": 85665
+  },
+  {
+    "path": "results/figures/tclad-noniid-seed42-bounded-20261004_score_distribution.png",
+    "sha": "b792263af46643dd91cdce8bea5e8aadd45626448ae9f01ba4cf366a66bdc8ec",
+    "len": 61887
+  },
+  {
+    "path": "results/figures/tclad-noniid-seed42-bounded-20261004_temporal.png",
+    "sha": "4887ba5cb70a17f3aee83092f827b51b81122d53716821aaa00f493a3c086e75",
+    "len": 167431
+  },
+  {
+    "path": "results/figures/tclad-reject-bounded-failclosed-seed42-20261004_learning.png",
+    "sha": "9b3b28c1bfafeb215441f4f1c2a3a75fadd1f1450c976ce7e1f8eed7693165aa",
+    "len": 94597
+  },
+  {
+    "path": "results/figures/tclad-reject-bounded-seed42-20261004_learning.png",
+    "sha": "eba94b3d2e1a061c74fc6fb157d4cff31a65efe6581731d802b0bbdf127f17d3",
+    "len": 92993
+  },
+  {
+    "path": "results/figures/threshold_sensitivity_detection_rate.png",
+    "sha": "3bd94e6c335e45e9bc4cfaa2928acf22016270a24639cc98a45d153c88c9f623",
+    "len": 308656
+  },
+  {
+    "path": "results/figures/threshold_sensitivity_false_positive_rate.png",
+    "sha": "75efb5ca4f49e99ae987c84aa6a2fdf46881ae65cbea7db69bf0294ac87ea4ae",
+    "len": 417412
+  },
+  {
+    "path": "results/processed/overhead-bounded-lsa-late-20261004.json",
+    "sha": "a9f61f42de89d8049a3cb688540d8dfdd4ef21a61d259535881dbf8ff8f7f385",
+    "len": 674
+  },
+  {
+    "path": "results/processed/overhead-lsa-late-20-20261004.json",
+    "sha": "894fc168b91c01e20ef910733dcafe2b7bd4f2599c764f61f7d6850b625d692f",
+    "len": 674
+  },
+  {
+    "path": "results/processed/tclad-attack-smoke-final-20261004/comparison.csv",
+    "sha": "9c930aec2584fd1c1cb1468417652f99e3adbba5c7b10d939c29501883ccc123",
+    "len": 1221
+  },
+  {
+    "path": "results/processed/tclad-attack-smoke-final-20261004/metrics.json",
+    "sha": "dbbb2d368dc0ef81531fbaca1faab4e662b624a0c5aa93a61946e7f9a22caae0",
+    "len": 3965
+  },
+  {
+    "path": "results/processed/tclad-attack-smoke-final-20261004/predictions_A_layer_only.csv",
+    "sha": "ff2cf0d99c0b9b5bbd8e82dbbac19b7d72ccccd8dfb9583cb6e00b522f76d557",
+    "len": 2688
+  },
+  {
+    "path": "results/processed/tclad-attack-smoke-final-20261004/predictions_B_layer_temporal.csv",
+    "sha": "8e6b32f4b5a3c62b932efdba5643b41056d533bc08bd64ea902054765889251c",
+    "len": 2691
+  },
+  {
+    "path": "results/processed/tclad-attack-smoke-final-20261004/predictions_C_layer_cross_layer.csv",
+    "sha": "7e2d1f8e7d2e6325e65b2283bbb80c736fe820383e36005904a44261540fae6e",
+    "len": 2692
+  },
+  {
+    "path": "results/processed/tclad-attack-smoke-final-20261004/predictions_cross_layer_only.csv",
+    "sha": "bc3685367f6148ba796421dfb2d5e2f7b63467fa7349ceb01b77f626717b8438",
+    "len": 2692
+  },
+  {
+    "path": "results/processed/tclad-attack-smoke-final-20261004/predictions_D_temporal_cross_layer.csv",
+    "sha": "1330adf20054c0058f5f9b0c218d0fc93dbb3a7389250dd1c330ae211ddccfbc",
+    "len": 2691
+  },
+  {
+    "path": "results/processed/tclad-attack-smoke-final-20261004/predictions_E_full_tclad.csv",
+    "sha": "5352322b01d142f4aef5e74c3d6e77b6e795c500884862fd95589c8f85d2dbe5",
+    "len": 2690
+  },
+  {
+    "path": "results/processed/tclad-attack-smoke-final-20261004/predictions_temporal_only.csv",
+    "sha": "2b915461a27be9c1a258953291f2bf8135ebfd36b36426bf4da820ecea32d63f",
+    "len": 2692
+  },
+  {
+    "path": "results/processed/tclad-attack-smoke-final-20261004/predictions_whole_update.csv",
+    "sha": "54a1250212a66c73eed9778de34e83c640fbdcdb963472a321e38691b3f3f236",
+    "len": 681
+  },
+  {
+    "path": "results/processed/tclad-attack-smoke-retry-20261004/comparison.csv",
+    "sha": "9c930aec2584fd1c1cb1468417652f99e3adbba5c7b10d939c29501883ccc123",
+    "len": 1221
+  },
+  {
+    "path": "results/processed/tclad-attack-smoke-retry-20261004/predictions_A_layer_only.csv",
+    "sha": "ff2cf0d99c0b9b5bbd8e82dbbac19b7d72ccccd8dfb9583cb6e00b522f76d557",
+    "len": 2688
+  },
+  {
+    "path": "results/processed/tclad-attack-smoke-retry-20261004/predictions_B_layer_temporal.csv",
+    "sha": "8e6b32f4b5a3c62b932efdba5643b41056d533bc08bd64ea902054765889251c",
+    "len": 2691
+  },
+  {
+    "path": "results/processed/tclad-attack-smoke-retry-20261004/predictions_C_layer_cross_layer.csv",
+    "sha": "7e2d1f8e7d2e6325e65b2283bbb80c736fe820383e36005904a44261540fae6e",
+    "len": 2692
+  },
+  {
+    "path": "results/processed/tclad-attack-smoke-retry-20261004/predictions_cross_layer_only.csv",
+    "sha": "bc3685367f6148ba796421dfb2d5e2f7b63467fa7349ceb01b77f626717b8438",
+    "len": 2692
+  },
+  {
+    "path": "results/processed/tclad-attack-smoke-retry-20261004/predictions_D_temporal_cross_layer.csv",
+    "sha": "1330adf20054c0058f5f9b0c218d0fc93dbb3a7389250dd1c330ae211ddccfbc",
+    "len": 2691
+  },
+  {
+    "path": "results/processed/tclad-attack-smoke-retry-20261004/predictions_E_full_tclad.csv",
+    "sha": "5352322b01d142f4aef5e74c3d6e77b6e795c500884862fd95589c8f85d2dbe5",
+    "len": 2690
+  },
+  {
+    "path": "results/processed/tclad-attack-smoke-retry-20261004/predictions_temporal_only.csv",
+    "sha": "2b915461a27be9c1a258953291f2bf8135ebfd36b36426bf4da820ecea32d63f",
+    "len": 2692
+  },
+  {
+    "path": "results/processed/tclad-attack-smoke-retry-20261004/predictions_whole_update.csv",
+    "sha": "54a1250212a66c73eed9778de34e83c640fbdcdb963472a321e38691b3f3f236",
+    "len": 681
+  },
+  {
+    "path": "results/processed/tclad-conventional-late-20-robust-scale-20261004/comparison.csv",
+    "sha": "3d6e14cb3d53788e01a16118af4230338275ef5a845f785b432e71dbd2c732f4",
+    "len": 1618
+  },
+  {
+    "path": "results/processed/tclad-conventional-late-20-robust-scale-20261004/metrics.json",
+    "sha": "5e258b59fa7e3a9315619bedd0cd691240c288e64eb1fa27df4f6db754e6e6ae",
+    "len": 4378
+  },
+  {
+    "path": "results/processed/tclad-conventional-late-20-robust-scale-20261004/predictions_A_layer_only.csv",
+    "sha": "439d8c9dc3c8522d8f4ec0afae2bdcab9756326889c97ca30f0cefca155347c9",
+    "len": 26508
+  },
+  {
+    "path": "results/processed/tclad-conventional-late-20-robust-scale-20261004/predictions_B_layer_temporal.csv",
+    "sha": "020e131312eff2be3f6e89698be64c3abbc3b8ca45eee446cf690e257e0a98c7",
+    "len": 26502
+  },
+  {
+    "path": "results/processed/tclad-conventional-late-20-robust-scale-20261004/predictions_C_layer_cross_layer.csv",
+    "sha": "995d2937231b83c61731035c0607940e888383e83603838923b592e11e4e3dd1",
+    "len": 26505
+  },
+  {
+    "path": "results/processed/tclad-conventional-late-20-robust-scale-20261004/predictions_cross_layer_only.csv",
+    "sha": "f04c4d61450157e11b79609439be15c87547d10beede2de58bf77c365a2df0a9",
+    "len": 26498
+  },
+  {
+    "path": "results/processed/tclad-conventional-late-20-robust-scale-20261004/predictions_D_temporal_cross_layer.csv",
+    "sha": "09471b2f6f7c9d88805d71e87f5deefa73d94a27b6ee1cd49b169037bb9d2e00",
+    "len": 26498
+  },
+  {
+    "path": "results/processed/tclad-conventional-late-20-robust-scale-20261004/predictions_E_full_tclad.csv",
+    "sha": "c688b9593e2f86a178441f8baca4ab8077ab346f7a0667efe346a5fca16cf6d1",
+    "len": 26492
+  },
+  {
+    "path": "results/processed/tclad-conventional-late-20-robust-scale-20261004/predictions_temporal_only.csv",
+    "sha": "2785805caaf0c31fad846b8e8c9e68a372f1175fc70362c0c7f7ac4238bad4a9",
+    "len": 26498
+  },
+  {
+    "path": "results/processed/tclad-conventional-late-20-robust-scale-20261004/predictions_whole_update.csv",
+    "sha": "7d4348a3c19d2c73718e1a83684e5614575b89a79522f5b4603ce90349bffc8a",
+    "len": 7746
+  },
+  {
+    "path": "results/processed/tclad-conventional-seed42-bounded-20261004/comparison.csv",
+    "sha": "ce9295f41ddfb52d94bcfcbd6466f653ee00be3d124e1b86465e9f7f1ba5c8f3",
+    "len": 1621
+  },
+  {
+    "path": "results/processed/tclad-conventional-seed42-bounded-20261004/metrics.json",
+    "sha": "4baf0a26716f9b38a02bab93165806ae265e05cac7e1fa23a449e2c1cca776f6",
+    "len": 4381
+  },
+  {
+    "path": "results/processed/tclad-conventional-seed42-bounded-20261004/predictions_A_layer_only.csv",
+    "sha": "537a594e5cea98ce145aeff6d4a8902fff8eb660ffe100ac3bb62e728269f124",
+    "len": 26894
+  },
+  {
+    "path": "results/processed/tclad-conventional-seed42-bounded-20261004/predictions_B_layer_temporal.csv",
+    "sha": "06e0f375a51f0a16f1a4cc9b842807a587719e7bfa38cf6b17768aa914691173",
+    "len": 26897
+  },
+  {
+    "path": "results/processed/tclad-conventional-seed42-bounded-20261004/predictions_C_layer_cross_layer.csv",
+    "sha": "06a0bdd7c50a726bc9dceed284fa4e673ad72f93988cc66568ca9ce4f91d2c92",
+    "len": 26907
+  },
+  {
+    "path": "results/processed/tclad-conventional-seed42-bounded-20261004/predictions_cross_layer_only.csv",
+    "sha": "d534275a7a38246be7dfb773c49c678dcec94e0aa0990dd53427a26a6ec390fa",
+    "len": 26881
+  },
+  {
+    "path": "results/processed/tclad-conventional-seed42-bounded-20261004/predictions_D_temporal_cross_layer.csv",
+    "sha": "0c50d0a84cbdb130ee3ff2611055392f0b03897cd2e296f5311166b329eb64f0",
+    "len": 26902
+  },
+  {
+    "path": "results/processed/tclad-conventional-seed42-bounded-20261004/predictions_E_full_tclad.csv",
+    "sha": "be3200a5431e861eedab2fd6ce60a0f681151a9fc6612d89c99ad5ae794cc9d0",
+    "len": 26904
+  },
+  {
+    "path": "results/processed/tclad-conventional-seed42-bounded-20261004/predictions_temporal_only.csv",
+    "sha": "fff6bfb6b5da5c7842e3ceee8da45ea4f46ad97476ad0334da23aa8a65d2937d",
+    "len": 26910
+  },
+  {
+    "path": "results/processed/tclad-conventional-seed42-bounded-20261004/predictions_whole_update.csv",
+    "sha": "1777e1b684f452afba3dd8667e2aa6ce2dbcf87970a72e45bae208ec58d5484f",
+    "len": 7771
+  },
+  {
+    "path": "results/processed/tclad-high-fraction-seed42-bounded-20261004/comparison.csv",
+    "sha": "54ff7bcace336d88eefc1767b0f69e6cbfddd1af6c8ca268ac878bae01551828",
+    "len": 1730
+  },
+  {
+    "path": "results/processed/tclad-high-fraction-seed42-bounded-20261004/metrics.json",
+    "sha": "1047db5e2764c1a9d4e044cb0779c3026843c7d2738f32f8ad05d812b8de5888",
+    "len": 4495
+  },
+  {
+    "path": "results/processed/tclad-high-fraction-seed42-bounded-20261004/predictions_A_layer_only.csv",
+    "sha": "6579720dcf9f38f32782d78cf59e93aa2217b291d27d2c3906abe3652a8c3bb8",
+    "len": 27362
+  },
+  {
+    "path": "results/processed/tclad-high-fraction-seed42-bounded-20261004/predictions_B_layer_temporal.csv",
+    "sha": "93bb79f25c8a80f8fd9286caaad7a749227857e5b66d463383e04a2d6b3c3f9b",
+    "len": 27362
+  },
+  {
+    "path": "results/processed/tclad-high-fraction-seed42-bounded-20261004/predictions_C_layer_cross_layer.csv",
+    "sha": "d4c2c5b7a4de494b3c6ef92f6b6e4ea9a0c0e9cfced98ccf495d4d39530891d2",
+    "len": 27375
+  },
+  {
+    "path": "results/processed/tclad-high-fraction-seed42-bounded-20261004/predictions_cross_layer_only.csv",
+    "sha": "8d5d272e4219d36d8f584db61ec86260afa84037de51397a1c110b3c77ec29df",
+    "len": 27350
+  },
+  {
+    "path": "results/processed/tclad-high-fraction-seed42-bounded-20261004/predictions_D_temporal_cross_layer.csv",
+    "sha": "63d7433accd8029359dc5ed304b035553b28c19ce8a2f1b51725846f7ef89eda",
+    "len": 27368
+  },
+  {
+    "path": "results/processed/tclad-high-fraction-seed42-bounded-20261004/predictions_E_full_tclad.csv",
+    "sha": "c065282dfc6b784f9ab4e199e8b93e21abea78da861625bffea8d21b74e73eec",
+    "len": 27363
+  },
+  {
+    "path": "results/processed/tclad-high-fraction-seed42-bounded-20261004/predictions_temporal_only.csv",
+    "sha": "e6caed3e1d476babc2e6641980d50764b7cf180e4d612c2286a88be24770a09c",
+    "len": 27373
+  },
+  {
+    "path": "results/processed/tclad-high-fraction-seed42-bounded-20261004/predictions_whole_update.csv",
+    "sha": "39a6b04f3766363c446bcc776fa5a4a32cc80ef825eca6699713b452cc55815e",
+    "len": 8267
+  },
+  {
+    "path": "results/processed/tclad-lsa-20rounds-20261004/comparison.csv",
+    "sha": "f6ed683d2354eedf150f92bf82d284eebecbab19c84202faec32210f1a6ccebc",
+    "len": 1511
+  },
+  {
+    "path": "results/processed/tclad-lsa-20rounds-20261004/metrics.json",
+    "sha": "1aec789ff47f6d9f0ba4c52cb30bc2857cd6f1bf2e6d7364604c796a32675afb",
+    "len": 4264
+  },
+  {
+    "path": "results/processed/tclad-lsa-20rounds-20261004/predictions_A_layer_only.csv",
+    "sha": "2409b6ebf8659e7067de54822253e8272f816d2ca09869662d470a73c577404e",
+    "len": 25991
+  },
+  {
+    "path": "results/processed/tclad-lsa-20rounds-20261004/predictions_B_layer_temporal.csv",
+    "sha": "5d16db109a41b347dcd98b0618275885f9796c97513dad7d9aad01879f868f77",
+    "len": 25967
+  },
+  {
+    "path": "results/processed/tclad-lsa-20rounds-20261004/predictions_C_layer_cross_layer.csv",
+    "sha": "0a2d9aff2326509714fdac2c458b6415869e7cc8995626d93c75c3d2219a3273",
+    "len": 25996
+  },
+  {
+    "path": "results/processed/tclad-lsa-20rounds-20261004/predictions_cross_layer_only.csv",
+    "sha": "e60c4a389d0c13bc01e2608b0c6e6831056d1161b35470c5c6fb4092d9879c68",
+    "len": 26008
+  },
+  {
+    "path": "results/processed/tclad-lsa-20rounds-20261004/predictions_D_temporal_cross_layer.csv",
+    "sha": "3379fa2b8de5953fe71ac452bf167c7cf719a828bde36453b32c702e7694634d",
+    "len": 25963
+  },
+  {
+    "path": "results/processed/tclad-lsa-20rounds-20261004/predictions_E_full_tclad.csv",
+    "sha": "745f4bd854c96240be54a772b4e263bf5a2d573bde420d9cfea9535c3cdb3d75",
+    "len": 25965
+  },
+  {
+    "path": "results/processed/tclad-lsa-20rounds-20261004/predictions_temporal_only.csv",
+    "sha": "9dcf6604297168290d00f69bc0c89ed3a90a12d95184f9df4a3b673fdd4aab7c",
+    "len": 25970
+  },
+  {
+    "path": "results/processed/tclad-lsa-20rounds-20261004/predictions_whole_update.csv",
+    "sha": "b2ef08ff8dfffd364b0c7a59e236704027ce0b9e381ae28f75e3acea49ea99d1",
+    "len": 7045
+  },
+  {
+    "path": "results/processed/tclad-lsa-high-malicious40-20261004/comparison.csv",
+    "sha": "bd1a603890a4b3e27335ac27778a66298ff5f1e928a3999ad6bcfe3337fa01fc",
+    "len": 1705
+  },
+  {
+    "path": "results/processed/tclad-lsa-high-malicious40-20261004/metrics.json",
+    "sha": "447d22ea1964912af908db1766615357cc21868d63266a0261bd71c792308405",
+    "len": 4470
+  },
+  {
+    "path": "results/processed/tclad-lsa-high-malicious40-20261004/predictions_A_layer_only.csv",
+    "sha": "44a301592213aaf33364289a71f7a5b039f4d9a0f30dd38c0b38f2dd4b333744",
+    "len": 26979
+  },
+  {
+    "path": "results/processed/tclad-lsa-high-malicious40-20261004/predictions_B_layer_temporal.csv",
+    "sha": "dea3ba1698ee72aa6cd5314341265469f996f0822fbb8d9d76588795547cd369",
+    "len": 26972
+  },
+  {
+    "path": "results/processed/tclad-lsa-high-malicious40-20261004/predictions_C_layer_cross_layer.csv",
+    "sha": "4f8e1c644cae193ee0d6cb0dac856f78d27d2c4a80fe44218aac2759316bfd2e",
+    "len": 26972
+  },
+  {
+    "path": "results/processed/tclad-lsa-high-malicious40-20261004/predictions_cross_layer_only.csv",
+    "sha": "702385cf028a96b32533687df42bd2913512fab6fddf1b49ca0eeae691cbd19f",
+    "len": 26967
+  },
+  {
+    "path": "results/processed/tclad-lsa-high-malicious40-20261004/predictions_D_temporal_cross_layer.csv",
+    "sha": "3a79dd0f34ea291d68b32ff91994661c4a68a8c6fff69fde3fab797d12206e5a",
+    "len": 26965
+  },
+  {
+    "path": "results/processed/tclad-lsa-high-malicious40-20261004/predictions_E_full_tclad.csv",
+    "sha": "bc1b2fc261e294abfd449208860d4e5182afdbaafee8b6148a836534531b6ab3",
+    "len": 26962
+  },
+  {
+    "path": "results/processed/tclad-lsa-high-malicious40-20261004/predictions_temporal_only.csv",
+    "sha": "639d7c19cfd42452ca435228ea2c68fe74b9174b82450422099b0189a7f55997",
+    "len": 26967
+  },
+  {
+    "path": "results/processed/tclad-lsa-high-malicious40-20261004/predictions_whole_update.csv",
+    "sha": "fe1fbdceed27bd92a37509a178a87cf8dd3ebe03f4a2b47014818019cc41dc2a",
+    "len": 8242
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-20-20261004/comparison.csv",
+    "sha": "05cbb389a27c9bdadfa401dc85c5469fce842fdff127a9df9aa6e7e1f2eea735",
+    "len": 1796
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-20-20261004/metrics.json",
+    "sha": "6b91f086932bd2be5ae41ed624154af1548f8c3f2d760bc6730eb8a5db83dd56",
+    "len": 4544
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-20-20261004/predictions_A_layer_only.csv",
+    "sha": "3e38610115acfba217d8687b90f315af733f88c7706792934015022d1daf2ae7",
+    "len": 25381
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-20-20261004/predictions_B_layer_temporal.csv",
+    "sha": "1c7668f8525e2878b6ee883c590dc31443d84235584ee62cb397d735d9481d23",
+    "len": 25350
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-20-20261004/predictions_C_layer_cross_layer.csv",
+    "sha": "9c73e8ed49bdd32655b186be8ae7e8d50a7997f2df2d43fbe292f06ded2b206c",
+    "len": 25380
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-20-20261004/predictions_cross_layer_only.csv",
+    "sha": "80b5febe1bc3826d469084603e613f64df7af03b2b464a8ecbf39951f07bddbd",
+    "len": 25386
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-20-20261004/predictions_D_temporal_cross_layer.csv",
+    "sha": "dd1b4eb8784bb2bc173d3d2b5fecd42ca99682a5f9e415b98d294c566a41f86f",
+    "len": 25347
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-20-20261004/predictions_E_full_tclad.csv",
+    "sha": "0f6748a7e339ce94b30b2a23a70eaf314569816836105675699a7271170b3253",
+    "len": 25349
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-20-20261004/predictions_temporal_only.csv",
+    "sha": "5bb9c8b7cc9ed28b7e2a3ce263433e9f16c49163dea341abc85f3f01a7a87f19",
+    "len": 25359
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-20-20261004/predictions_whole_update.csv",
+    "sha": "38b193f9e41179b787247cfd14c4a907530133b2617890f156308f6e9cb3d0bd",
+    "len": 6548
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-20-robust-scale-20261004/comparison.csv",
+    "sha": "461309bdc43ae9253dde476490a978b746f1b8a7d974717991e8269c9d91ffb5",
+    "len": 1620
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-20-robust-scale-20261004/metrics.json",
+    "sha": "56a732b9b774000b74575b32443a3aded034480f84e37c1aa6f1291eeeb15737",
+    "len": 4368
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-20-robust-scale-20261004/predictions_A_layer_only.csv",
+    "sha": "760bdc2faed03d3c1872357d28f6eb921dc2deb1e0e32154d6ce4df06f603be7",
+    "len": 25250
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-20-robust-scale-20261004/predictions_B_layer_temporal.csv",
+    "sha": "c7960b2077869e953a1f7b81f79357b7b4f740ee2bb2c22acad059de5cb54114",
+    "len": 25232
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-20-robust-scale-20261004/predictions_C_layer_cross_layer.csv",
+    "sha": "f1cc27c7bb87b239b08af9901c5b65e649bfd56fb76fbe1a584b15323e545795",
+    "len": 25238
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-20-robust-scale-20261004/predictions_cross_layer_only.csv",
+    "sha": "662a94069607ed2b64705a6f7b0591a853d9b4b88b1e2129c9775f015f589ae8",
+    "len": 25233
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-20-robust-scale-20261004/predictions_D_temporal_cross_layer.csv",
+    "sha": "a0d45e137bd393cf56313e072169987ca43b905a6fa333628ad56ab6ca414dd8",
+    "len": 25225
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-20-robust-scale-20261004/predictions_E_full_tclad.csv",
+    "sha": "8236234286785e6f0f0d0684e43a15b16ee8bb53232687c9b02cadcc5d9b6f97",
+    "len": 25224
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-20-robust-scale-20261004/predictions_temporal_only.csv",
+    "sha": "5d990f8a9c2b31abec7de744a7b0ead9b409967246a9742a2ba8c4822c8f2e19",
+    "len": 25233
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-20-robust-scale-20261004/predictions_whole_update.csv",
+    "sha": "38b193f9e41179b787247cfd14c4a907530133b2617890f156308f6e9cb3d0bd",
+    "len": 6548
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed21-bounded-20261004/comparison.csv",
+    "sha": "113883f9d35967f7734aaa5ce81f4f294046f436e3cfb221508f2d0462f83f1a",
+    "len": 1516
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed21-bounded-20261004/metrics.json",
+    "sha": "0a2c45d0dbe6f28a86b01da8217d14eb782cc312b484017d2008d4f7602aebd6",
+    "len": 4272
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed21-bounded-20261004/predictions_A_layer_only.csv",
+    "sha": "f507e2b3301b28faaf7da0b38f2954dcb4e2d3367314722c666ef620ad8319b2",
+    "len": 25940
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed21-bounded-20261004/predictions_B_layer_temporal.csv",
+    "sha": "c7f4ca221ec9f97e7ffa82a8f2b5e4aacb340ba8ff254ee2671005fbcacc5477",
+    "len": 25956
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed21-bounded-20261004/predictions_C_layer_cross_layer.csv",
+    "sha": "541b793cc672df3b7d6a91c292c0e6d10e34f4393e9cb54bf7cb97b3a07382d3",
+    "len": 25933
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed21-bounded-20261004/predictions_cross_layer_only.csv",
+    "sha": "160ae8305b6502d291bf001fc68a5beb42e0c0d7b8123920b1e393b8c3169828",
+    "len": 25933
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed21-bounded-20261004/predictions_D_temporal_cross_layer.csv",
+    "sha": "946626801f1bc08c718a67a5264768aec496c7405a6f946a813b4f16485b6d76",
+    "len": 25933
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed21-bounded-20261004/predictions_E_full_tclad.csv",
+    "sha": "9e179cf4adda13b5ab0a8d70a8d0a4093b7438d9da4aa32b0a2a5f6a18522298",
+    "len": 25953
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed21-bounded-20261004/predictions_temporal_only.csv",
+    "sha": "bde517d403ce73151be4cda7b3a229e334657a3539ed7342e3f70ec5d8715a26",
+    "len": 25960
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed21-bounded-20261004/predictions_whole_update.csv",
+    "sha": "5b52942c2197f1cf784992de33570e691dd953d60af731268de8e6ae6fdfe319",
+    "len": 6959
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed42-bounded-20261004/comparison.csv",
+    "sha": "e96b0e1bec550aa6707d0b4cdfb887f6bd65ddaeef5481740bcd7b1e8a141d5e",
+    "len": 1603
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed42-bounded-20261004/metrics.json",
+    "sha": "34eb451cb9bedae431eaaba704833bb022c3a46636ffba5a3b2b1661f3bf15ae",
+    "len": 4351
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed42-bounded-20261004/predictions_A_layer_only.csv",
+    "sha": "0901c500c07380cb8b2a01a772a0ab3d1ec801f5f615dbf2c405f29b4841393f",
+    "len": 25632
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed42-bounded-20261004/predictions_B_layer_temporal.csv",
+    "sha": "2c28fce0fc8a430a7e17a1e2f2cbc6c2b9ac1d2e93840aeda794f2234c4dd98e",
+    "len": 25630
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed42-bounded-20261004/predictions_C_layer_cross_layer.csv",
+    "sha": "86e694b0cf30ab5a5b17b594c129c9034c626c77d5660cb46db244b886ce9ce6",
+    "len": 25644
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed42-bounded-20261004/predictions_cross_layer_only.csv",
+    "sha": "74b5b4deb61df2811f00beac3b6aad65821297dac5fbfdebdb43d41d2e51648b",
+    "len": 25616
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed42-bounded-20261004/predictions_D_temporal_cross_layer.csv",
+    "sha": "e478470094c311bad436422a8a0fd74f76319bf40dd9cd01b404fb427ffbf67b",
+    "len": 25635
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed42-bounded-20261004/predictions_E_full_tclad.csv",
+    "sha": "172ccf28354cc4e28b1512b7baf326ede6d0459cc141f0763f8978019b5554f9",
+    "len": 25639
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed42-bounded-20261004/predictions_temporal_only.csv",
+    "sha": "f1d0e25acb5d0e56619f705d03ffda7ada5a32cef1663c2dcf365ccd683854fd",
+    "len": 25646
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed42-bounded-20261004/predictions_whole_update.csv",
+    "sha": "f7ef07b6928715cac30f2fdff3ec426a9f9fb614c9b4a0a1f297c8241cefdf67",
+    "len": 6577
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed7-20261004/comparison.csv",
+    "sha": "200e2543e9b6f82d249869dab213f1c24ad2c0838bf496df1783df8162039616",
+    "len": 1580
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed7-20261004/metrics.json",
+    "sha": "c27c295964259286e11ab653677c9e7696753e17c8206b9785addf55c02513e8",
+    "len": 4334
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed7-20261004/predictions_A_layer_only.csv",
+    "sha": "2a76cb5d588857973085cac1ebf0b6dbe577a35aff33ac10b4e5f01392931235",
+    "len": 25601
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed7-20261004/predictions_B_layer_temporal.csv",
+    "sha": "e59a87fdbf156be15ab7b8c718da69cfc0be1d84e8e1a9a537dd9649bec4029a",
+    "len": 25594
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed7-20261004/predictions_C_layer_cross_layer.csv",
+    "sha": "2d6c96190ee699558a266eb7862887d9649489df02c05b52513921c74b95d493",
+    "len": 25596
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed7-20261004/predictions_cross_layer_only.csv",
+    "sha": "2532e84f845bc464b914d1a00faec6a077102f28f8eb35995245df73e516c5df",
+    "len": 25590
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed7-20261004/predictions_D_temporal_cross_layer.csv",
+    "sha": "eb9c70afb537bddf20cb87bb17664968abdcac59ecd2cb21a6ea03bfb14cfb6a",
+    "len": 25600
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed7-20261004/predictions_E_full_tclad.csv",
+    "sha": "442d5ebe5c15dfacb5b40c7a7cfa90952cda600663369ccc86c2400d68b0c55e",
+    "len": 25606
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed7-20261004/predictions_temporal_only.csv",
+    "sha": "c76b4534267571f3c6136bf63d519ffba9131f4ed08289b00ee4aa7a1b877e9c",
+    "len": 25602
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed7-20261004/predictions_whole_update.csv",
+    "sha": "8066190c42d35d42fdbc569759e8f46db0b227cb479776db549457e56757ceab",
+    "len": 6844
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed7-bounded-20261004/comparison.csv",
+    "sha": "bdac0f6ad20c3de94eefb32fd939f6e8de6e6e0c429456eaa5a0128208937db1",
+    "len": 1599
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed7-bounded-20261004/metrics.json",
+    "sha": "e75e9828966734d7252235d09119881438f416a9315f8b33cfa6a34a94f61089",
+    "len": 4353
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed7-bounded-20261004/predictions_A_layer_only.csv",
+    "sha": "1b2f5eff382349b99514109ebe5ea2d425e061432f318bb2a720c6de1c0c547f",
+    "len": 25936
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed7-bounded-20261004/predictions_B_layer_temporal.csv",
+    "sha": "18aac0fc4a31a597808d21079fe6e1db1da31faf0712756760b80b7e30a0f92e",
+    "len": 25932
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed7-bounded-20261004/predictions_C_layer_cross_layer.csv",
+    "sha": "52c8f5f441ccedd434259a319fa482db7242174bef101dfa712910637643664c",
+    "len": 25903
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed7-bounded-20261004/predictions_cross_layer_only.csv",
+    "sha": "cdedc05a1e8715e5162e1fb60a9f2492d4bf06bd9fdf6f223b69ff73d08776e2",
+    "len": 25913
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed7-bounded-20261004/predictions_D_temporal_cross_layer.csv",
+    "sha": "bade69284bc319e119358cdf3687acfddb9327016426735e0780d4075841492d",
+    "len": 25926
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed7-bounded-20261004/predictions_E_full_tclad.csv",
+    "sha": "890f7659065f34762be1baa77c8dd6fd54497d52bd369a34913a1375bd0ca97f",
+    "len": 25931
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed7-bounded-20261004/predictions_temporal_only.csv",
+    "sha": "23794d2dbe530738fe4b8caf99e3e436349d4d4014fd0bd27da74cef07c063c7",
+    "len": 25935
+  },
+  {
+    "path": "results/processed/tclad-lsa-late-seed7-bounded-20261004/predictions_whole_update.csv",
+    "sha": "81a35635dc19a985c95fb6e18eeda838769eb3a097cbd7791296f0f48c44b125",
+    "len": 6882
+  },
+  {
+    "path": "results/processed/tclad-lsa-noniid-alpha01-20261004/comparison.csv",
+    "sha": "d9b3394d4a03b1b8350491c7042aa04f4dc449e0b1e24c069b7fe4bcf2ad61c0",
+    "len": 1555
+  },
+  {
+    "path": "results/processed/tclad-lsa-noniid-alpha01-20261004/metrics.json",
+    "sha": "9976e72aaf68cf40c0283e96a857403801748252ca7f9621ab04ed4c6bb5ae6f",
+    "len": 4318
+  },
+  {
+    "path": "results/processed/tclad-lsa-noniid-alpha01-20261004/predictions_A_layer_only.csv",
+    "sha": "05f2f67322e7b25b90bb534aab54ccd2f94de24acff4b2e61e590e9ee75f2275",
+    "len": 26674
+  },
+  {
+    "path": "results/processed/tclad-lsa-noniid-alpha01-20261004/predictions_B_layer_temporal.csv",
+    "sha": "b5775b5fa704c7d40fe652dcd688ad465ad6ad985a52b400473f84e6fc8753e0",
+    "len": 26669
+  },
+  {
+    "path": "results/processed/tclad-lsa-noniid-alpha01-20261004/predictions_C_layer_cross_layer.csv",
+    "sha": "503cd1343b1cf4bf336541d236c91caf79b725a7c590429b6ca9e234503c74ba",
+    "len": 26664
+  },
+  {
+    "path": "results/processed/tclad-lsa-noniid-alpha01-20261004/predictions_cross_layer_only.csv",
+    "sha": "c93446c95f177318850d4d0e3163780757f829f5c0b16b1ee93d3f8e11658374",
+    "len": 26669
+  },
+  {
+    "path": "results/processed/tclad-lsa-noniid-alpha01-20261004/predictions_D_temporal_cross_layer.csv",
+    "sha": "dadec902e998a9f920483b14fcbc83473a054cc066fc34c77a172dba67a29495",
+    "len": 26660
+  },
+  {
+    "path": "results/processed/tclad-lsa-noniid-alpha01-20261004/predictions_E_full_tclad.csv",
+    "sha": "ecb934a28d3dbde53acd91ce57e2f2ca7e5de77fb3ae46270a19b0fc479a78e6",
+    "len": 26674
+  },
+  {
+    "path": "results/processed/tclad-lsa-noniid-alpha01-20261004/predictions_temporal_only.csv",
+    "sha": "b0cc81456504c4c81709dc819cd58dfd8c0044243f4038144fb3cd33f8f7ef2a",
+    "len": 26682
+  },
+  {
+    "path": "results/processed/tclad-lsa-noniid-alpha01-20261004/predictions_whole_update.csv",
+    "sha": "ccf03a2d46bf62306ceb6c237c6b89f3190829993fc28d3522cafdc460481213",
+    "len": 8023
+  },
+  {
+    "path": "results/processed/tclad-noniid-seed42-bounded-20261004/comparison.csv",
+    "sha": "6b8bce5b1f43cd76b2b034a0a6a89dbd63a4000e1fcee730ad0a3f74e526d3fb",
+    "len": 1592
+  },
+  {
+    "path": "results/processed/tclad-noniid-seed42-bounded-20261004/metrics.json",
+    "sha": "82b5f6d90e12a18cab0dbd030c60143667bbaf2ba9d340a3ee863243e24e8dcb",
+    "len": 4355
+  },
+  {
+    "path": "results/processed/tclad-noniid-seed42-bounded-20261004/predictions_A_layer_only.csv",
+    "sha": "06311c6266a5c021762ba60b0ab3349278debb105625af762915205999f106a6",
+    "len": 27058
+  },
+  {
+    "path": "results/processed/tclad-noniid-seed42-bounded-20261004/predictions_B_layer_temporal.csv",
+    "sha": "85e7bde7c212995fc0bf290471940695ed24cf082fff9f91649beca0de53f9f2",
+    "len": 27060
+  },
+  {
+    "path": "results/processed/tclad-noniid-seed42-bounded-20261004/predictions_C_layer_cross_layer.csv",
+    "sha": "22d08814ab41a0f4984622dab0125f358619b5d3e79c800e197801f3c09ed8ac",
+    "len": 27047
+  },
+  {
+    "path": "results/processed/tclad-noniid-seed42-bounded-20261004/predictions_cross_layer_only.csv",
+    "sha": "43d056257251a51c60cf528cd8ad6cc8ab12dbfec22fc7366fcd0df92a22f99a",
+    "len": 27051
+  },
+  {
+    "path": "results/processed/tclad-noniid-seed42-bounded-20261004/predictions_D_temporal_cross_layer.csv",
+    "sha": "e9be522daec30c7f74f63a7247dcbb96e6860cfe47e5f9e9dfe8db80f4d927cf",
+    "len": 27060
+  },
+  {
+    "path": "results/processed/tclad-noniid-seed42-bounded-20261004/predictions_E_full_tclad.csv",
+    "sha": "2609e6fbe87aa85f2470d764fd8f85e21735d213d249a9ca11334cfd8ef9c059",
+    "len": 27047
+  },
+  {
+    "path": "results/processed/tclad-noniid-seed42-bounded-20261004/predictions_temporal_only.csv",
+    "sha": "11fb238e00ecc023bf5504d870d079bedc50da9c1dfafef0548cddf6d7324809",
+    "len": 27063
+  },
+  {
+    "path": "results/processed/tclad-noniid-seed42-bounded-20261004/predictions_whole_update.csv",
+    "sha": "ad96b83fb41721e78b49d497f754e9e8f469ef92a317b68a3043e2b184952651",
+    "len": 8055
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/sensitivity.csv",
+    "sha": "19c64e0c2a4578b2ba99b2506db465fea3073bcc1cffbcc95ffd2f639c52a428",
+    "len": 5995
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p90_0/comparison.csv",
+    "sha": "fa0638a762331e61e33a44fee0c4cdeaa59643246bf3a62108a2b7bd52f63bf1",
+    "len": 1610
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p90_0/metrics.json",
+    "sha": "eb830a498258c418fe5460b5e3225602b666dd3d0b69721ae9afc735cc9ffa68",
+    "len": 4358
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p90_0/predictions_A_layer_only.csv",
+    "sha": "332efacbe584d5e257c2207e53201a430c7a6a02b5d0c5940f9f58fcce07e8a7",
+    "len": 25632
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p90_0/predictions_B_layer_temporal.csv",
+    "sha": "dab019f278ca1dcfb4f0991f7e7cb6b67f4de2be67c7d1343eb605e4690211b7",
+    "len": 25630
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p90_0/predictions_C_layer_cross_layer.csv",
+    "sha": "2f1b22b9701bbe1e6535129f92bddd723a0dbedc693906d5f0961bf3fc23b0b7",
+    "len": 25644
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p90_0/predictions_cross_layer_only.csv",
+    "sha": "65a53916dcdfda3df3d6e45eb44ee59095a5e3d19bd081d7db05f9b323bdd03a",
+    "len": 25616
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p90_0/predictions_D_temporal_cross_layer.csv",
+    "sha": "cb474c3a52a34a271c97848145152998d0ca37deaa5eb76f46c46d96c3a97707",
+    "len": 25635
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p90_0/predictions_E_full_tclad.csv",
+    "sha": "0f61a332463f53d1012c99b3439c89260ccc58bd4e3ac520bd5d5511a7026af7",
+    "len": 25639
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p90_0/predictions_temporal_only.csv",
+    "sha": "14200915419a5296537327dcc8f4c8c3e0ac7002c358385883b6f19f3b7c08dc",
+    "len": 25646
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p90_0/predictions_whole_update.csv",
+    "sha": "fe0353bcf259f96844be588e932c31cb674374325fc5a134304ce762d204438e",
+    "len": 6577
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p95_0/comparison.csv",
+    "sha": "e96b0e1bec550aa6707d0b4cdfb887f6bd65ddaeef5481740bcd7b1e8a141d5e",
+    "len": 1603
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p95_0/metrics.json",
+    "sha": "34eb451cb9bedae431eaaba704833bb022c3a46636ffba5a3b2b1661f3bf15ae",
+    "len": 4351
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p95_0/predictions_A_layer_only.csv",
+    "sha": "0901c500c07380cb8b2a01a772a0ab3d1ec801f5f615dbf2c405f29b4841393f",
+    "len": 25632
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p95_0/predictions_B_layer_temporal.csv",
+    "sha": "2c28fce0fc8a430a7e17a1e2f2cbc6c2b9ac1d2e93840aeda794f2234c4dd98e",
+    "len": 25630
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p95_0/predictions_C_layer_cross_layer.csv",
+    "sha": "86e694b0cf30ab5a5b17b594c129c9034c626c77d5660cb46db244b886ce9ce6",
+    "len": 25644
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p95_0/predictions_cross_layer_only.csv",
+    "sha": "74b5b4deb61df2811f00beac3b6aad65821297dac5fbfdebdb43d41d2e51648b",
+    "len": 25616
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p95_0/predictions_D_temporal_cross_layer.csv",
+    "sha": "e478470094c311bad436422a8a0fd74f76319bf40dd9cd01b404fb427ffbf67b",
+    "len": 25635
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p95_0/predictions_E_full_tclad.csv",
+    "sha": "172ccf28354cc4e28b1512b7baf326ede6d0459cc141f0763f8978019b5554f9",
+    "len": 25639
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p95_0/predictions_temporal_only.csv",
+    "sha": "f1d0e25acb5d0e56619f705d03ffda7ada5a32cef1663c2dcf365ccd683854fd",
+    "len": 25646
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p95_0/predictions_whole_update.csv",
+    "sha": "f7ef07b6928715cac30f2fdff3ec426a9f9fb614c9b4a0a1f297c8241cefdf67",
+    "len": 6577
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p97_5/comparison.csv",
+    "sha": "213c6ad466ea4d34a72b630572f4320ecef9a2d150f7a0367255808a513fc9ff",
+    "len": 1594
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p97_5/metrics.json",
+    "sha": "4716242b6fd3671527bdd4a212f586d7124458a72c1596435269d33e59cd2b9a",
+    "len": 4342
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p97_5/predictions_A_layer_only.csv",
+    "sha": "74363e931209b0ae00f96ebe85566feb940ca96bba6990119a348572b651a2cd",
+    "len": 25632
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p97_5/predictions_B_layer_temporal.csv",
+    "sha": "3191e5634b59ef74c0d78fb1f6bbefeb2870f192c71eccbea82ba9231b1cf226",
+    "len": 25630
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p97_5/predictions_C_layer_cross_layer.csv",
+    "sha": "d67a8d51e2f7c68826d74ab66301f764ca28f36b558cd7c9e477d2a77a83cf51",
+    "len": 25644
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p97_5/predictions_cross_layer_only.csv",
+    "sha": "45d33ccc57422771c4f6da8ed73e5c0b515315f5b3a13c0b18fd74f010c53810",
+    "len": 25616
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p97_5/predictions_D_temporal_cross_layer.csv",
+    "sha": "7301ea26d9ffd746d3901595db813925666662f4546079d1df0ed3b9d860a293",
+    "len": 25635
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p97_5/predictions_E_full_tclad.csv",
+    "sha": "319803e2a3e7322a352a4b2b3bd0d9d507464c1927cf18c9a2aaadac0aac483e",
+    "len": 25639
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p97_5/predictions_temporal_only.csv",
+    "sha": "537fe8d63a4ae09d1680aac8e7b1c142868e82a1eafcd423c61191eee7740f93",
+    "len": 25646
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p97_5/predictions_whole_update.csv",
+    "sha": "722f4d2c0b8cfd3fafc0de4482cee9a7d6dae40f668c477daee4f68d96073b79",
+    "len": 6577
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p99_0/comparison.csv",
+    "sha": "523d4c875f3bf56b5a194058e1cb879e432ab891f745fc415916c3ae4744a24a",
+    "len": 1580
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p99_0/metrics.json",
+    "sha": "488fc85ec7760ea1f634870fa4c918a450272e04c905f7daddb0cc93736c6e0d",
+    "len": 4328
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p99_0/predictions_A_layer_only.csv",
+    "sha": "9a41ba63ec758f2feee6f37c21038bbc50f17b970c9bda782c522a0a9d03b71c",
+    "len": 25632
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p99_0/predictions_B_layer_temporal.csv",
+    "sha": "82649b1012b1ed96fc6aca9b3f95ab1060cbb0e02c99009f50ab5655fa915431",
+    "len": 25630
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p99_0/predictions_C_layer_cross_layer.csv",
+    "sha": "d67a8d51e2f7c68826d74ab66301f764ca28f36b558cd7c9e477d2a77a83cf51",
+    "len": 25644
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p99_0/predictions_cross_layer_only.csv",
+    "sha": "45d33ccc57422771c4f6da8ed73e5c0b515315f5b3a13c0b18fd74f010c53810",
+    "len": 25616
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p99_0/predictions_D_temporal_cross_layer.csv",
+    "sha": "7301ea26d9ffd746d3901595db813925666662f4546079d1df0ed3b9d860a293",
+    "len": 25635
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p99_0/predictions_E_full_tclad.csv",
+    "sha": "b5817bdff36935311970a9e7cde4efa493ecb6fe33dce54c1f7145c611d1f2da",
+    "len": 25639
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p99_0/predictions_temporal_only.csv",
+    "sha": "537fe8d63a4ae09d1680aac8e7b1c142868e82a1eafcd423c61191eee7740f93",
+    "len": 25646
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-bounded-lsa-seed42-20261004/p99_0/predictions_whole_update.csv",
+    "sha": "722f4d2c0b8cfd3fafc0de4482cee9a7d6dae40f668c477daee4f68d96073b79",
+    "len": 6577
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/sensitivity.csv",
+    "sha": "1326eb344c15c3ddb0eb2a90143708c89679818b8b6136d2623caa0924c55098",
+    "len": 6611
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p90_0/comparison.csv",
+    "sha": "efe8823544bd72bb8e65083a7c46a2f2e71b1750149f1f4fe29f7c8f6d79d9d2",
+    "len": 1764
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p90_0/metrics.json",
+    "sha": "c3b0cdfe5af611f7db4309bb76d6023fcbf7c4895e5630d018f4b210ddcf2117",
+    "len": 4512
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p90_0/predictions_A_layer_only.csv",
+    "sha": "ed227d277b7c11540281fdbc77b12c8c49c7351c94182e6505e5eb4191fcb484",
+    "len": 25381
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p90_0/predictions_B_layer_temporal.csv",
+    "sha": "1a765e8b063457a36abf35231da161d4a957e88f302dc1d9f840646d092fde66",
+    "len": 25350
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p90_0/predictions_C_layer_cross_layer.csv",
+    "sha": "62d9839987c2bf63807b875c5f32c2a2b4258381e74a476e63780eb4e462bd54",
+    "len": 25380
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p90_0/predictions_cross_layer_only.csv",
+    "sha": "4f27c55f2cbfafc9b3f3ab1adc6ffb6e7cc7440f1dc92f793b7e5d1e695a13b8",
+    "len": 25386
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p90_0/predictions_D_temporal_cross_layer.csv",
+    "sha": "cdcb1455da98003fa7bfa7968c17a4ad8505e3a18f58cec06b5671ee343af861",
+    "len": 25347
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p90_0/predictions_E_full_tclad.csv",
+    "sha": "ee45771a382779f7f6f3d2f7a94bf5d5bc270fff02dac38fe853adf30523b8e0",
+    "len": 25349
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p90_0/predictions_temporal_only.csv",
+    "sha": "11893a8688ac297ba27a2371000e6e80eb21572099791eb0f24acc7cf7779787",
+    "len": 25359
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p90_0/predictions_whole_update.csv",
+    "sha": "988ca36c1d5a49fd954ae8acf9b4cdd61d352013b2d15737a42ebda20d42a06e",
+    "len": 6548
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p95_0/comparison.csv",
+    "sha": "05cbb389a27c9bdadfa401dc85c5469fce842fdff127a9df9aa6e7e1f2eea735",
+    "len": 1796
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p95_0/metrics.json",
+    "sha": "6b91f086932bd2be5ae41ed624154af1548f8c3f2d760bc6730eb8a5db83dd56",
+    "len": 4544
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p95_0/predictions_A_layer_only.csv",
+    "sha": "3e38610115acfba217d8687b90f315af733f88c7706792934015022d1daf2ae7",
+    "len": 25381
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p95_0/predictions_B_layer_temporal.csv",
+    "sha": "1c7668f8525e2878b6ee883c590dc31443d84235584ee62cb397d735d9481d23",
+    "len": 25350
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p95_0/predictions_C_layer_cross_layer.csv",
+    "sha": "9c73e8ed49bdd32655b186be8ae7e8d50a7997f2df2d43fbe292f06ded2b206c",
+    "len": 25380
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p95_0/predictions_cross_layer_only.csv",
+    "sha": "80b5febe1bc3826d469084603e613f64df7af03b2b464a8ecbf39951f07bddbd",
+    "len": 25386
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p95_0/predictions_D_temporal_cross_layer.csv",
+    "sha": "dd1b4eb8784bb2bc173d3d2b5fecd42ca99682a5f9e415b98d294c566a41f86f",
+    "len": 25347
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p95_0/predictions_E_full_tclad.csv",
+    "sha": "0f6748a7e339ce94b30b2a23a70eaf314569816836105675699a7271170b3253",
+    "len": 25349
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p95_0/predictions_temporal_only.csv",
+    "sha": "5bb9c8b7cc9ed28b7e2a3ce263433e9f16c49163dea341abc85f3f01a7a87f19",
+    "len": 25359
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p95_0/predictions_whole_update.csv",
+    "sha": "38b193f9e41179b787247cfd14c4a907530133b2617890f156308f6e9cb3d0bd",
+    "len": 6548
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p97_5/comparison.csv",
+    "sha": "2794b77eb4ce6dd070deb7102d43b2ddb9b85351ca300e13d00dfcbca285f401",
+    "len": 1730
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p97_5/metrics.json",
+    "sha": "6cebd5b8f7f5671f06e63843bc424db622affc77c28a89b9eae8f537ff11ad4b",
+    "len": 4478
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p97_5/predictions_A_layer_only.csv",
+    "sha": "270deecc6c098f8972a98409e2a1cc87f97eea8408c215fc1956b66acbff53ba",
+    "len": 25381
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p97_5/predictions_B_layer_temporal.csv",
+    "sha": "ca7d103f7d71b4b70a913eb333ace7d781392d07dced7ff912b9a1f51bb2328f",
+    "len": 25350
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p97_5/predictions_C_layer_cross_layer.csv",
+    "sha": "d657c127271c95a21aa92e3374ceb7e7ca992fa440a9b5d4aeab67889cc77a29",
+    "len": 25380
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p97_5/predictions_cross_layer_only.csv",
+    "sha": "e57fb60284f2929be967a424252eeaf3970a840f77bea80b7e0e67a40fc3befc",
+    "len": 25386
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p97_5/predictions_D_temporal_cross_layer.csv",
+    "sha": "d1082f366eeb221669cbc4686c89db38e6799d5d500ada43e0deafd224e3b56f",
+    "len": 25347
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p97_5/predictions_E_full_tclad.csv",
+    "sha": "b2198c4892a3c768e31f18c771c174d9b3e077c9f334a1999751e0d13165fc1e",
+    "len": 25349
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p97_5/predictions_temporal_only.csv",
+    "sha": "7cc3d4eacc0ea8dc3911c6708f01937b04fe784f3fb25328bb76a7d73ce220aa",
+    "len": 25359
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p97_5/predictions_whole_update.csv",
+    "sha": "25c818705313a3425980e9b1dda40ab5ed7b5e324c75498c23bf2f30a83197a5",
+    "len": 6548
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p99_0/comparison.csv",
+    "sha": "432559959dbc434f1389f30d7361d7ebae80f23ece45774dc776e37bfa397db9",
+    "len": 1731
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p99_0/metrics.json",
+    "sha": "1a2e9c6faca09444a09c0e824613813324dd6ab47b9db8a59469ee61f39a0ceb",
+    "len": 4479
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p99_0/predictions_A_layer_only.csv",
+    "sha": "270deecc6c098f8972a98409e2a1cc87f97eea8408c215fc1956b66acbff53ba",
+    "len": 25381
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p99_0/predictions_B_layer_temporal.csv",
+    "sha": "1b4ae2dd019cd2f50920ccdf2183f83a81b1b4a1dc2b833725511355cb7dff8d",
+    "len": 25350
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p99_0/predictions_C_layer_cross_layer.csv",
+    "sha": "d657c127271c95a21aa92e3374ceb7e7ca992fa440a9b5d4aeab67889cc77a29",
+    "len": 25380
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p99_0/predictions_cross_layer_only.csv",
+    "sha": "e57fb60284f2929be967a424252eeaf3970a840f77bea80b7e0e67a40fc3befc",
+    "len": 25386
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p99_0/predictions_D_temporal_cross_layer.csv",
+    "sha": "25993e1896637199e6c4407a0eebcdb096512a63b0e57b8fb2c2b7aa8a2287b8",
+    "len": 25347
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p99_0/predictions_E_full_tclad.csv",
+    "sha": "a1b5834be2179d114b4ca0cb6d9d692fb5bfa97fa0bc2e5f25f54a661a0a55b2",
+    "len": 25349
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p99_0/predictions_temporal_only.csv",
+    "sha": "9d5d5e16247b216809cd533e1404c221fde02e4fce58afcf4dd248e32cc02273",
+    "len": 25359
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-late-lsa-20261004/p99_0/predictions_whole_update.csv",
+    "sha": "25c818705313a3425980e9b1dda40ab5ed7b5e324c75498c23bf2f30a83197a5",
+    "len": 6548
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/sensitivity.csv",
+    "sha": "fa90869f0e32972793236c45d647dad2660537dba8e8c42bd2708c9ec75d0094",
+    "len": 6065
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p90/comparison.csv",
+    "sha": "dc918b846a749ba4e0c2e1742867fe09fda78a2d72f0386ed78f7fdbe0fa2cc1",
+    "len": 1615
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p90/metrics.json",
+    "sha": "1b4e41eaa014b8a9e9ed689e608ab5323c06f439b4a5621739f4155e77ce147f",
+    "len": 4361
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p90/predictions_A_layer_only.csv",
+    "sha": "39349a9cf6d14a10ca6f728aec9b9589726da6f8a8b70438d8505287d59fc518",
+    "len": 25250
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p90/predictions_B_layer_temporal.csv",
+    "sha": "b9c43b2d54051d10eccbe31800ea3471284ae3685fa9d0b4e7b8f2e3497fd643",
+    "len": 25232
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p90/predictions_C_layer_cross_layer.csv",
+    "sha": "19f66bfda219ec89b2fd33cda4745b363e93c7d3f198b8a14e823bebd4b7dbd3",
+    "len": 25238
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p90/predictions_cross_layer_only.csv",
+    "sha": "058fed6c1a8f64655480a383afd84e08e9afd203a586eeb85cfc5cdc9dfc658f",
+    "len": 25233
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p90/predictions_D_temporal_cross_layer.csv",
+    "sha": "98b7020dc723bf25767746c504a0551cd6bfacb5bd0236a8de858841751e6c52",
+    "len": 25225
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p90/predictions_E_full_tclad.csv",
+    "sha": "2eb3f09ed6917abe7ac39c90331f87ffacebc097dca98183a6af7221185556c2",
+    "len": 25224
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p90/predictions_temporal_only.csv",
+    "sha": "182f78e78c280e7e7f767975e3c0ad909a47cfe9528b745fd733b44a1b3c07d6",
+    "len": 25233
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p90/predictions_whole_update.csv",
+    "sha": "988ca36c1d5a49fd954ae8acf9b4cdd61d352013b2d15737a42ebda20d42a06e",
+    "len": 6548
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p95/comparison.csv",
+    "sha": "9609da6e9a89b1a005a591cab0ee36bb2f05571cd43887fa61d16786359be8aa",
+    "len": 1604
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p95/metrics.json",
+    "sha": "29131ef4ee32207f2a61bdc0c465f543419fcc08f23c720ffceabd4bcf761962",
+    "len": 4350
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p95/predictions_A_layer_only.csv",
+    "sha": "760bdc2faed03d3c1872357d28f6eb921dc2deb1e0e32154d6ce4df06f603be7",
+    "len": 25250
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p95/predictions_B_layer_temporal.csv",
+    "sha": "c7960b2077869e953a1f7b81f79357b7b4f740ee2bb2c22acad059de5cb54114",
+    "len": 25232
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p95/predictions_C_layer_cross_layer.csv",
+    "sha": "f1cc27c7bb87b239b08af9901c5b65e649bfd56fb76fbe1a584b15323e545795",
+    "len": 25238
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p95/predictions_cross_layer_only.csv",
+    "sha": "662a94069607ed2b64705a6f7b0591a853d9b4b88b1e2129c9775f015f589ae8",
+    "len": 25233
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p95/predictions_D_temporal_cross_layer.csv",
+    "sha": "a0d45e137bd393cf56313e072169987ca43b905a6fa333628ad56ab6ca414dd8",
+    "len": 25225
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p95/predictions_E_full_tclad.csv",
+    "sha": "8236234286785e6f0f0d0684e43a15b16ee8bb53232687c9b02cadcc5d9b6f97",
+    "len": 25224
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p95/predictions_temporal_only.csv",
+    "sha": "5d990f8a9c2b31abec7de744a7b0ead9b409967246a9742a2ba8c4822c8f2e19",
+    "len": 25233
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p95/predictions_whole_update.csv",
+    "sha": "38b193f9e41179b787247cfd14c4a907530133b2617890f156308f6e9cb3d0bd",
+    "len": 6548
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p97_5/comparison.csv",
+    "sha": "71411558056ee7a8b20557467a935a4b5bfe29b3146edb8aa29a31c6cf99f49f",
+    "len": 1608
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p97_5/metrics.json",
+    "sha": "4206b5b5ade3eec3ad009e3031253cdf300c3b3f8eb48bf54fd4c276e185813f",
+    "len": 4356
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p97_5/predictions_A_layer_only.csv",
+    "sha": "068f838a1d546e2ab66bf0dd10fdccbd80318f7f6686481f789f7645c45a5560",
+    "len": 25250
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p97_5/predictions_B_layer_temporal.csv",
+    "sha": "8ef87b61c519b38b43c16e5289b11b5ae40b96247419f5e7a4c8654df90086c9",
+    "len": 25232
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p97_5/predictions_C_layer_cross_layer.csv",
+    "sha": "3358d8f183fc95f8cc235dac0661af079da01379ec7a63927340fac978db0a00",
+    "len": 25238
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p97_5/predictions_cross_layer_only.csv",
+    "sha": "866733186470f542a3b2f20a297b60657ef481e0a777b54c8a0c0330949caced",
+    "len": 25233
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p97_5/predictions_D_temporal_cross_layer.csv",
+    "sha": "3e4d9661ad8c5a20609e248f43935f616b98c931473582dccd95d6c394b0da81",
+    "len": 25225
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p97_5/predictions_E_full_tclad.csv",
+    "sha": "94b0e1540d3ce56c0671832250ef4bd99520d7dd04f42d54f6d78c4865f5d398",
+    "len": 25224
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p97_5/predictions_temporal_only.csv",
+    "sha": "36471ee62135caa7fe37de7f8c2226252623e866a23c64baf13cfe4880b3b7c2",
+    "len": 25233
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p97_5/predictions_whole_update.csv",
+    "sha": "25c818705313a3425980e9b1dda40ab5ed7b5e324c75498c23bf2f30a83197a5",
+    "len": 6548
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p99/comparison.csv",
+    "sha": "b983e4fa7d7430fa6bbe8daee8ee6aae65fdea33a50af689626b5d4d665b9399",
+    "len": 1597
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p99/metrics.json",
+    "sha": "ffaa7a2b88ef5146c3c61a2fbddf594c9a51d26f4c859604cd7e4d53cffbfe99",
+    "len": 4343
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p99/predictions_A_layer_only.csv",
+    "sha": "1e2effacb1c03a8f1bc05103e1ff629dd8c4a6a0de9721ab7e7d02d872223445",
+    "len": 25250
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p99/predictions_B_layer_temporal.csv",
+    "sha": "8ef87b61c519b38b43c16e5289b11b5ae40b96247419f5e7a4c8654df90086c9",
+    "len": 25232
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p99/predictions_C_layer_cross_layer.csv",
+    "sha": "74827292127458a4587a9beff34a74f6c970f243eee24d337a92ab674102bfa1",
+    "len": 25238
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p99/predictions_cross_layer_only.csv",
+    "sha": "866733186470f542a3b2f20a297b60657ef481e0a777b54c8a0c0330949caced",
+    "len": 25233
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p99/predictions_D_temporal_cross_layer.csv",
+    "sha": "bc7b148431df7ca5ba7b4c4d5c98137c22a362be725ba08c11ce93d2842e5500",
+    "len": 25225
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p99/predictions_E_full_tclad.csv",
+    "sha": "94b0e1540d3ce56c0671832250ef4bd99520d7dd04f42d54f6d78c4865f5d398",
+    "len": 25224
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p99/predictions_temporal_only.csv",
+    "sha": "36471ee62135caa7fe37de7f8c2226252623e866a23c64baf13cfe4880b3b7c2",
+    "len": 25233
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p99/predictions_whole_update.csv",
+    "sha": "25c818705313a3425980e9b1dda40ab5ed7b5e324c75498c23bf2f30a83197a5",
+    "len": 6548
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p99_complete/comparison.csv",
+    "sha": "9ac702d6551efe149ca7a1e38121b74bd5b725a41bc4ae8df4ebc9db9b9c567a",
+    "len": 1613
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p99_complete/metrics.json",
+    "sha": "05098a13b857b4b6eae8462d14824e401d4faa7e96a6be4e3f65b0f04f330c24",
+    "len": 4361
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p99_complete/predictions_A_layer_only.csv",
+    "sha": "1e2effacb1c03a8f1bc05103e1ff629dd8c4a6a0de9721ab7e7d02d872223445",
+    "len": 25250
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p99_complete/predictions_B_layer_temporal.csv",
+    "sha": "8ef87b61c519b38b43c16e5289b11b5ae40b96247419f5e7a4c8654df90086c9",
+    "len": 25232
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p99_complete/predictions_C_layer_cross_layer.csv",
+    "sha": "74827292127458a4587a9beff34a74f6c970f243eee24d337a92ab674102bfa1",
+    "len": 25238
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p99_complete/predictions_cross_layer_only.csv",
+    "sha": "866733186470f542a3b2f20a297b60657ef481e0a777b54c8a0c0330949caced",
+    "len": 25233
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p99_complete/predictions_D_temporal_cross_layer.csv",
+    "sha": "bc7b148431df7ca5ba7b4c4d5c98137c22a362be725ba08c11ce93d2842e5500",
+    "len": 25225
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p99_complete/predictions_E_full_tclad.csv",
+    "sha": "94b0e1540d3ce56c0671832250ef4bd99520d7dd04f42d54f6d78c4865f5d398",
+    "len": 25224
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p99_complete/predictions_temporal_only.csv",
+    "sha": "36471ee62135caa7fe37de7f8c2226252623e866a23c64baf13cfe4880b3b7c2",
+    "len": 25233
+  },
+  {
+    "path": "results/processed/threshold-sensitivity-robust-late-lsa-20261004/p99_complete/predictions_whole_update.csv",
+    "sha": "25c818705313a3425980e9b1dda40ab5ed7b5e324c75498c23bf2f30a83197a5",
+    "len": 6548
+  },
+  {
+    "path": "results/raw/centralized/centralized-mnist-quick-20261004/config.yaml",
+    "sha": "fb83437bbeee46998bc2c3454f39d87ce37507386d152147694c543d75a421ee",
+    "len": 927
+  },
+  {
+    "path": "results/raw/centralized/centralized-mnist-quick-20261004/loss.png",
+    "sha": "c55f6ccb985ca53c0047d1612484f84a419ab7b35cb8a8c6dbf0d92c47c2b56b",
+    "len": 61281
+  },
+  {
+    "path": "results/raw/centralized/centralized-mnist-quick-20261004/metrics.json",
+    "sha": "03b5c7798d2de117306a1cce5d07b879e72a947c09e4396ef8daf336ac7a0102",
+    "len": 733
+  },
+  {
+    "path": "results/raw/centralized/centralized-mnist-quick-20261004-rerun/config.yaml",
+    "sha": "fb83437bbeee46998bc2c3454f39d87ce37507386d152147694c543d75a421ee",
+    "len": 927
+  },
+  {
+    "path": "results/raw/centralized/centralized-mnist-quick-20261004-rerun/loss.png",
+    "sha": "c55f6ccb985ca53c0047d1612484f84a419ab7b35cb8a8c6dbf0d92c47c2b56b",
+    "len": 61281
+  },
+  {
+    "path": "results/raw/centralized/centralized-mnist-quick-20261004-rerun/metrics.json",
+    "sha": "d7bbb8d064f65835bf448b01daf8771b88e2a28283b1828ed616396d4181bcfc",
+    "len": 991
+  },
+  {
+    "path": "results/raw/federated/conventional-backdoor-mnist-iid-late20-20261004/config.yaml",
+    "sha": "ca5f26b90e743ace37db6f10f209378e58545641ff9f9f58009334134fca8dc0",
+    "len": 997
+  },
+  {
+    "path": "results/raw/federated/conventional-backdoor-mnist-iid-late20-20261004/fingerprints.csv",
+    "sha": "e99e2eb2f66875577e9a8b143d8bcb6198f7d327be649bf98fd95743fc399817",
+    "len": 382558
+  },
+  {
+    "path": "results/raw/federated/conventional-backdoor-mnist-iid-late20-20261004/metrics.json",
+    "sha": "6d767e296575537f726e3b287101246a8de9d199f7ebae6bad82ef09cd51e0ab",
+    "len": 25273
+  },
+  {
+    "path": "results/raw/federated/conventional-backdoor-mnist-iid-late20-20261004/metrics.png",
+    "sha": "5fadf0d17ad9bcd6a657183da156e018d217a0f639dc0f998dfe8a78aa59b710",
+    "len": 76495
+  },
+  {
+    "path": "results/raw/federated/conventional-backdoor-mnist-iid-late20-20261004/whole_update_features.csv",
+    "sha": "9da85e4c9b633ba22435c6055848f6162bdfeb33b215cb229c9b91950c6a1de9",
+    "len": 13609
+  },
+  {
+    "path": "results/raw/federated/fedavg-fingerprint-smoke-20261004/config.yaml",
+    "sha": "a19183559a9268160cf037036530d4977ef992a95363e6d62653e19aa2479c62",
+    "len": 927
+  },
+  {
+    "path": "results/raw/federated/fedavg-fingerprint-smoke-20261004/fingerprints.csv",
+    "sha": "f00798ea3122eeeaa8a2aebb9a7c1555be49d40522e1c37176980fe66243ba8f",
+    "len": 16150
+  },
+  {
+    "path": "results/raw/federated/fedavg-fingerprint-smoke-20261004/metrics.json",
+    "sha": "01afa68403d73e77ba9f0159721568a9c2eaf67d9998a34f3b7994e4c80f426b",
+    "len": 1628
+  },
+  {
+    "path": "results/raw/federated/fedavg-fingerprint-smoke-20261004/metrics.png",
+    "sha": "493227294da3f93ef5dba78c9089653fe2c441d244806181fe110fd6bf2490a5",
+    "len": 44759
+  },
+  {
+    "path": "results/raw/federated/fedavg-fingerprint-smoke-20261004/whole_update_features.csv",
+    "sha": "425c00df19a9209238c5d241e72420c9163d98b9f4a74ea7bf7a791b026ac4a1",
+    "len": 544
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-dirichlet-a01-20-20261004/config.yaml",
+    "sha": "15f1f05fb8ce0a067e46045515d1a717dbdd7e92947076f6fe7a25518ff2117d",
+    "len": 965
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-dirichlet-a01-20-20261004/fingerprints.csv",
+    "sha": "f16cd9c2ec8a319a190866a42d0474e9b19ec0609ce9a166fe3bcda50c71dc64",
+    "len": 343081
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-dirichlet-a01-20-20261004/metrics.json",
+    "sha": "75db0508245fcd7b46cfe03cb69e45d7c6ff6e4c5fd5e28361a11545e82e9331",
+    "len": 25189
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-dirichlet-a01-20-20261004/metrics.png",
+    "sha": "05c4b844cdf789d5cb8ff1d8dfd07377933f00cf21e3586a10f9b12a3af2306b",
+    "len": 74769
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-dirichlet-a01-20-20261004/whole_update_features.csv",
+    "sha": "2e6e9b754d671e36d1059c573fa73a941231053e32e4d4308bc35927ab3c22ae",
+    "len": 12686
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-quick-10rounds-20261004/config.yaml",
+    "sha": "ea608dd9d518b1e9f45aa14356a036b380d0922006f55447784efe57547c7d41",
+    "len": 928
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-quick-10rounds-20261004/metrics.json",
+    "sha": "a6b98a0a45729ccc99d114b3cbc9feb0f6c912277e1bf9c007fccffb3ec2176a",
+    "len": 12661
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-quick-10rounds-20261004/metrics.png",
+    "sha": "75faeb335bdc258b16a5dcd83ea415180d822a3e971bbaf70a3ccceffdcdc797",
+    "len": 63558
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-quick-20261004/config.yaml",
+    "sha": "fb83437bbeee46998bc2c3454f39d87ce37507386d152147694c543d75a421ee",
+    "len": 927
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-quick-20261004/metrics.json",
+    "sha": "a2f677e910471d89f17571448f2b3d004ef3fd239406b14ac8702eda978774cc",
+    "len": 4100
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-quick-20261004/metrics.png",
+    "sha": "a0178968d327fecaa00e9a78354d6e21dc224bcd723385122db94f79564b0d16",
+    "len": 72679
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-quick-20rounds-20261004/config.yaml",
+    "sha": "032d3d355931aea702d1c21214cbf8b885bf0bea424624c754efe6f2926698e3",
+    "len": 928
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-quick-20rounds-20261004/metrics.json",
+    "sha": "a7b04297d7d810e8744a1f3b6e723c240e5a0a3b2ab315630ac48131b3f763eb",
+    "len": 24955
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-quick-20rounds-20261004/metrics.png",
+    "sha": "26aa71c398a9cd28d2181dff7e9f6531e78e9df793738828ddbff346cedf674e",
+    "len": 74812
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-reference-20-20261004/config.yaml",
+    "sha": "64b3949d6ad0a27cdee4b71605519ac2c45c5ea29ed0b9b738913670d24e82e1",
+    "len": 961
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-reference-20-20261004/fingerprints.csv",
+    "sha": "987ba663526424ef0ff07cb792e5baa54bbd0c0c815e496d807f67c0b2570e68",
+    "len": 343086
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-reference-20-20261004/metrics.json",
+    "sha": "548a136ff6b9c2f70c0d53f8e188fc97de075ccb6c9fcfd1f416e11f585c07eb",
+    "len": 24952
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-reference-20-20261004/metrics.png",
+    "sha": "26aa71c398a9cd28d2181dff7e9f6531e78e9df793738828ddbff346cedf674e",
+    "len": 74812
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-reference-20-20261004/whole_update_features.csv",
+    "sha": "f632321c730d9a5ee8e14f0da635301b71e981640be7e714282f872d773d07d5",
+    "len": 8800
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-reference-seed21-20261004/config.yaml",
+    "sha": "e8a9abbea98f436b6d9dafb2182de26a5b1e2bcbe95797447705e57e84825f21",
+    "len": 961
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-reference-seed21-20261004/fingerprints.csv",
+    "sha": "a0c12a084c63d0a14bda3aae0838811eb20ba23837400bbcac5d7e608aa3a046",
+    "len": 359335
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-reference-seed21-20261004/metrics.json",
+    "sha": "a54115726bf9fcbe9bde89291a8ac33b659116eade26341931c12b36c5db52e0",
+    "len": 25116
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-reference-seed21-20261004/metrics.png",
+    "sha": "4ef3d8c33346b8ad5740f7bd5a44ef9270972f5319cd1a06c67cbbf214459329",
+    "len": 72880
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-reference-seed21-20261004/whole_update_features.csv",
+    "sha": "368eff75ed12b8c7a0952557102b73a9cfafef3c3f28d3115391f067ffaa33db",
+    "len": 13093
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-reference-seed7-20261004/config.yaml",
+    "sha": "a2271595e138b40d5271d10f1b7bee09e62d3661da0bf80227efda3e92b154fa",
+    "len": 960
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-reference-seed7-20261004/fingerprints.csv",
+    "sha": "52a9e8e2fa6893b237d94e5bb4fc48c754ef1aa4d6ae36ad1059bc438b70cd12",
+    "len": 355785
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-reference-seed7-20261004/metrics.json",
+    "sha": "17c1a2283fef28bfbe96254891e9c85d3373ccfc73eab56c06bf7dd9cdb79718",
+    "len": 25038
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-reference-seed7-20261004/metrics.png",
+    "sha": "bca6a254e2c42eb04b46bfe950ad31ec3f5a61be97f8faab0bd877ab901f4235",
+    "len": 72616
+  },
+  {
+    "path": "results/raw/federated/fedavg-mnist-iid-reference-seed7-20261004/whole_update_features.csv",
+    "sha": "6609916473bbe887b4adb6cc69cbd988cf9b5ab3101ce9ce8c5961fb2d4a240a",
+    "len": 12983
+  },
+  {
+    "path": "results/raw/federated/lsa-coordinate-median-late20-seed42-20261004/config.yaml",
+    "sha": "6c77620bf29a7ff4b2605c50153381340526c65a3a1b8050d37edd60e0ea7d32",
+    "len": 1088
+  },
+  {
+    "path": "results/raw/federated/lsa-coordinate-median-late20-seed42-20261004/fingerprints.csv",
+    "sha": "b5cbabcf81c001493d418b5af6b55c8de6e92a800e6b51cccc94279222e82432",
+    "len": 369545
+  },
+  {
+    "path": "results/raw/federated/lsa-coordinate-median-late20-seed42-20261004/metrics.json",
+    "sha": "9ae74828d3dbc8ed6f90c0043e36cbe07c2e7e9facb0690f4381e5de4cb6b7c9",
+    "len": 25230
+  },
+  {
+    "path": "results/raw/federated/lsa-coordinate-median-late20-seed42-20261004/metrics.png",
+    "sha": "adabae8c5dcab1dfafd0abb0ee30b0b55d113cb645a57c3f05d61e2b0baf00f6",
+    "len": 74420
+  },
+  {
+    "path": "results/raw/federated/lsa-coordinate-median-late20-seed42-20261004/whole_update_features.csv",
+    "sha": "cf2385e04ae617fea5a61f25e68f2616c701c9e448917e2bbf071ce146ae484a",
+    "len": 13309
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-high-malicious40-late20-seed42-20261004/config.yaml",
+    "sha": "e06c67aa32d3baca99a32311ed02e1aedff354af563f3b8cee5b68b06123aeb9",
+    "len": 1006
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-high-malicious40-late20-seed42-20261004/fingerprints.csv",
+    "sha": "7d401e761e856880deca3ac6265fccc3b8cb64d85b672503fe96c27cf853a32d",
+    "len": 404562
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-high-malicious40-late20-seed42-20261004/metrics.json",
+    "sha": "f2b6b8a50cbf57c5fbf1361022280baf2d6bd089f86584685e1a01c1ff8825ff",
+    "len": 25410
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-high-malicious40-late20-seed42-20261004/metrics.png",
+    "sha": "a03c9987e450772afc83ce097470aed297ac9b4006db0a7f350b2571a990d1bf",
+    "len": 76429
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-high-malicious40-late20-seed42-20261004/whole_update_features.csv",
+    "sha": "686fbe7979d1e599c3edc7722d2b12ab3af393784296d716acb55cdaba9b8f25",
+    "len": 14114
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-late-mnist-20-20261004/config.yaml",
+    "sha": "0aaff70983c08fa59d8b8358d9b709b9c4519beb8c552c18a8a8147d1202e7c4",
+    "len": 1006
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-late-mnist-20-20261004/fingerprints.csv",
+    "sha": "af85dabfca8b39a483d9f996dc8e6f551b575f53c2ad62f5edf6b759ba26c855",
+    "len": 329740
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-late-mnist-20-20261004/metrics.json",
+    "sha": "daf62df2b9ff7cb2065b0f4986279ff0d1d73fba898dbae0c218e1efc36a2940",
+    "len": 25254
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-late-mnist-20-20261004/metrics.png",
+    "sha": "b9ac43c8e289a0828e6272e3bf79af457305ad5f8295709c0f107fbb795be060",
+    "len": 75905
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-late-mnist-20-20261004/whole_update_features.csv",
+    "sha": "b0c8930542294d6c796b2cab930b7951953303db9c0e641a5a5a1e5d8f74f4ba",
+    "len": 12413
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-late-mnist-seed21-20261004/config.yaml",
+    "sha": "147b038a199080f307d30a2f2f86b79a2f6858916fba98849d495a8b9f5062ea",
+    "len": 1006
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-late-mnist-seed21-20261004/fingerprints.csv",
+    "sha": "6e4ddbf0836c3fe01a4c73b9eeefab3bbf3e3e269cdd9eae578fb7bf555ad2a9",
+    "len": 346320
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-late-mnist-seed21-20261004/metrics.json",
+    "sha": "aa319d57b43d1c6b0f79e592cbd980887708eb1011dff488c5b183bbe51a8a91",
+    "len": 25419
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-late-mnist-seed21-20261004/metrics.png",
+    "sha": "b2d361feb29919f3111e9916f5fe21d77f537f2a377d76c3877bc207f5e69bc9",
+    "len": 72098
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-late-mnist-seed21-20261004/whole_update_features.csv",
+    "sha": "2163a393bceaf63d546f9bbad9cdf1909513601237edd707b5a218690e6a50f1",
+    "len": 12797
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-late-mnist-seed7-20261004/config.yaml",
+    "sha": "df4ff163023265085ce10957d689e7f40465541a9400aa896083eb7128fceef1",
+    "len": 1005
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-late-mnist-seed7-20261004/fingerprints.csv",
+    "sha": "05343a942c0dbca4a9e70bc3021b51b699f7731b2d410e031b0a8ad7092e8968",
+    "len": 342751
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-late-mnist-seed7-20261004/metrics.json",
+    "sha": "47af2e08f6331c34b368557df4e9ef1aca4ff51deee9755f37c6fcc6bfc79504",
+    "len": 25259
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-late-mnist-seed7-20261004/metrics.png",
+    "sha": "68fd7d9a1f706706b62aedcf69e7f165b7454818f991374dfdbad2504841a799",
+    "len": 72583
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-late-mnist-seed7-20261004/whole_update_features.csv",
+    "sha": "f86103599cdcc836ba1f5511a67b4c8c94b1adc50b44b95f4c4459d33c84ef8d",
+    "len": 12680
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-mnist-iid-quick-20-20261004/config.yaml",
+    "sha": "7fc83beb24a9d68c17f69d30d182b51157cfc7a75a28e0814109c1cc4423d3f1",
+    "len": 960
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-mnist-iid-quick-20-20261004/fingerprints.csv",
+    "sha": "020461f96b96b2c4a2c39e769dd117eb7c876743321bcf6c809af80fd921bf71",
+    "len": 352310
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-mnist-iid-quick-20-20261004/metrics.json",
+    "sha": "0c97ac84125da213f7ebcebbf7cdb44f8589ad1d2718b0b2b71f37d470b90a52",
+    "len": 25887
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-mnist-iid-quick-20-20261004/metrics.png",
+    "sha": "09d6e3d1b2ced43fa82473a7089998d008c6b9a83fc41d59e7b66dfcad22a77b",
+    "len": 74143
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-mnist-iid-quick-20-20261004/whole_update_features.csv",
+    "sha": "24f8562fa5493751d7a64620bbfc92164d6801a0c7dde037ff7fb97436871a34",
+    "len": 12891
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-noniid-alpha01-late20-seed42-20261004/config.yaml",
+    "sha": "d81e92636326e31244750df9dcc1207377e1d873793d4977677a822d204c21f3",
+    "len": 1010
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-noniid-alpha01-late20-seed42-20261004/fingerprints.csv",
+    "sha": "07af4223cd9e6e3d742bb04fce42ef7e2fc3defaa53d70824f0d29da6fa4be9d",
+    "len": 395883
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-noniid-alpha01-late20-seed42-20261004/metrics.json",
+    "sha": "6b7a09f9ae8c9bae80c0752543270cc0933262eaf72f75fa6ac5d9933bf0bee0",
+    "len": 25585
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-noniid-alpha01-late20-seed42-20261004/metrics.png",
+    "sha": "0feaeb66c511cf78bebf25a4edf8143c2990a332eb16902094623d4c35f09a95",
+    "len": 73889
+  },
+  {
+    "path": "results/raw/federated/lsa-inspired-noniid-alpha01-late20-seed42-20261004/whole_update_features.csv",
+    "sha": "df3c7f74152b1bf5471cdf8a4a41630baa3f77620d713c9e2059f939b5657ba9",
+    "len": 13879
+  },
+  {
+    "path": "results/raw/federated/lsa-mnist-attack-smoke-20261004/config.yaml",
+    "sha": "bb5f9e0574267787a3d1581d5bf3ff786fdd7b30528963c280fe4d90e13b3668",
+    "len": 959
+  },
+  {
+    "path": "results/raw/federated/lsa-mnist-attack-smoke-20261004/fingerprints.csv",
+    "sha": "a8061d368327f8696e232d12b549cd989a84c3ba72110fa1872ca923e63678c5",
+    "len": 31297
+  },
+  {
+    "path": "results/raw/federated/lsa-mnist-attack-smoke-20261004/metrics.json",
+    "sha": "629f8febf000c1f2481767f34dec902b37d8a6faba878c6428e34ec8fada9e15",
+    "len": 2949
+  },
+  {
+    "path": "results/raw/federated/lsa-mnist-attack-smoke-20261004/metrics.png",
+    "sha": "f62af9fadd0ab599ddad5c134e87fb79f1c117ce12a34b3c01e8f227036c3fe2",
+    "len": 76263
+  },
+  {
+    "path": "results/raw/federated/lsa-mnist-attack-smoke-20261004/whole_update_features.csv",
+    "sha": "18fd1c903406682fda846ef3f6cffe1e428a2ea4afd173c9ee796dfa6102ff5d",
+    "len": 1005
+  },
+  {
+    "path": "results/raw/federated/lsa-mnist-reject-smoke-20261004/config.yaml",
+    "sha": "a67a723d7b985d831bbef4664410b1e724bfd22dece2f4e4ec9f1758cf89c626",
+    "len": 960
+  },
+  {
+    "path": "results/raw/federated/lsa-mnist-reject-smoke-20261004/fingerprints.csv",
+    "sha": "86ef236685e0bd77230272fa292e5e184babe39ba503c8dc06885e6dd54b98cb",
+    "len": 31283
+  },
+  {
+    "path": "results/raw/federated/lsa-mnist-reject-smoke-20261004/metrics.json",
+    "sha": "470d24b1de074615f5e5f1da21c512df7358844d6d2f70ec47182e9cee1b615b",
+    "len": 6020
+  },
+  {
+    "path": "results/raw/federated/lsa-mnist-reject-smoke-20261004/metrics.png",
+    "sha": "ff14ee7fcd56c0bccbe8ef9cbef08436817bd6d3e0d668be07cce3f47c6cce17",
+    "len": 73903
+  },
+  {
+    "path": "results/raw/federated/lsa-mnist-reject-smoke-20261004/mitigation_decisions.csv",
+    "sha": "c4b9840a6e0574f85d1f7b732c1e661fe8a91942402069201606fdb3f43d9909",
+    "len": 678
+  },
+  {
+    "path": "results/raw/federated/lsa-mnist-reject-smoke-20261004/whole_update_features.csv",
+    "sha": "1abf8e6ef746147bcf4849b41f3fbc0367b72d4cf00a3d08a15c486c1d08d452",
+    "len": 1338
+  },
+  {
+    "path": "results/raw/federated/lsa-multi-krum-late20-seed42-20261004/config.yaml",
+    "sha": "d11cc3775b8517d0cc7727e959f8cd01aa3c360bc3cd2e78805a8b7cba56fbb0",
+    "len": 1081
+  },
+  {
+    "path": "results/raw/federated/lsa-multi-krum-late20-seed42-20261004/fingerprints.csv",
+    "sha": "916d9137bf2735f4d5f64808c0425c436042877e2d63d7efbf5d2bb35294832d",
+    "len": 339045
+  },
+  {
+    "path": "results/raw/federated/lsa-multi-krum-late20-seed42-20261004/metrics.json",
+    "sha": "6486dc4e28cd65a6dcb390fda798d91826f3614dab224b46364ea4dc34e49d7b",
+    "len": 25308
+  },
+  {
+    "path": "results/raw/federated/lsa-multi-krum-late20-seed42-20261004/metrics.png",
+    "sha": "3771fe7d80e84402fdc5fe42e0321c7dce0d8940d99ae6f3c53a9d2a25463d49",
+    "len": 74491
+  },
+  {
+    "path": "results/raw/federated/lsa-multi-krum-late20-seed42-20261004/whole_update_features.csv",
+    "sha": "4890fb5390eb0ce532b0d3a8c44983b4c26eb0f63c58ca299128ae1388e572df",
+    "len": 12625
+  },
+  {
+    "path": "results/raw/federated/lsa-tclad-downweight-late20-attacked-20261004/config.yaml",
+    "sha": "0aaff70983c08fa59d8b8358d9b709b9c4519beb8c552c18a8a8147d1202e7c4",
+    "len": 1006
+  },
+  {
+    "path": "results/raw/federated/lsa-tclad-downweight-late20-attacked-20261004/fingerprints.csv",
+    "sha": "1cea9e34380e340e3791333141164593c2d4b24285dcd0307fe47f380f847c8d",
+    "len": 373869
+  },
+  {
+    "path": "results/raw/federated/lsa-tclad-downweight-late20-attacked-20261004/metrics.json",
+    "sha": "4fde45638344d97af9b2e6db4eea7b9198c7775e66c69956cacd1d15a58d8402",
+    "len": 33962
+  },
+  {
+    "path": "results/raw/federated/lsa-tclad-downweight-late20-attacked-20261004/metrics.png",
+    "sha": "045c26cc76f527ed262fbb8d750258236b5619f0552639067fe5ed5da82cda0d",
+    "len": 74626
+  },
+  {
+    "path": "results/raw/federated/lsa-tclad-downweight-late20-attacked-20261004/mitigation_decisions.csv",
+    "sha": "6fda785e7a61cade3cfbd817363952d016a610f565d19c6f396fa3258c0df335",
+    "len": 1946
+  },
+  {
+    "path": "results/raw/federated/lsa-tclad-downweight-late20-attacked-20261004/whole_update_features.csv",
+    "sha": "b105eb9a1959f254cb66a3e0a50cacf5b91ec7d68af783de055b8a9b2bd2bae9",
+    "len": 13404
+  },
+  {
+    "path": "results/raw/federated/lsa-tclad-reject-late20-20261004/config.yaml",
+    "sha": "5cba4f709a6fce2d8f641b075c0453b01da0643c8c23fda6396b64bc30c868a2",
+    "len": 1007
+  },
+  {
+    "path": "results/raw/federated/lsa-tclad-reject-late20-20261004/fingerprints.csv",
+    "sha": "fcbb52e92b0ec76ee103278b6a040ca083dfe39c6463166a9204f4eb31f72e86",
+    "len": 316670
+  },
+  {
+    "path": "results/raw/federated/lsa-tclad-reject-late20-20261004/metrics.json",
+    "sha": "03b425cea452b306154c8cd79b2851996f331e65f503c7459d9c78a8ee8a1c6c",
+    "len": 33217
+  },
+  {
+    "path": "results/raw/federated/lsa-tclad-reject-late20-20261004/metrics.png",
+    "sha": "45c14d89fff2033d4a775add1b981cd3fd16886f04f3475d6230de0783620547",
+    "len": 74554
+  },
+  {
+    "path": "results/raw/federated/lsa-tclad-reject-late20-20261004/mitigation_decisions.csv",
+    "sha": "ada350131eb861444c3f8db750a711c29ad532246b17b0334a4ad34193007141",
+    "len": 1579
+  },
+  {
+    "path": "results/raw/federated/lsa-tclad-reject-late20-20261004/whole_update_features.csv",
+    "sha": "3f994e33e4e51e721f07d5353a7c96c867a4cd3fb7d8f05a1eb24bc0695856a7",
+    "len": 12114
+  },
+  {
+    "path": "results/raw/federated/lsa-tclad-reject-late20-attacked-20261004/config.yaml",
+    "sha": "0aaff70983c08fa59d8b8358d9b709b9c4519beb8c552c18a8a8147d1202e7c4",
+    "len": 1006
+  },
+  {
+    "path": "results/raw/federated/lsa-tclad-reject-late20-attacked-20261004/fingerprints.csv",
+    "sha": "9fe25699ca371b2524de3e5efd2e1c82ec28729ff969e9ab7c01395ad66290ee",
+    "len": 356336
+  },
+  {
+    "path": "results/raw/federated/lsa-tclad-reject-late20-attacked-20261004/metrics.json",
+    "sha": "ab287a3c9952aa2b4298ed52bf2d362cf649acabb7d1de0c9f16c9284346261b",
+    "len": 33543
+  },
+  {
+    "path": "results/raw/federated/lsa-tclad-reject-late20-attacked-20261004/metrics.png",
+    "sha": "95ead99d2b8f7b3159abc56084403b14a47dd65ebb34afe90bff360cb4c57309",
+    "len": 74352
+  },
+  {
+    "path": "results/raw/federated/lsa-tclad-reject-late20-attacked-20261004/mitigation_decisions.csv",
+    "sha": "f2558427a90cca34a5f3c52282e98a1507ce317e3f4704d0be77bebdbb4b7471",
+    "len": 1577
+  },
+  {
+    "path": "results/raw/federated/lsa-tclad-reject-late20-attacked-20261004/whole_update_features.csv",
+    "sha": "31a4d81cc840a8d272a674f27778a08cd19a6b85b686077451d0db3a2ebb5a04",
+    "len": 13012
+  },
+  {
+    "path": "results/raw/federated/lsa-trimmed-mean-late20-seed42-20261004/config.yaml",
+    "sha": "7cdf88f0a46643458fa7b19ccefe38680e8155beac3a8d195a0c15e736bf2b95",
+    "len": 1083
+  },
+  {
+    "path": "results/raw/federated/lsa-trimmed-mean-late20-seed42-20261004/fingerprints.csv",
+    "sha": "47c51208e72eb74f55d7d460b34d168ecd61138024ca46ee333111f3b8deb21b",
+    "len": 347633
+  },
+  {
+    "path": "results/raw/federated/lsa-trimmed-mean-late20-seed42-20261004/metrics.json",
+    "sha": "c3835697d52e837acce8cccef6b233d5802cab6f820251f3484f8b535e3d354c",
+    "len": 25266
+  },
+  {
+    "path": "results/raw/federated/lsa-trimmed-mean-late20-seed42-20261004/metrics.png",
+    "sha": "92d4956bee94c4fa78b589caa897aef561bd66de221837514fad3ddea82841e2",
+    "len": 73494
+  },
+  {
+    "path": "results/raw/federated/lsa-trimmed-mean-late20-seed42-20261004/whole_update_features.csv",
+    "sha": "eff20746133d32091f10b2ea56d497f55add0a5a560561513c5748172736fc3b",
+    "len": 12806
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-A_layer/config.yaml",
+    "sha": "ae0b06d02c0d0fd9a413d3dc926b38fc2bd755423c80a029da888e8a62088dc6",
+    "len": 1028
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-A_layer/fingerprints.csv",
+    "sha": "a489a1b95c5da46b599135f715b3ad1026da155b5be42ecb72b03412206940d6",
+    "len": 395886
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-A_layer/metrics.json",
+    "sha": "5f1929aad51757e851c9d006e0eee1ee24a87690dcaca92abf4d1b5fa0c05719",
+    "len": 33773
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-A_layer/metrics.png",
+    "sha": "8354f3df3ef0032ec5013fdb7e5822fce36931968d75e353ec3033a42d50d288",
+    "len": 73962
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-A_layer/mitigation_decisions.csv",
+    "sha": "ed98b6a641401000c12aab4c24db5ab06b8002afb7dab59b8a56cd8aea269dc8",
+    "len": 1763
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-A_layer/whole_update_features.csv",
+    "sha": "a66d6a6dff5a47425f59086fd19efda7b3d5049be55dbff7acb8b320d2a4f96f",
+    "len": 13919
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-B_layer_temporal/config.yaml",
+    "sha": "e8ba7e71e442d2a0d6c9fd05004edd6e06c2fe95ca1ca7c9c3818bd7048222e0",
+    "len": 1037
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-B_layer_temporal/fingerprints.csv",
+    "sha": "1e4fd361e663d1ff077888c52e1755d59c3ff69371dd31277715981a36894f53",
+    "len": 435498
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-B_layer_temporal/metrics.json",
+    "sha": "1305555fef315cce51b4a8848865000fef191d3066dd1e2b13110833bb2b07a6",
+    "len": 33914
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-B_layer_temporal/metrics.png",
+    "sha": "057634ebca0414701e1717fa55cb20d2dcf46fa6d32fc1f3cc1b854af9697a58",
+    "len": 73258
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-B_layer_temporal/mitigation_decisions.csv",
+    "sha": "677fbcdb8e47e5e3033efc0b1e1be9678dbf157896cb885a21f83509f9e20f48",
+    "len": 1857
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-B_layer_temporal/whole_update_features.csv",
+    "sha": "230cc3e218a2886704960557aacb7e3afaae6e7c818c4ad567178482bdc2620a",
+    "len": 14819
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-C_layer_cross_layer/config.yaml",
+    "sha": "a9935c37c3f5fd7ee011caab63a272907e3d41293ba98334c76aa105e0f30c49",
+    "len": 1040
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-C_layer_cross_layer/fingerprints.csv",
+    "sha": "ca29886b2754700728180ca8bc2de959d0224eecd200209edbfe565a2c22df1c",
+    "len": 448611
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-C_layer_cross_layer/metrics.json",
+    "sha": "6dd10a510997cc6691874e9d7b08e1bf479e7d27c57771be7e648342e21a2cb4",
+    "len": 33971
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-C_layer_cross_layer/metrics.png",
+    "sha": "1fd1e4f7c68a651c39ace2794c857b85ce97ff41ddc6c315e93a348d11dd1224",
+    "len": 73684
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-C_layer_cross_layer/mitigation_decisions.csv",
+    "sha": "26c6a7e575f3314bdf91faa4e042cc20ff499f1f9f4a7e4cd98767b6d31496ac",
+    "len": 1949
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-C_layer_cross_layer/whole_update_features.csv",
+    "sha": "d04b1deea20032f938dde34dfb2faa33cfd2315a890934b29bbc0ed948242d24",
+    "len": 15116
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-D_temporal_cross_layer/config.yaml",
+    "sha": "8177712eeb26a2f38acb5d507ec4d012a6283dde3526a16f8eb458cff0d4c2bc",
+    "len": 1043
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-D_temporal_cross_layer/fingerprints.csv",
+    "sha": "540a88faeb26701471f78cc7955e56fe6bd5d40db12a93065c9450ca3d1e1965",
+    "len": 461872
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-D_temporal_cross_layer/metrics.json",
+    "sha": "2d15718fec25bf6859490a52c447a75dfde95a414c79600cd8ba629d0c14b8a8",
+    "len": 34038
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-D_temporal_cross_layer/metrics.png",
+    "sha": "3e4c648dd9e181cf3d1b584b403779868003bd0edf92aff71a4344b04c370408",
+    "len": 74254
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-D_temporal_cross_layer/mitigation_decisions.csv",
+    "sha": "1f4a52187595f4fc101d4b22e41b181fa40c9a48802681ebd13c3412d777a9ed",
+    "len": 2008
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-D_temporal_cross_layer/whole_update_features.csv",
+    "sha": "a69099a21235748516ece99bde6c757a6cd6e8897d7205ab8c73a87370bc8c52",
+    "len": 15415
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-E_full_tclad/config.yaml",
+    "sha": "3e90e0d0ac0a9d5ba62fd23f03f5fc4562242c50e55fb64715280ce9b4a1d8c5",
+    "len": 1033
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-E_full_tclad/fingerprints.csv",
+    "sha": "8c7b4568faec3a8d330da5704260c1aae23d3852aada480689983d19e2ac3bae",
+    "len": 417846
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-E_full_tclad/metrics.json",
+    "sha": "e113c2ad220c43f5b79108d284465e4f365f05038b2868de70e47fbae94e0608",
+    "len": 34013
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-E_full_tclad/metrics.png",
+    "sha": "2cb087087c0d4c248c3e57019a7ed85f769e0cf15d17222053552ec33fa13904",
+    "len": 73214
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-E_full_tclad/mitigation_decisions.csv",
+    "sha": "74c66b2d9d585da5beef974c5d728feb93bbd0fd738ed92c3590ba8c156676bb",
+    "len": 1986
+  },
+  {
+    "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-E_full_tclad/whole_update_features.csv",
+    "sha": "d595ada663bd7134cc74f23897d816b314b5d82b3a4ec7ab89ea0d7d0b139fab",
+    "len": 14421
+  },
+  {
+    "path": "results/raw/federated/tclad-downweight-bounded-seed42-20261004/config.yaml",
+    "sha": "0aaff70983c08fa59d8b8358d9b709b9c4519beb8c552c18a8a8147d1202e7c4",
+    "len": 1006
+  },
+  {
+    "path": "results/raw/federated/tclad-downweight-bounded-seed42-20261004/fingerprints.csv",
+    "sha": "49442e10b5b512948259392378526794299b3de33268c07543203b1b0c034254",
+    "len": 351846
+  },
+  {
+    "path": "results/raw/federated/tclad-downweight-bounded-seed42-20261004/metrics.json",
+    "sha": "f48efe2443c711be4bb78ca34d23ea53cf4ed6f5ed2233388e4b56544bfbb26f",
+    "len": 34099
+  },
+  {
+    "path": "results/raw/federated/tclad-downweight-bounded-seed42-20261004/metrics.png",
+    "sha": "2cb087087c0d4c248c3e57019a7ed85f769e0cf15d17222053552ec33fa13904",
+    "len": 73214
+  },
+  {
+    "path": "results/raw/federated/tclad-downweight-bounded-seed42-20261004/mitigation_decisions.csv",
+    "sha": "a39e4b1245ff9b8b0672fed11bb35028a905696a380e93ff1220e3c2a3becad0",
+    "len": 1990
+  },
+  {
+    "path": "results/raw/federated/tclad-downweight-bounded-seed42-20261004/whole_update_features.csv",
+    "sha": "5f216b6d65c953692865a14dd122f03667473f6f7218ffad06f430d3f8a258dc",
+    "len": 12921
+  },
+  {
+    "path": "results/raw/federated/tclad-reject-bounded-failclosed-seed42-20261004/config.yaml",
+    "sha": "0aaff70983c08fa59d8b8358d9b709b9c4519beb8c552c18a8a8147d1202e7c4",
+    "len": 1006
+  },
+  {
+    "path": "results/raw/federated/tclad-reject-bounded-failclosed-seed42-20261004/fingerprints.csv",
+    "sha": "c72c759b2e79646933771402e892eb6f6119524d6c2ac9e653e716775577f623",
+    "len": 382688
+  },
+  {
+    "path": "results/raw/federated/tclad-reject-bounded-failclosed-seed42-20261004/metrics.json",
+    "sha": "4e86e3125fcb5d634ecf3a1329a3b0cfdd3b1476cbe5b2fb34c379b17db5e25a",
+    "len": 33647
+  },
+  {
+    "path": "results/raw/federated/tclad-reject-bounded-failclosed-seed42-20261004/metrics.png",
+    "sha": "8d6e59dc03c327180a2b995d7a9a3911f7d9368af2fc2b62f9a1ff0d6fda3e70",
+    "len": 72750
+  },
+  {
+    "path": "results/raw/federated/tclad-reject-bounded-failclosed-seed42-20261004/mitigation_decisions.csv",
+    "sha": "2a1a211f7e5e5fe6d0bd6baa9419d6ee01c83516b890a0f830ef418f4425c3ed",
+    "len": 1636
+  },
+  {
+    "path": "results/raw/federated/tclad-reject-bounded-failclosed-seed42-20261004/whole_update_features.csv",
+    "sha": "33d5220d649d8ec4c2fcc92cfb4ef2ad1082a665e7e97099eb873c1d175accf9",
+    "len": 13615
+  },
+  {
+    "path": "results/raw/federated/tclad-reject-bounded-seed42-20261004/config.yaml",
+    "sha": "0aaff70983c08fa59d8b8358d9b709b9c4519beb8c552c18a8a8147d1202e7c4",
+    "len": 1006
+  },
+  {
+    "path": "results/raw/federated/tclad-reject-bounded-seed42-20261004/fingerprints.csv",
+    "sha": "473a46921a741b8a1b559371090d2d28a3616f13c4b61f5e27cb8a6392d0a6f2",
+    "len": 334182
+  },
+  {
+    "path": "results/raw/federated/tclad-reject-bounded-seed42-20261004/metrics.json",
+    "sha": "5c210836bc7bbb4b68a00287088455138e0a0cd2140e44155706ca809bb27d5d",
+    "len": 33758
+  },
+  {
+    "path": "results/raw/federated/tclad-reject-bounded-seed42-20261004/metrics.png",
+    "sha": "daac5db8f0022e28314acc5d3d87e467bb740bde99677dfddbc54469e6389f8e",
+    "len": 73562
+  },
+  {
+    "path": "results/raw/federated/tclad-reject-bounded-seed42-20261004/mitigation_decisions.csv",
+    "sha": "d89bb378bfe37a00bae0ebe4f1767131e97d8dfcd220c1329e4abae69f15e7a9",
+    "len": 1639
+  },
+  {
+    "path": "results/raw/federated/tclad-reject-bounded-seed42-20261004/whole_update_features.csv",
+    "sha": "d033b217109234874d2aba38e2747859e7e412d4628a1e34f1e850a652401e6b",
+    "len": 12519
+  },
+  {
+    "path": "results/tables/attack_comparison.csv",
+    "sha": "89d98a76d371a3993f743b5c5762d232e73bbdb654d2992b01f6c2e295402eb7",
+    "len": 3942
+  },
+  {
+    "path": "results/tables/attack_comparison.md",
+    "sha": "dd87c58db6514a35a4eae20fb573f683bf8b0e5b3b2e6f7c1905f7e1c284f940",
+    "len": 4837
+  },
+  {
+    "path": "results/tables/attack_factor_sensitivity.csv",
+    "sha": "4546c55702904f9c6b7584a9b84d27893dd81607cd47e0876b6e15b73cf2781a",
+    "len": 1380
+  },
+  {
+    "path": "results/tables/attack_factor_sensitivity.md",
+    "sha": "028debc72d20ce8f3cb9b0e1b6fde5e93e7bd7089668e44b41706e6a5e357883",
+    "len": 1772
+  },
+  {
+    "path": "results/tables/baseline_and_attack_runs.csv",
+    "sha": "a0544d314036512f052bed084d0d498a46506cfbf6c0a5d635458b7e54e1384d",
+    "len": 5531
+  },
+  {
+    "path": "results/tables/baseline_and_attack_runs.md",
+    "sha": "6323f50c331642b64d1c116e70932cfbaa65d6aef73a9febdf4c3b6516d1a688",
+    "len": 6909
+  },
+  {
+    "path": "results/tables/detector_comparison.csv",
+    "sha": "bc83954e2a2e86fc7b53b7db48548e93a122acd81d85468960119e8407541ce9",
+    "len": 44909
+  },
+  {
+    "path": "results/tables/detector_comparison.md",
+    "sha": "f1fbddb13c937d0a6e1a7b555701f59cadfd2932945d40c92e1b7f0a9e138481",
+    "len": 51290
+  },
+  {
+    "path": "results/tables/detector_seed_metrics.csv",
+    "sha": "55d5ccaf85bc2e54fdc7dd05019ab304d1566e7c4b77de16966d7a587f8b47cc",
+    "len": 2018
+  },
+  {
+    "path": "results/tables/detector_seed_metrics.md",
+    "sha": "1f132439d0c9c7f7c249c5f3b94c8581aa0fbbd905603c23091fdc81d363c6b7",
+    "len": 2405
+  },
+  {
+    "path": "results/tables/detector_seed_summary.csv",
+    "sha": "104c26b5bcc4ea425950b4ead0faa66f004a333d70444b710efebd94ace954cf",
+    "len": 1463
+  },
+  {
+    "path": "results/tables/detector_seed_summary.md",
+    "sha": "38d27884ac3d4d45e899097b07cad1ffdceb576521da6d292a841ea8609e94da",
+    "len": 1860
+  },
+  {
+    "path": "results/tables/mitigation_ablation.csv",
+    "sha": "fa0f4bb5e0cf94afb7ded01dd994894011cbd772e3175ff6303252201f610eac",
+    "len": 760
+  },
+  {
+    "path": "results/tables/mitigation_ablation.md",
+    "sha": "e9b8dcb9cfa319024fee0a5bf53c148c4be9467bed132b0003b12b3ded80ace8",
+    "len": 901
+  },
+  {
+    "path": "results/tables/overhead.csv",
+    "sha": "6e9c93b1773f6324ec050042d2c7636391cb82ac3a1f608334c3465184a20c39",
+    "len": 798
+  },
+  {
+    "path": "results/tables/overhead.md",
+    "sha": "94ef2080cdcd7b393351f63bdd2d924db93a7c643cc65122df374b5407d38d27",
+    "len": 931
+  },
+  {
+    "path": "results/tables/robust_aggregation_comparison.csv",
+    "sha": "36aae2b8d9b3839fcdab7b6dd843cc280b0b09fe14946f94a8c40f1b9666de50",
+    "len": 1588
+  },
+  {
+    "path": "results/tables/robust_aggregation_comparison.md",
+    "sha": "39e00f70c00524e3dbf2ee740004ae643b8fb569186bb67a2890e94223187833",
+    "len": 2017
+  },
+  {
+    "path": "results/tables/threshold_sensitivity.csv",
+    "sha": "fa1054ecb0b960e5cef40e84429566941ac35883e77f5e28056ccc9d0f7a6ca4",
+    "len": 22698
+  },
+  {
+    "path": "results/tables/threshold_sensitivity.md",
+    "sha": "76c5c8b3ba58a44c8d982d03d73c8921d8b7df3af142e7a865cef19a75c5f4a5",
+    "len": 25695
+  },
+  {
+    "path": "scripts/generate_results.py",
+    "sha": "2a6f0b17abde63449de49605ca8c98a9b7c1102a475d0d93df27518b273c2664",
+    "len": 490
+  },
+  {
+    "path": "scripts/measure_overhead.py",
+    "sha": "3a725fa7210febe6893f85914b759f51f5a74b010a502d12c4a3ae69c7594b23",
+    "len": 1000
+  },
+  {
+    "path": "scripts/package_project.py",
+    "sha": "4eadf108a29c632128f540da944de9ce489180b156c2aa98822be059652c889e",
+    "len": 1846
+  },
+  {
+    "path": "scripts/run_ablation.py",
+    "sha": "7a63ce0ff9c952867cf6581732820b20a3ecacbfd9240baebc59260da487318e",
+    "len": 817
+  },
+  {
+    "path": "scripts/run_defense.py",
+    "sha": "b5cf943dcbf5f8761ff5b9adf7aed5df1c123bd8d487efde90091d77ea12abbe",
+    "len": 796
+  },
+  {
+    "path": "scripts/run_factor_sensitivity.py",
+    "sha": "f6048b3190f4dae96cf1def1144045bd8a0c1b3fad5d1d1cfac27056dccf9e87",
+    "len": 1179
+  },
+  {
+    "path": "scripts/run_lsa.py",
+    "sha": "b2fc3225bc1e554df3aeace116053747ac9e93b805bcaf0dafa6fe84bfb4f93c",
+    "len": 738
+  },
+  {
+    "path": "scripts/run_mitigated.py",
+    "sha": "1877cdb577efafbca3cf6fd92b7800dd70bf2d460f3f82eb88a139b8f78c7b18",
+    "len": 2287
+  },
+  {
+    "path": "scripts/run_mitigation_ablation.py",
+    "sha": "a68693f2667bf599d8ace2318f8929395b83e8c82b0fe49f6a19a7547fd12a65",
+    "len": 1033
+  },
+  {
+    "path": "scripts/run_sensitivity.py",
+    "sha": "bcdf273678511acd1971b2bd46849f6104d3e566c07f9809a51998101f5e0a57",
+    "len": 1398
+  },
+  {
+    "path": "scripts/train_centralized.py",
+    "sha": "b34b825bb9e8a9bb31537ad6a929a0eb7af4df58bb657f176346761b60c8a42f",
+    "len": 732
+  },
+  {
+    "path": "scripts/train_federated.py",
+    "sha": "8dd74a5d61218d938d1357c65f98e5406d51ca6a3f76174024aa029ef3ba0808",
+    "len": 701
+  },
+  {
+    "path": "tests/test_attack.py",
+    "sha": "0d44e5d36d68e95a610be407132df5d4f8c9881f57543bb62075bec6e5331705",
+    "len": 1403
+  },
+  {
+    "path": "tests/test_cross_layer.py",
+    "sha": "b473209c88f305e7b9a80a925fddbc09ca57c2ceb370932f0eaa687b63216e6b",
+    "len": 811
+  },
+  {
+    "path": "tests/test_detector.py",
+    "sha": "67a94abfd38b1fcbfea165d4778f691dd4e246adc976e451f034e9b6ea7d7afb",
+    "len": 2597
+  },
+  {
+    "path": "tests/test_fingerprint.py",
+    "sha": "85e8856cc3b203a248974d67572d86d1ed85e0dc234c2ddf42d774a45f8b1a0a",
+    "len": 995
+  },
+  {
+    "path": "tests/test_integration.py",
+    "sha": "edf59898fc48e0dd9fc1b3169f375b0c365b6504affca5532415ebb1e1c75281",
+    "len": 1973
+  },
+  {
+    "path": "tests/test_metrics.py",
+    "sha": "97a8c9ff0b84374c88fd61eed453bf55a72af82332b157b2af6ab4a31efea2ab",
+    "len": 1403
+  },
+  {
+    "path": "tests/test_mitigation.py",
+    "sha": "8db222e4ad8f7d2b38664d030f17b05e31c62b6104b476261216b94abf226b95",
+    "len": 728
+  },
+  {
+    "path": "tests/test_model.py",
+    "sha": "ec0d492101d60e139b1ba84adde1106f155bf00aeba74bc1c305b90c606cf5d3",
+    "len": 1300
+  },
+  {
+    "path": "tests/test_partition.py",
+    "sha": "a3074e85a3927bc2f234bdd5ec261dcac54a722c7e9bbc944555be2ee62a7aec",
+    "len": 852
+  },
+  {
+    "path": "tests/test_reference.py",
+    "sha": "155196049c9f508f2103cca6078644219f8a6130f0002e5e9c113d9ab233d7da",
+    "len": 1256
+  },
+  {
+    "path": "tests/test_robust_aggregation.py",
+    "sha": "02e1aa7249bc12189e37b8416c54caa9dc4808440913e94dd7ab7d6323a59e16",
+    "len": 1117
+  },
+  {
+    "path": "tests/test_sensitivity.py",
+    "sha": "39cf828ba20414a8fb0dbd9164d406ae8f2b6fbeb2c9162aea8e8f2d83d6435b",
+    "len": 2082
+  },
+  {
+    "path": "tests/test_statistical_tests.py",
+    "sha": "1417ae4f2c08ea5e94a4d1c2a49262be5c7a8cafcb69e2cf3d5e96df07d10d88",
+    "len": 568
+  },
+  {
+    "path": "tests/test_temporal.py",
+    "sha": "e0ece32dd11ac2919e1f9193d03a190dbc1c6cd9a2cc7d94ea7c80934cb22925",
+    "len": 1262
+  },
+  {
+    "path": "visualization/__init__.py",
+    "sha": "5041c48e160ad4feff82c15f80114c9fdfeb81397a6dab9a2e26b6511b373b3b",
+    "len": 42
+  },
+  {
+    "path": "visualization/plots.py",
+    "sha": "12f691d9bb539c9c383184b6e88f26466da085707ff7a61301881a7b5bb9cb88",
+    "len": 5561
+  }
+]
