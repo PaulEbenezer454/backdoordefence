@@ -7,8 +7,11 @@ venv/
 .pytest_cache/
 work/
 outputs/
+<<<<<<< HEAD
 
 # Datasets, logs, and large generated artifacts are not committed by default.
+=======
+>>>>>>> 473218b7a4fcb73f14b6d7a5d36bf94908af7145
 data/*
 !data/.gitkeep
 logs/*
@@ -23,4 +26,8 @@ results/figures/*
 !results/figures/.gitkeep
 *.pt
 *.pth
+<<<<<<< HEAD
 *.ckpt
+=======
+*.ckpt
+>>>>>>> 473218b7a4fcb73f14b6d7a5d36bf94908af7145
