@@ -1,0 +1,24 @@
+# Keep Python-generated files and local environments out of version control.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+work/
+outputs/
+data/*
+!data/.gitkeep
+logs/*
+!logs/.gitkeep
+results/raw/*
+!results/raw/.gitkeep
+results/processed/*
+!results/processed/.gitkeep
+results/tables/*
+!results/tables/.gitkeep
+results/figures/*
+!results/figures/.gitkeep
+*.pt
+*.pth
+*.ckpt
