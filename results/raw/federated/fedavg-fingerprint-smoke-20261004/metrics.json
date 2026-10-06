@@ -1,0 +1,66 @@
+{
+  "experiment_id": "fedavg-fingerprint-smoke-20261004",
+  "seed": 42,
+  "device": "cpu",
+  "runtime_seconds": 6.5509559999918565,
+  "environment": {
+    "python": "3.14.6",
+    "torch": "2.11.0+cpu",
+    "torchvision": "0.26.0+cpu",
+    "flower": "1.39.0"
+  },
+  "partition": {
+    "type": "iid",
+    "clients": 5,
+    "dirichlet_alpha": 0.5
+  },
+  "num_clients": 5,
+  "history": [
+    {
+      "round": 1,
+      "selected_clients": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "global_loss": 2.2853276584625246,
+      "global_accuracy": 0.1056,
+      "weighted_client_train_loss": 2.305318411509196,
+      "weighted_client_accuracy": 0.10866666666666666,
+      "client_metrics": [
+        {
+          "client_id": 0,
+          "num_examples": 900,
+          "train_loss": 2.306473979949951,
+          "client_accuracy": 0.12
+        },
+        {
+          "client_id": 1,
+          "num_examples": 900,
+          "train_loss": 2.3009313774108886,
+          "client_accuracy": 0.12222222222222222
+        },
+        {
+          "client_id": 2,
+          "num_examples": 900,
+          "train_loss": 2.304181946648492,
+          "client_accuracy": 0.11222222222222222
+        },
+        {
+          "client_id": 3,
+          "num_examples": 900,
+          "train_loss": 2.306787079705132,
+          "client_accuracy": 0.09222222222222222
+        },
+        {
+          "client_id": 4,
+          "num_examples": 900,
+          "train_loss": 2.308217673831516,
+          "client_accuracy": 0.09666666666666666
+        }
+      ]
+    }
+  ]
+}

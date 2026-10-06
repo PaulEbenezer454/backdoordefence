@@ -1,0 +1,10 @@
+| experiment_id | result_type | seed | device | final_clean_accuracy | final_clean_loss | final_asr | aggregation | partition | attack | mitigation | detector_component | malicious_client_count | configured_malicious_fraction | realized_malicious_fraction | runtime_seconds |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| lsa-coordinate-median-late20-seed42-20261004 | federated | 42 | cpu | 0.8413 | 0.5056804861068726 | 0.0311529933481153 | coordinate_median | iid | lsa_inspired | none | nan | 1 | 0.2 | 0.2 | 127.36094329995103 |
+| lsa-inspired-high-malicious40-late20-seed42-20261004 | federated | 42 | cpu | 0.7184 | 0.8191329418182373 | 0.3148558758314856 | fedavg | iid | lsa_inspired | none | nan | 2 | 0.4 | 0.4 | 128.09878879995085 |
+| lsa-inspired-late-mnist-20-20261004 | federated | 42 | cpu | 0.7872 | 0.6517599781036377 | 0.16175166297117516 | fedavg | iid | lsa_inspired | none | nan | 1 | 0.2 | 0.2 | 128.94717079994734 |
+| lsa-inspired-late-mnist-seed21-20261004 | federated | 21 | cpu | 0.8572 | 0.475032429933548 | 0.025055432372505543 | fedavg | iid | lsa_inspired | none | nan | 1 | 0.2 | 0.2 | 125.57769730000291 |
+| lsa-inspired-late-mnist-seed7-20261004 | federated | 7 | cpu | 0.8332 | 0.5254901008605957 | 0.02350332594235033 | fedavg | iid | lsa_inspired | none | nan | 1 | 0.2 | 0.2 | 126.05652710003778 |
+| lsa-inspired-noniid-alpha01-late20-seed42-20261004 | federated | 42 | cpu | 0.8055 | 0.5963527516365051 | 0.0458980044345898 | fedavg | non_iid | lsa_inspired | none | nan | 1 | 0.2 | 0.2 | 131.8073990000412 |
+| lsa-multi-krum-late20-seed42-20261004 | federated | 42 | cpu | 0.8444 | 0.4834335517883301 | 0.018736141906873616 | multi_krum | iid | lsa_inspired | none | nan | 1 | 0.2 | 0.2 | 132.179573200061 |
+| lsa-trimmed-mean-late20-seed42-20261004 | federated | 42 | cpu | 0.8383 | 0.5139980201244354 | 0.03713968957871397 | trimmed_mean | iid | lsa_inspired | none | nan | 1 | 0.2 | 0.2 | 132.53101989999413 |

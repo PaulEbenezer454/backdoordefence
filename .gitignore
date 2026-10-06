@@ -1,4 +1,4 @@
-# Keep Python-generated files and local environments out of version control.
+# Python caches and local environments
 __pycache__/
 *.py[cod]
 .venv/
@@ -7,27 +7,12 @@ venv/
 .pytest_cache/
 work/
 outputs/
-<<<<<<< HEAD
 
-# Datasets, logs, and large generated artifacts are not committed by default.
-=======
->>>>>>> 473218b7a4fcb73f14b6d7a5d36bf94908af7145
+# Local datasets, logs, and model checkpoints
 data/*
 !data/.gitkeep
 logs/*
 !logs/.gitkeep
-results/raw/*
-!results/raw/.gitkeep
-results/processed/*
-!results/processed/.gitkeep
-results/tables/*
-!results/tables/.gitkeep
-results/figures/*
-!results/figures/.gitkeep
 *.pt
 *.pth
-<<<<<<< HEAD
 *.ckpt
-=======
-*.ckpt
->>>>>>> 473218b7a4fcb73f14b6d7a5d36bf94908af7145

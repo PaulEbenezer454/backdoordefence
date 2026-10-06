@@ -1,0 +1,60 @@
+attack:
+  attack_rounds:
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  enabled: true
+  malicious_fraction: 0.2
+  name: lsa_inspired
+  poison_fraction: 0.5
+  selected_layers:
+  - fc1
+  - output
+  smoothing_lambda: 1.0
+  smoothing_tau: 0.8
+  target_class: 0
+  trigger:
+    size: 3
+    type: bottom_right_square
+    value: 1.0
+dataset:
+  data_dir: data
+  download: true
+  name: mnist
+  partition:
+    clients: 5
+    dirichlet_alpha: 0.5
+    type: iid
+  subset_size: 5000
+  validation_fraction: 0.1
+defense:
+  enabled: false
+  mitigation: reject
+  threshold:
+    percentile: 95.0
+    strategy: validation
+    value: null
+  weights:
+    layer: 1.0
+    temporal: 0.0
+    cross_layer: 0.0
+  component: A_layer
+model:
+  name: mnist_cnn
+  num_classes: 10
+project:
+  mode: quick
+  name: TCLAD-FL
+  output_root: results
+  seed: 42
+training:
+  batch_size: 64
+  client_fraction: 1.0
+  deterministic: true
+  device: auto
+  learning_rate: 0.01
+  local_epochs: 1
+  num_workers: 0
+  rounds: 20

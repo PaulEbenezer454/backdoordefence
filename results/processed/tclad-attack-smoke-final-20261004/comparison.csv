@@ -1,0 +1,9 @@
+detection_rate,false_positive_rate,precision,recall,f1,benign_acceptance_rate,malicious_rejection_rate,roc_auc,pr_auc,method,threshold,detection_threshold_source
+1.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,whole_update,1.091743476066882,benign validation rounds; 95.0th percentile
+0.5,0.75,0.14285714285714285,0.5,0.2222222222222222,0.25,0.5,0.375,0.225,A_layer_only,392.5097295173571,benign validation rounds; 95.0th percentile
+1.0,0.75,0.25,1.0,0.4,0.25,1.0,1.0,1.0,B_layer_temporal,903610.3087778393,benign validation rounds; 95.0th percentile
+0.5,0.75,0.14285714285714285,0.5,0.2222222222222222,0.25,0.5,0.3125,0.20833333333333331,C_layer_cross_layer,196.88665428670825,benign validation rounds; 95.0th percentile
+1.0,0.75,0.25,1.0,0.4,0.25,1.0,1.0,1.0,D_temporal_cross_layer,903610.535378357,benign validation rounds; 95.0th percentile
+1.0,0.75,0.25,1.0,0.4,0.25,1.0,1.0,1.0,temporal_only,1807219.7607416653,benign validation rounds; 95.0th percentile
+0.5,0.5,0.2,0.5,0.2857142857142857,0.5,0.5,0.4375,0.24285714285714285,cross_layer_only,2.226418895119034,benign validation rounds; 95.0th percentile
+1.0,0.75,0.25,1.0,0.4,0.25,1.0,1.0,1.0,E_full_tclad,602407.3091902424,benign validation rounds; 95.0th percentile

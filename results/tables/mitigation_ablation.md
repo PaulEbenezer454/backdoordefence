@@ -1,0 +1,7 @@
+| experiment_id | seed | detector_component | final_clean_accuracy | final_asr | realized_malicious_fraction | runtime_seconds |
+| --- | --- | --- | --- | --- | --- | --- |
+| tclad-ablation-seed42-20261004-down_weight-A_layer | 42 | A_layer | 0.8234 | 0.08902439024390243 | 0.2 | 131.33927050000057 |
+| tclad-ablation-seed42-20261004-down_weight-B_layer_temporal | 42 | B_layer_temporal | 0.8262 | 0.08259423503325942 | 0.2 | 131.33919400000013 |
+| tclad-ablation-seed42-20261004-down_weight-C_layer_cross_layer | 42 | C_layer_cross_layer | 0.8197 | 0.09567627494456762 | 0.2 | 136.04424000007566 |
+| tclad-ablation-seed42-20261004-down_weight-D_temporal_cross_layer | 42 | D_temporal_cross_layer | 0.8159 | 0.10288248337028826 | 0.2 | 136.87632510007825 |
+| tclad-ablation-seed42-20261004-down_weight-E_full_tclad | 42 | E_full_tclad | 0.8193 | 0.09656319290465631 | 0.2 | 145.8581774000777 |

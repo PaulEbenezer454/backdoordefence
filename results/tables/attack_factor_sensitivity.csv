@@ -1,0 +1,8 @@
+experiment_id,result_type,seed,device,final_clean_accuracy,final_clean_loss,final_asr,aggregation,partition,attack,mitigation,detector_component,malicious_client_count,configured_malicious_fraction,realized_malicious_fraction,runtime_seconds
+lsa-inspired-high-malicious40-late20-seed42-20261004,federated,42,cpu,0.7184,0.8191329418182373,0.3148558758314856,fedavg,iid,lsa_inspired,none,,2,0.4,0.4,128.09878879995085
+lsa-inspired-late-mnist-20-20261004,federated,42,cpu,0.7872,0.6517599781036377,0.16175166297117516,fedavg,iid,lsa_inspired,none,,1,0.2,0.2,128.94717079994734
+lsa-inspired-late-mnist-seed21-20261004,federated,21,cpu,0.8572,0.475032429933548,0.025055432372505543,fedavg,iid,lsa_inspired,none,,1,0.2,0.2,125.57769730000291
+lsa-inspired-late-mnist-seed7-20261004,federated,7,cpu,0.8332,0.5254901008605957,0.02350332594235033,fedavg,iid,lsa_inspired,none,,1,0.2,0.2,126.05652710003778
+lsa-inspired-mnist-iid-quick-20-20261004,federated,42,cpu,0.8425,0.49926201038360596,0.02516629711751663,fedavg,iid,lsa_inspired,none,,1,0.2,0.2,174.28865050000604
+lsa-inspired-noniid-alpha01-late20-seed42-20261004,federated,42,cpu,0.8055,0.5963527516365051,0.0458980044345898,fedavg,non_iid,lsa_inspired,none,,1,0.2,0.2,131.8073990000412
+lsa-mnist-attack-smoke-20261004,federated,42,cpu,0.1049,2.254779527282715,0.0,fedavg,iid,lsa_inspired,none,,1,0.2,0.2,17.737699499935843

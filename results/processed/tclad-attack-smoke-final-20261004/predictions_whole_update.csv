@@ -1,0 +1,11 @@
+experiment_id,round,client_id,overall_anomaly_score,ground_truth,predicted_label
+lsa-mnist-attack-smoke-20261004,1,0,1.592446980837927,1,1
+lsa-mnist-attack-smoke-20261004,1,1,0.8917449806152571,0,0
+lsa-mnist-attack-smoke-20261004,1,2,0.9130532143530156,0,0
+lsa-mnist-attack-smoke-20261004,1,3,0.8100433718319251,0,0
+lsa-mnist-attack-smoke-20261004,1,4,0.7812839554407889,0,0
+lsa-mnist-attack-smoke-20261004,2,0,1.4717097451935712,1,1
+lsa-mnist-attack-smoke-20261004,2,1,0.8091265244959592,0,0
+lsa-mnist-attack-smoke-20261004,2,2,0.8021193332052268,0,0
+lsa-mnist-attack-smoke-20261004,2,3,0.7497799892570435,0,0
+lsa-mnist-attack-smoke-20261004,2,4,0.7096909895125878,0,0

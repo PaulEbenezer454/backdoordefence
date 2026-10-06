@@ -1,0 +1,4 @@
+| reference_experiment | evaluation_experiment | runtime_seconds | python_tracemalloc_peak_bytes | input_fingerprint_rows | client_round_scores | temporal_rows | cross_layer_rows | fit_rounds | threshold_validation_rounds | measurement_note |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| fedavg-mnist-iid-reference-20-20261004 | lsa-inspired-late-mnist-20-20261004 | 16.351014100015163 | 10117539 | 4400 | 100 | 4400 | 600 | [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] | [11, 12, 13, 14, 15] | Single local CPU measurement; tracemalloc peak excludes some native allocations and is not total process RSS. |
+| fedavg-mnist-iid-reference-20-20261004 | lsa-inspired-late-mnist-20-20261004 | 16.792534100008197 | 10077650 | 4400 | 100 | 4400 | 600 | [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] | [11, 12, 13, 14, 15] | Single local CPU measurement; tracemalloc peak excludes some native allocations and is not total process RSS. |

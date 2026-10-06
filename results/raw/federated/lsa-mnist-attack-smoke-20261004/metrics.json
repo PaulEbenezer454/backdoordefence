@@ -1,0 +1,114 @@
+{
+  "experiment_id": "lsa-mnist-attack-smoke-20261004",
+  "seed": 42,
+  "device": "cpu",
+  "runtime_seconds": 17.737699499935843,
+  "environment": {
+    "python": "3.14.6",
+    "torch": "2.11.0+cpu",
+    "torchvision": "0.26.0+cpu",
+    "flower": "1.39.0"
+  },
+  "partition": {
+    "type": "iid",
+    "clients": 5,
+    "dirichlet_alpha": 0.5
+  },
+  "num_clients": 5,
+  "history": [
+    {
+      "round": 1,
+      "selected_clients": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "global_loss": 2.284927438735962,
+      "global_accuracy": 0.1048,
+      "weighted_client_train_loss": 2.2983380137549507,
+      "weighted_client_accuracy": 0.10377777777777777,
+      "client_metrics": [
+        {
+          "client_id": 0,
+          "num_examples": 900,
+          "train_loss": 2.2715719911787247,
+          "client_accuracy": 0.09555555555555556
+        },
+        {
+          "client_id": 1,
+          "num_examples": 900,
+          "train_loss": 2.3009313774108886,
+          "client_accuracy": 0.12222222222222222
+        },
+        {
+          "client_id": 2,
+          "num_examples": 900,
+          "train_loss": 2.304181946648492,
+          "client_accuracy": 0.11222222222222222
+        },
+        {
+          "client_id": 3,
+          "num_examples": 900,
+          "train_loss": 2.306787079705132,
+          "client_accuracy": 0.09222222222222222
+        },
+        {
+          "client_id": 4,
+          "num_examples": 900,
+          "train_loss": 2.308217673831516,
+          "client_accuracy": 0.09666666666666666
+        }
+      ],
+      "attack_success_rate": 0.0
+    },
+    {
+      "round": 2,
+      "selected_clients": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "global_loss": 2.254779527282715,
+      "global_accuracy": 0.1049,
+      "weighted_client_train_loss": 2.2661782542334663,
+      "weighted_client_accuracy": 0.11088888888888888,
+      "client_metrics": [
+        {
+          "client_id": 0,
+          "num_examples": 900,
+          "train_loss": 2.231590215894911,
+          "client_accuracy": 0.09555555555555556
+        },
+        {
+          "client_id": 1,
+          "num_examples": 900,
+          "train_loss": 2.2733897177378335,
+          "client_accuracy": 0.13444444444444445
+        },
+        {
+          "client_id": 2,
+          "num_examples": 900,
+          "train_loss": 2.2746513324313695,
+          "client_accuracy": 0.10777777777777778
+        },
+        {
+          "client_id": 3,
+          "num_examples": 900,
+          "train_loss": 2.274435093137953,
+          "client_accuracy": 0.09444444444444444
+        },
+        {
+          "client_id": 4,
+          "num_examples": 900,
+          "train_loss": 2.276824911965264,
+          "client_accuracy": 0.12222222222222222
+        }
+      ],
+      "attack_success_rate": 0.0
+    }
+  ]
+}
