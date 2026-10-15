@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f6f8">
+  <title>TCLAD-FL · Research Console</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js" defer></script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="brand" href="#overview"><span class="brand-mark">T</span><span>TCLAD<span class="brand-muted">-FL</span><small>RESEARCH CONSOLE</small></span></a>
+      <div class="side-label">WORKSPACE</div>
+      <nav><a class="nav-item active" href="#overview"><span>▦</span> Overview</a><a class="nav-item" href="#experiments"><span>◉</span> Experiments</a><a class="nav-item" href="#charts"><span>▤</span> Figures & tables</a></nav>
+      <div class="side-label run-label">NEW RUN</div>
+      <button class="side-run" data-run="baseline">＋ <span>Benign FedAvg</span></button>
+      <button class="side-run" data-run="lsa">＋ <span>LSA experiment</span></button>
+      <div class="side-bottom"><span class="live-dot"></span> LOCAL WORKSPACE<small>Not exposed to the internet</small></div>
+    </aside>
+    <main>
+      <header class="topbar"><div class="breadcrumb">TCLAD-FL <span>/</span> Dashboard</div><div class="top-actions"><a href="https://github.com/PaulEbenezer454/backdoordefence" target="_blank" rel="noreferrer">GitHub ↗</a><span class="avatar">PE</span></div></header>
+      <div class="content" id="overview">
+        <div class="heading-row"><div><div class="eyebrow">FEDERATED LEARNING · LOCAL DEMO</div><h1>Research dashboard</h1><p class="subtitle">Explore recorded MNIST runs, compare learning curves, and launch a fresh experiment.</p></div><button class="primary" id="refresh">↻ &nbsp; Refresh data</button></div>
+        <div class="notice"><span class="notice-icon">i</span><span><b>Research prototype.</b> The charts show saved experiment data. Results are exploratory; the LSA attack and detector have documented limitations. This demo runs only on this computer.</span><a href="https://github.com/PaulEbenezer454/backdoordefence/blob/main/research/FINAL_EXPERIMENT_REPORT.md" target="_blank" rel="noreferrer">Read report ↗</a></div>
+        <section class="stats" id="stats"></section>
+        <section class="section" id="experiments"><div class="section-head"><div><h2>Experiment runs</h2><p>Saved locally under <code>results/raw/federated</code></p></div><div class="filters"><input id="search" placeholder="Search runs…"><select id="filter"><option value="all">All runs</option><option value="benign">Benign</option><option value="attack">Attack runs</option></select></div></div><div class="table-wrap"><table><thead><tr><th>EXPERIMENT</th><th>TYPE</th><th>ROUNDS</th><th>CLEAN ACC.</th><th>ASR</th><th>SEED</th><th></th></tr></thead><tbody id="run-rows"></tbody></table></div></section>
+        <section class="section charts-section" id="charts"><div class="section-head"><div><h2>Learning curves</h2><p>Choose a run to inspect its round-by-round progress.</p></div><select id="chart-run" class="chart-select"></select></div><div class="chart-grid"><article class="panel"><div class="panel-title">Global accuracy <span>per communication round</span></div><div class="canvas-wrap"><canvas id="accuracy-chart"></canvas></div></article><article class="panel"><div class="panel-title">Global loss <span>per communication round</span></div><div class="canvas-wrap"><canvas id="loss-chart"></canvas></div></article></div></section>
+        <section class="section figures-section"><div class="section-head"><div><h2>Saved research figures</h2><p>Click a figure to view it full size.</p></div></div><div id="figures" class="figure-grid"></div></section>
+        <section class="section"><div class="section-head"><div><h2>Result tables</h2><p>Download the generated CSV files.</p></div></div><div id="tables" class="table-links"></div></section>
+        <footer> TClAD-FL research prototype <span>·</span> Metrics are loaded from local experiment files <span>·</span> <a href="https://github.com/PaulEbenezer454/backdoordefence" target="_blank" rel="noreferrer">Source repository</a></footer>
+      </div>
+    </main>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <dialog id="run-dialog"><form method="dialog" class="dialog-close"><button aria-label="Close">×</button></form><div class="modal-icon">▶</div><div class="eyebrow">EXPERIMENT CONTROL</div><h2 id="dialog-title">Start experiment</h2><p id="dialog-description">This runs on your computer and may take a few minutes.</p><label for="config">Configuration</label><select id="config"><option value="mnist.yaml">MNIST · quick baseline</option><option value="mnist_lsa_late.yaml">MNIST · LSA-inspired attack</option><option value="mnist_conventional_late.yaml">MNIST · conventional backdoor</option></select><div class="modal-note">A unique run folder is created in <code>results/raw</code>. Existing experiments are not overwritten.</div><div class="dialog-actions"><button class="secondary" id="cancel-run">Cancel</button><button class="primary" id="confirm-run">Start run</button></div></dialog>
+</body>
+</html>
+

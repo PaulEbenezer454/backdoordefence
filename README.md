@@ -35,6 +35,26 @@ Use the project-local environment. For CPU Torch, install the official CPU wheel
 
 ## Commands
 
+### Browser demo (Windows)
+
+Double-click `Run-Demo.bat` in File Explorer. It starts a local dashboard and opens Chrome at `http://127.0.0.1:8765`. Keep the terminal window open while using it; press `Ctrl+C` in that window to stop the server. If the project virtual environment is present, the launcher uses it; otherwise it uses the Python launcher (`py`).
+
+The dashboard displays experiment metrics and figures already saved in `results/`, and can start a new benign FedAvg, LSA-inspired, or conventional backdoor run. A new run creates a unique results folder and may take several minutes. The dashboard is bound to localhost and is not a public website. The Charts.js and font assets are loaded from public CDNs, so charts may use fallback styling or fail to render when offline; the rest of the dashboard uses local files.
+
+### Public static demo with GitHub Pages
+
+The `docs/` folder contains a static version of the dashboard for viewing saved results in Chrome from GitHub Pages. It cannot start Python training; use the local dashboard above for experiment controls. Before publishing updated results, run `python scripts/export_web_data.py` to refresh `docs/data.json`. In the repository's GitHub **Settings → Pages**, choose **Deploy from a branch**, branch `main`, folder `/docs`, then save. GitHub will provide the public Pages link after deployment completes. Saved PNG/CSV artifacts are loaded from this public repository.
+
+To start it from PowerShell instead, run:
+
+```powershell
+.\.venv\Scripts\python.exe web_demo.py
+```
+
+Then open `http://127.0.0.1:8765` in Chrome.
+
+### Research scripts
+
 ```powershell
 .\.venv\Scripts\python.exe -m pytest -q
 .\.venv\Scripts\python.exe scripts/train_centralized.py --config configs/mnist.yaml
@@ -64,4 +84,5 @@ Clients are simulated in-process. Their local updates are wrapped in Flower `Fit
 The LSA seed paper uses layer substitution to identify backdoor-critical layers, iterative critical-layer selection, fine-tuning, and smoothed layer updates. This prototype instead uses a configured layer mask (default `fc1`/`output` in the late config), trigger-poisoned local examples, and benign-mean replacement for unselected-layer updates. It must be reported as **LSA-inspired approximation**. The small experiment showed weak ASR and high benign rejection; do not conceal these results.
 
 Server-side individual-update detection is incompatible with secure aggregation that hides client updates. Threshold calibration requires a separate benign run and is sensitive to training-time drift. The current 20-round, 5-client metrics repeat the same client identities across rounds; they are not independent observations and do not support significance claims. Larger, matched multi-seed studies are required.
+
 

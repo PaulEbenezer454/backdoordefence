@@ -1,0 +1,3956 @@
+{
+  "experiments": [
+    {
+      "id": "fedavg-20261006T172654Z-027370",
+      "path": "results/raw/federated/fedavg-20261006T172654Z-027370",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "none",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.8554,
+      "loss": 0.46638440537452697,
+      "asr": null,
+      "runtime": 155.0612976999255,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1056,
+          "loss": 2.2853276584625246,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1117,
+          "loss": 2.2549893070220945,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.2304,
+          "loss": 2.2224161594390868,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.4126,
+          "loss": 2.176897646713257,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.5082,
+          "loss": 2.1095137588500976,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.5421,
+          "loss": 2.005716464996338,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.5586,
+          "loss": 1.8462450679779052,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.5807,
+          "loss": 1.622532835960388,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6044,
+          "loss": 1.3637228193283082,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6343,
+          "loss": 1.1359174110412598,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.6747,
+          "loss": 0.9695514953613281,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.708,
+          "loss": 0.85205557346344,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7319,
+          "loss": 0.7689188616752625,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7598,
+          "loss": 0.6952210248947144,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7825,
+          "loss": 0.6389926456451416,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.8029,
+          "loss": 0.589362794303894,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.8183,
+          "loss": 0.5509370277404785,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.8333,
+          "loss": 0.5178747519969941,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.8455,
+          "loss": 0.4906163456916809,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.8554,
+          "loss": 0.46638440537452697,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "tclad-ablation-seed42-20261004-down_weight-E_full_tclad",
+      "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-E_full_tclad",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "lsa_inspired",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.8193,
+      "loss": 0.5695983008384704,
+      "asr": null,
+      "runtime": 145.8581774000777,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1056,
+          "loss": 2.2853276584625246,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1117,
+          "loss": 2.2549893070220945,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.2304,
+          "loss": 2.2224161594390868,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.4126,
+          "loss": 2.176897646713257,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.5082,
+          "loss": 2.1095137588500976,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.5421,
+          "loss": 2.005716464996338,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.5586,
+          "loss": 1.8462450679779052,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.5807,
+          "loss": 1.622532835960388,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6044,
+          "loss": 1.3637228193283082,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6343,
+          "loss": 1.1359174110412598,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.6747,
+          "loss": 0.9695514953613281,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.708,
+          "loss": 0.85205557346344,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7319,
+          "loss": 0.7689188616752625,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7598,
+          "loss": 0.6952210248947144,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7825,
+          "loss": 0.6389926456451416,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.7903,
+          "loss": 0.6471453863143921,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.7911,
+          "loss": 0.643980986213684,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.7886,
+          "loss": 0.6443053362846375,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.7996,
+          "loss": 0.6184068328857422,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.8193,
+          "loss": 0.5695983008384704,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "tclad-ablation-seed42-20261004-down_weight-D_temporal_cross_layer",
+      "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-D_temporal_cross_layer",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "lsa_inspired",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.8159,
+      "loss": 0.5770455360412597,
+      "asr": null,
+      "runtime": 136.87632510007825,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1056,
+          "loss": 2.2853276584625246,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1117,
+          "loss": 2.2549893070220945,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.2304,
+          "loss": 2.2224161594390868,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.4126,
+          "loss": 2.176897646713257,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.5082,
+          "loss": 2.1095137588500976,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.5421,
+          "loss": 2.005716464996338,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.5586,
+          "loss": 1.8462450679779052,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.5807,
+          "loss": 1.622532835960388,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6044,
+          "loss": 1.3637228193283082,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6343,
+          "loss": 1.1359174110412598,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.6747,
+          "loss": 0.9695514953613281,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.708,
+          "loss": 0.85205557346344,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7319,
+          "loss": 0.7689188616752625,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7598,
+          "loss": 0.6952210248947144,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7825,
+          "loss": 0.6389926456451416,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.7895,
+          "loss": 0.6491710448265076,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.7846,
+          "loss": 0.6592075952529908,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.7867,
+          "loss": 0.6479820454597474,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.7921,
+          "loss": 0.6377760970115661,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.8159,
+          "loss": 0.5770455360412597,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "tclad-ablation-seed42-20261004-down_weight-C_layer_cross_layer",
+      "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-C_layer_cross_layer",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "lsa_inspired",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.8197,
+      "loss": 0.5680013416290283,
+      "asr": null,
+      "runtime": 136.04424000007566,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1056,
+          "loss": 2.2853276584625246,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1117,
+          "loss": 2.2549893070220945,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.2304,
+          "loss": 2.2224161594390868,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.4126,
+          "loss": 2.176897646713257,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.5082,
+          "loss": 2.1095137588500976,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.5421,
+          "loss": 2.005716464996338,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.5586,
+          "loss": 1.8462450679779052,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.5807,
+          "loss": 1.622532835960388,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6044,
+          "loss": 1.3637228193283082,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6343,
+          "loss": 1.1359174110412598,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.6747,
+          "loss": 0.9695514953613281,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.708,
+          "loss": 0.85205557346344,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7319,
+          "loss": 0.7689188616752625,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7598,
+          "loss": 0.6952210248947144,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7825,
+          "loss": 0.6389926456451416,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.7874,
+          "loss": 0.6535537006378174,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.7759,
+          "loss": 0.6800264145851135,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.7952,
+          "loss": 0.633136674785614,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.801,
+          "loss": 0.6173549766540527,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.8197,
+          "loss": 0.5680013416290283,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "tclad-ablation-seed42-20261004-down_weight-B_layer_temporal",
+      "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-B_layer_temporal",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "lsa_inspired",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.8262,
+      "loss": 0.5525273401260375,
+      "asr": null,
+      "runtime": 131.33919400000013,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1056,
+          "loss": 2.2853276584625246,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1117,
+          "loss": 2.2549893070220945,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.2304,
+          "loss": 2.2224161594390868,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.4126,
+          "loss": 2.176897646713257,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.5082,
+          "loss": 2.1095137588500976,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.5421,
+          "loss": 2.005716464996338,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.5586,
+          "loss": 1.8462450679779052,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.5807,
+          "loss": 1.622532835960388,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6044,
+          "loss": 1.3637228193283082,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6343,
+          "loss": 1.1359174110412598,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.6747,
+          "loss": 0.9695514953613281,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.708,
+          "loss": 0.85205557346344,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7319,
+          "loss": 0.7689188616752625,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7598,
+          "loss": 0.6952210248947144,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7825,
+          "loss": 0.6389926456451416,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.7935,
+          "loss": 0.6408190978050232,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.8023,
+          "loss": 0.6175541538238526,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.7984,
+          "loss": 0.6243215789794921,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.8061,
+          "loss": 0.6057806219100952,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.8262,
+          "loss": 0.5525273401260375,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "tclad-ablation-seed42-20261004-down_weight-A_layer",
+      "path": "results/raw/federated/tclad-ablation-seed42-20261004-down_weight-A_layer",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "lsa_inspired",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.8234,
+      "loss": 0.5594976373672486,
+      "asr": null,
+      "runtime": 131.33927050000057,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1056,
+          "loss": 2.2853276584625246,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1117,
+          "loss": 2.2549893070220945,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.2304,
+          "loss": 2.2224161594390868,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.4126,
+          "loss": 2.176897646713257,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.5082,
+          "loss": 2.1095137588500976,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.5421,
+          "loss": 2.005716464996338,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.5586,
+          "loss": 1.8462450679779052,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.5807,
+          "loss": 1.622532835960388,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6044,
+          "loss": 1.3637228193283082,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6343,
+          "loss": 1.1359174110412598,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.6747,
+          "loss": 0.9695514953613281,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.708,
+          "loss": 0.85205557346344,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7319,
+          "loss": 0.7689188616752625,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7598,
+          "loss": 0.6952210248947144,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7825,
+          "loss": 0.6389926456451416,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.7894,
+          "loss": 0.6491391851425171,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.7869,
+          "loss": 0.6537746438980102,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.7953,
+          "loss": 0.6315079491615295,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.8051,
+          "loss": 0.6082224899291993,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.8234,
+          "loss": 0.5594976373672486,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "lsa-inspired-late-mnist-seed21-20261004",
+      "path": "results/raw/federated/lsa-inspired-late-mnist-seed21-20261004",
+      "seed": 21,
+      "device": "cpu",
+      "attack": "lsa_inspired",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.8572,
+      "loss": 0.475032429933548,
+      "asr": null,
+      "runtime": 125.57769730000291,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.3466,
+          "loss": 2.2508488498687744,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.4476,
+          "loss": 2.1867665702819825,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.4818,
+          "loss": 2.098670012664795,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.5525,
+          "loss": 1.9690037176132202,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.6084,
+          "loss": 1.7857323526382447,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.6489,
+          "loss": 1.5444584938049317,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.6632,
+          "loss": 1.2887971103668212,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.6627,
+          "loss": 1.096568565750122,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6684,
+          "loss": 0.9765698537826538,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6835,
+          "loss": 0.9024479553222656,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.6982,
+          "loss": 0.84737897605896,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.7138,
+          "loss": 0.8002489855766296,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7283,
+          "loss": 0.7536162998199463,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.748,
+          "loss": 0.7050984076499939,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7663,
+          "loss": 0.662380943775177,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.8326,
+          "loss": 0.5450702088832855,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.8402,
+          "loss": 0.5262682590961456,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.8516,
+          "loss": 0.4995931493282318,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.8538,
+          "loss": 0.4889618817806244,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.8572,
+          "loss": 0.475032429933548,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "fedavg-mnist-iid-reference-seed21-20261004",
+      "path": "results/raw/federated/fedavg-mnist-iid-reference-seed21-20261004",
+      "seed": 21,
+      "device": "cpu",
+      "attack": "none",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.8302,
+      "loss": 0.5065064233779907,
+      "asr": null,
+      "runtime": 113.36952010006644,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.3466,
+          "loss": 2.2508488498687744,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.4476,
+          "loss": 2.1867665702819825,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.4818,
+          "loss": 2.098670012664795,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.5525,
+          "loss": 1.9690037176132202,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.6084,
+          "loss": 1.7857323526382447,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.6489,
+          "loss": 1.5444584938049317,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.6632,
+          "loss": 1.2887971103668212,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.6627,
+          "loss": 1.096568565750122,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6684,
+          "loss": 0.9765698537826538,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6835,
+          "loss": 0.9024479553222656,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.6982,
+          "loss": 0.84737897605896,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.7138,
+          "loss": 0.8002489855766296,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7283,
+          "loss": 0.7536162998199463,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.748,
+          "loss": 0.7050984076499939,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7663,
+          "loss": 0.662380943775177,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.7801,
+          "loss": 0.6275161165237427,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.7933,
+          "loss": 0.5911917649745941,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.8047,
+          "loss": 0.5628449478626251,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.8166,
+          "loss": 0.5342558534622193,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.8302,
+          "loss": 0.5065064233779907,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "tclad-reject-bounded-failclosed-seed42-20261004",
+      "path": "results/raw/federated/tclad-reject-bounded-failclosed-seed42-20261004",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "lsa_inspired",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.7818,
+      "loss": 0.6382118250846863,
+      "asr": null,
+      "runtime": 139.82799130002968,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1056,
+          "loss": 2.2853276584625246,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1117,
+          "loss": 2.2549893070220945,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.2304,
+          "loss": 2.2224161594390868,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.4126,
+          "loss": 2.176897646713257,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.5082,
+          "loss": 2.1095137588500976,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.5421,
+          "loss": 2.005716464996338,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.5586,
+          "loss": 1.8462450679779052,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.5807,
+          "loss": 1.622532835960388,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6044,
+          "loss": 1.3637228193283082,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6343,
+          "loss": 1.1359174110412598,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.6747,
+          "loss": 0.9695514953613281,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.708,
+          "loss": 0.85205557346344,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7319,
+          "loss": 0.7689188616752625,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7598,
+          "loss": 0.6952210248947144,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7825,
+          "loss": 0.6389926456451416,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.7975,
+          "loss": 0.6006449699401856,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.7818,
+          "loss": 0.6382118250846863,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.7818,
+          "loss": 0.6382118250846863,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.7818,
+          "loss": 0.6382118250846863,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.7818,
+          "loss": 0.6382118250846863,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "tclad-downweight-bounded-seed42-20261004",
+      "path": "results/raw/federated/tclad-downweight-bounded-seed42-20261004",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "lsa_inspired",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.8193,
+      "loss": 0.5695983008384704,
+      "asr": null,
+      "runtime": 142.15638249996118,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1056,
+          "loss": 2.2853276584625246,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1117,
+          "loss": 2.2549893070220945,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.2304,
+          "loss": 2.2224161594390868,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.4126,
+          "loss": 2.176897646713257,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.5082,
+          "loss": 2.1095137588500976,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.5421,
+          "loss": 2.005716464996338,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.5586,
+          "loss": 1.8462450679779052,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.5807,
+          "loss": 1.622532835960388,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6044,
+          "loss": 1.3637228193283082,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6343,
+          "loss": 1.1359174110412598,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.6747,
+          "loss": 0.9695514953613281,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.708,
+          "loss": 0.85205557346344,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7319,
+          "loss": 0.7689188616752625,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7598,
+          "loss": 0.6952210248947144,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7825,
+          "loss": 0.6389926456451416,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.7903,
+          "loss": 0.6471453863143921,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.7911,
+          "loss": 0.643980986213684,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.7886,
+          "loss": 0.6443053362846375,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.7996,
+          "loss": 0.6184068328857422,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.8193,
+          "loss": 0.5695983008384704,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "tclad-reject-bounded-seed42-20261004",
+      "path": "results/raw/federated/tclad-reject-bounded-seed42-20261004",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "lsa_inspired",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.7898,
+      "loss": 0.6400642518043518,
+      "asr": null,
+      "runtime": 140.07517660001758,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1056,
+          "loss": 2.2853276584625246,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1117,
+          "loss": 2.2549893070220945,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.2304,
+          "loss": 2.2224161594390868,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.4126,
+          "loss": 2.176897646713257,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.5082,
+          "loss": 2.1095137588500976,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.5421,
+          "loss": 2.005716464996338,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.5586,
+          "loss": 1.8462450679779052,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.5807,
+          "loss": 1.622532835960388,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6044,
+          "loss": 1.3637228193283082,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6343,
+          "loss": 1.1359174110412598,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.6747,
+          "loss": 0.9695514953613281,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.708,
+          "loss": 0.85205557346344,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7319,
+          "loss": 0.7689188616752625,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7598,
+          "loss": 0.6952210248947144,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7825,
+          "loss": 0.6389926456451416,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.7975,
+          "loss": 0.6006449699401856,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.7818,
+          "loss": 0.6382118250846863,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.7819,
+          "loss": 0.6673209208488464,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.7831,
+          "loss": 0.6590251467704773,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.7898,
+          "loss": 0.6400642518043518,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "lsa-inspired-high-malicious40-late20-seed42-20261004",
+      "path": "results/raw/federated/lsa-inspired-high-malicious40-late20-seed42-20261004",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "lsa_inspired",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.7184,
+      "loss": 0.8191329418182373,
+      "asr": null,
+      "runtime": 128.09878879995085,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1056,
+          "loss": 2.2853276584625246,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1117,
+          "loss": 2.2549893070220945,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.2304,
+          "loss": 2.2224161594390868,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.4126,
+          "loss": 2.176897646713257,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.5082,
+          "loss": 2.1095137588500976,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.5421,
+          "loss": 2.005716464996338,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.5586,
+          "loss": 1.8462450679779052,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.5807,
+          "loss": 1.622532835960388,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6044,
+          "loss": 1.3637228193283082,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6343,
+          "loss": 1.1359174110412598,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.6747,
+          "loss": 0.9695514953613281,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.708,
+          "loss": 0.85205557346344,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7319,
+          "loss": 0.7689188616752625,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7598,
+          "loss": 0.6952210248947144,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7825,
+          "loss": 0.6389926456451416,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.6899,
+          "loss": 0.8975584389686585,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.6738,
+          "loss": 0.9444301144599915,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.6913,
+          "loss": 0.8901899494171143,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.6968,
+          "loss": 0.8676352157592774,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.7184,
+          "loss": 0.8191329418182373,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "lsa-inspired-noniid-alpha01-late20-seed42-20261004",
+      "path": "results/raw/federated/lsa-inspired-noniid-alpha01-late20-seed42-20261004",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "lsa_inspired",
+      "aggregation": "fedavg",
+      "partition": "non_iid",
+      "rounds": 20,
+      "accuracy": 0.8055,
+      "loss": 0.5963527516365051,
+      "asr": null,
+      "runtime": 131.8073990000412,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1072,
+          "loss": 2.2895727890014648,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1492,
+          "loss": 2.221722094345093,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.3207,
+          "loss": 2.071504578781128,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.4622,
+          "loss": 1.8493808448791504,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.5363,
+          "loss": 1.6079269584655762,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.5932,
+          "loss": 1.3959376527786256,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.6167,
+          "loss": 1.231665675163269,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.6387,
+          "loss": 1.1043424072265624,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6625,
+          "loss": 1.0030958992004395,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6837,
+          "loss": 0.9214906968116761,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.703,
+          "loss": 0.8570255430221557,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.7224,
+          "loss": 0.8032003740310669,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7365,
+          "loss": 0.7598669773101807,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7518,
+          "loss": 0.722799451828003,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7631,
+          "loss": 0.6924882490158081,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.7686,
+          "loss": 0.6770361261367798,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.7795,
+          "loss": 0.6524821078300476,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.7882,
+          "loss": 0.6320965848922729,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.7978,
+          "loss": 0.61220042386055,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.8055,
+          "loss": 0.5963527516365051,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "lsa-multi-krum-late20-seed42-20261004",
+      "path": "results/raw/federated/lsa-multi-krum-late20-seed42-20261004",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "none",
+      "aggregation": "multi_krum",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.8444,
+      "loss": 0.4834335517883301,
+      "asr": null,
+      "runtime": 132.179573200061,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1032,
+          "loss": 2.28318296585083,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1248,
+          "loss": 2.254166796875,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.1845,
+          "loss": 2.2213097942352293,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.4108,
+          "loss": 2.1735626136779786,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.4869,
+          "loss": 2.1021677688598635,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.4939,
+          "loss": 1.9924404598236083,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.5008,
+          "loss": 1.8250892118453979,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.5468,
+          "loss": 1.5980755191802978,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.5605,
+          "loss": 1.3624525966644288,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6001,
+          "loss": 1.1487763011932373,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.641,
+          "loss": 0.9929846121788025,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.6813,
+          "loss": 0.8784900486946106,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7145,
+          "loss": 0.7909747016906739,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7379,
+          "loss": 0.7264933065414428,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7663,
+          "loss": 0.6622763856887818,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.7863,
+          "loss": 0.6110546751022339,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.8039,
+          "loss": 0.5705968126296997,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.8199,
+          "loss": 0.5355035815238952,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.8336,
+          "loss": 0.5064340630054474,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.8444,
+          "loss": 0.4834335517883301,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "lsa-trimmed-mean-late20-seed42-20261004",
+      "path": "results/raw/federated/lsa-trimmed-mean-late20-seed42-20261004",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "none",
+      "aggregation": "trimmed_mean",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.8383,
+      "loss": 0.5139980201244354,
+      "asr": null,
+      "runtime": 132.53101989999413,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.106,
+          "loss": 2.285287469100952,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1128,
+          "loss": 2.255226584625244,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.2287,
+          "loss": 2.2231559875488283,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.408,
+          "loss": 2.1785287300109863,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.5098,
+          "loss": 2.112205110168457,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.543,
+          "loss": 2.0104146913528442,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.5611,
+          "loss": 1.8544833351135255,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.5857,
+          "loss": 1.6350030319213866,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6134,
+          "loss": 1.377398811340332,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6441,
+          "loss": 1.1440648309707642,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.6818,
+          "loss": 0.9708714484214783,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.7115,
+          "loss": 0.8523051449775696,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7382,
+          "loss": 0.7631284397125244,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7596,
+          "loss": 0.6980856974601746,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7808,
+          "loss": 0.6431117020606995,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.8059,
+          "loss": 0.6090036810874939,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.8183,
+          "loss": 0.5730940445899964,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.8266,
+          "loss": 0.5478961616516114,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.8319,
+          "loss": 0.5309149585723877,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.8383,
+          "loss": 0.5139980201244354,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "lsa-coordinate-median-late20-seed42-20261004",
+      "path": "results/raw/federated/lsa-coordinate-median-late20-seed42-20261004",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "none",
+      "aggregation": "coordinate_median",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.8413,
+      "loss": 0.5056804861068726,
+      "asr": null,
+      "runtime": 127.36094329995103,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1072,
+          "loss": 2.285587996673584,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1138,
+          "loss": 2.255571156311035,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.2309,
+          "loss": 2.2238921947479247,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.4051,
+          "loss": 2.180304296875,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.5035,
+          "loss": 2.1151943328857423,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.5367,
+          "loss": 2.0158964820861818,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.5557,
+          "loss": 1.8638117435455321,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.5742,
+          "loss": 1.6476388689041137,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.599,
+          "loss": 1.3920770139694214,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6277,
+          "loss": 1.1609072277069092,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.6626,
+          "loss": 0.9948451449394226,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.6959,
+          "loss": 0.8733915323257446,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7266,
+          "loss": 0.7814338621139526,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7498,
+          "loss": 0.7111126934051514,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7697,
+          "loss": 0.6577079552650452,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.8064,
+          "loss": 0.6025292058944702,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.8169,
+          "loss": 0.571529151725769,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.8269,
+          "loss": 0.544439811706543,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.8341,
+          "loss": 0.5245210927963256,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.8413,
+          "loss": 0.5056804861068726,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "lsa-inspired-late-mnist-seed7-20261004",
+      "path": "results/raw/federated/lsa-inspired-late-mnist-seed7-20261004",
+      "seed": 7,
+      "device": "cpu",
+      "attack": "none",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.8332,
+      "loss": 0.5254901008605957,
+      "asr": null,
+      "runtime": 126.05652710003778,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.2825,
+          "loss": 2.2548780670166018,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.3475,
+          "loss": 2.209834732437134,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.463,
+          "loss": 2.15262091217041,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.553,
+          "loss": 2.076660534667969,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.6101,
+          "loss": 1.968123486328125,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.6488,
+          "loss": 1.8149366310119628,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.6737,
+          "loss": 1.6067370321273804,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.6889,
+          "loss": 1.3632859865188598,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.7053,
+          "loss": 1.1313150548934936,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.7211,
+          "loss": 0.9536478754997253,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.741,
+          "loss": 0.8295605019569396,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.7705,
+          "loss": 0.731752502155304,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7932,
+          "loss": 0.6620441047668457,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.8113,
+          "loss": 0.6059807501792908,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.8256,
+          "loss": 0.5620927644729614,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.8091,
+          "loss": 0.5786481350898742,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.8123,
+          "loss": 0.5728446343421936,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.8195,
+          "loss": 0.559225475692749,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.8276,
+          "loss": 0.5397684814453125,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.8332,
+          "loss": 0.5254901008605957,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "fedavg-mnist-iid-reference-seed7-20261004",
+      "path": "results/raw/federated/fedavg-mnist-iid-reference-seed7-20261004",
+      "seed": 7,
+      "device": "cpu",
+      "attack": "none",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.8639,
+      "loss": 0.4456044723033905,
+      "asr": null,
+      "runtime": 119.6251595999347,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.2825,
+          "loss": 2.2548780670166018,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.3475,
+          "loss": 2.209834732437134,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.463,
+          "loss": 2.15262091217041,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.553,
+          "loss": 2.076660534667969,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.6101,
+          "loss": 1.968123486328125,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.6488,
+          "loss": 1.8149366310119628,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.6737,
+          "loss": 1.6067370321273804,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.6889,
+          "loss": 1.3632859865188598,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.7053,
+          "loss": 1.1313150548934936,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.7211,
+          "loss": 0.9536478754997253,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.741,
+          "loss": 0.8295605019569396,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.7705,
+          "loss": 0.731752502155304,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7932,
+          "loss": 0.6620441047668457,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.8113,
+          "loss": 0.6059807501792908,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.8256,
+          "loss": 0.5620927644729614,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.8349,
+          "loss": 0.5309412411689758,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.8434,
+          "loss": 0.5074934929847718,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.8495,
+          "loss": 0.48868783006668093,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.8567,
+          "loss": 0.467420414352417,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.8639,
+          "loss": 0.4456044723033905,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "conventional-backdoor-mnist-iid-late20-20261004",
+      "path": "results/raw/federated/conventional-backdoor-mnist-iid-late20-20261004",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "none",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.7724,
+      "loss": 0.688713028049469,
+      "asr": null,
+      "runtime": 131.90449689992238,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1056,
+          "loss": 2.2853276584625246,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1117,
+          "loss": 2.2549893070220945,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.2304,
+          "loss": 2.2224161594390868,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.4126,
+          "loss": 2.176897646713257,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.5082,
+          "loss": 2.1095137588500976,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.5421,
+          "loss": 2.005716464996338,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.5586,
+          "loss": 1.8462450679779052,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.5807,
+          "loss": 1.622532835960388,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6044,
+          "loss": 1.3637228193283082,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6343,
+          "loss": 1.1359174110412598,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.6747,
+          "loss": 0.9695514953613281,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.708,
+          "loss": 0.85205557346344,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7319,
+          "loss": 0.7689188616752625,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7598,
+          "loss": 0.6952210248947144,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7825,
+          "loss": 0.6389926456451416,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.7665,
+          "loss": 0.7053451486587524,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.7879,
+          "loss": 0.6531892597198486,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.6945,
+          "loss": 0.9045348432540894,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.7821,
+          "loss": 0.6656076656341553,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.7724,
+          "loss": 0.688713028049469,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "fedavg-mnist-dirichlet-a01-20-20261004",
+      "path": "results/raw/federated/fedavg-mnist-dirichlet-a01-20-20261004",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "none",
+      "aggregation": "fedavg",
+      "partition": "non_iid",
+      "rounds": 20,
+      "accuracy": 0.8095,
+      "loss": 0.5807869244575501,
+      "asr": null,
+      "runtime": 107.23005999997258,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1072,
+          "loss": 2.2895727890014648,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1492,
+          "loss": 2.221722094345093,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.3207,
+          "loss": 2.071504578781128,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.4622,
+          "loss": 1.8493808448791504,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.5363,
+          "loss": 1.6079269584655762,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.5932,
+          "loss": 1.3959376527786256,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.6167,
+          "loss": 1.231665675163269,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.6387,
+          "loss": 1.1043424072265624,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6625,
+          "loss": 1.0030958992004395,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6837,
+          "loss": 0.9214906968116761,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.703,
+          "loss": 0.8570255430221557,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.7224,
+          "loss": 0.8032003740310669,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7365,
+          "loss": 0.7598669773101807,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7518,
+          "loss": 0.722799451828003,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7631,
+          "loss": 0.6924882490158081,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.776,
+          "loss": 0.6638383261680603,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.7864,
+          "loss": 0.6387217000961304,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.7956,
+          "loss": 0.6167940539836884,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.8016,
+          "loss": 0.5977348690986634,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.8095,
+          "loss": 0.5807869244575501,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "lsa-tclad-downweight-late20-attacked-20261004",
+      "path": "results/raw/federated/lsa-tclad-downweight-late20-attacked-20261004",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "none",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.8513,
+      "loss": 0.4782883742809296,
+      "asr": null,
+      "runtime": 128.68095609999727,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1056,
+          "loss": 2.2853276584625246,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1117,
+          "loss": 2.2549893070220945,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.2304,
+          "loss": 2.2224161594390868,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.4126,
+          "loss": 2.176897646713257,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.5082,
+          "loss": 2.1095137588500976,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.5421,
+          "loss": 2.005716464996338,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.5586,
+          "loss": 1.8462450679779052,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.5807,
+          "loss": 1.622532835960388,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6044,
+          "loss": 1.3637228193283082,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6343,
+          "loss": 1.1359174110412598,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.6747,
+          "loss": 0.9695514953613281,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.708,
+          "loss": 0.85205557346344,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7319,
+          "loss": 0.7689188616752625,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7598,
+          "loss": 0.6952210248947144,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7825,
+          "loss": 0.6389926456451416,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.8071,
+          "loss": 0.5999208193778992,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.8229,
+          "loss": 0.5590500612258911,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.834,
+          "loss": 0.5269293159484864,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.8386,
+          "loss": 0.510313908290863,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.8513,
+          "loss": 0.4782883742809296,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "lsa-tclad-reject-late20-attacked-20261004",
+      "path": "results/raw/federated/lsa-tclad-reject-late20-attacked-20261004",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "none",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.7851,
+      "loss": 0.6522302240371705,
+      "asr": null,
+      "runtime": 133.36973969999235,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1056,
+          "loss": 2.2853276584625246,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1117,
+          "loss": 2.2549893070220945,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.2304,
+          "loss": 2.2224161594390868,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.4126,
+          "loss": 2.176897646713257,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.5082,
+          "loss": 2.1095137588500976,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.5421,
+          "loss": 2.005716464996338,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.5586,
+          "loss": 1.8462450679779052,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.5807,
+          "loss": 1.622532835960388,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6044,
+          "loss": 1.3637228193283082,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6343,
+          "loss": 1.1359174110412598,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.6747,
+          "loss": 0.9695514953613281,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.708,
+          "loss": 0.85205557346344,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7319,
+          "loss": 0.7689188616752625,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7598,
+          "loss": 0.6952210248947144,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7825,
+          "loss": 0.6389926456451416,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.7942,
+          "loss": 0.6093993155479431,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.7831,
+          "loss": 0.6321683917999268,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.8056,
+          "loss": 0.5798050436019897,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.7977,
+          "loss": 0.6226577394485474,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.7851,
+          "loss": 0.6522302240371705,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "lsa-tclad-reject-late20-20261004",
+      "path": "results/raw/federated/lsa-tclad-reject-late20-20261004",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "none",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.851,
+      "loss": 0.47058850665092467,
+      "asr": null,
+      "runtime": 123.89624189992901,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1056,
+          "loss": 2.2853276584625246,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1117,
+          "loss": 2.2549893070220945,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.2304,
+          "loss": 2.2224161594390868,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.4126,
+          "loss": 2.176897646713257,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.5082,
+          "loss": 2.1095137588500976,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.5421,
+          "loss": 2.005716464996338,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.5586,
+          "loss": 1.8462450679779052,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.5807,
+          "loss": 1.622532835960388,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6044,
+          "loss": 1.3637228193283082,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6343,
+          "loss": 1.1359174110412598,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.6747,
+          "loss": 0.9695514953613281,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.708,
+          "loss": 0.85205557346344,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7319,
+          "loss": 0.7689188616752625,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7598,
+          "loss": 0.6952210248947144,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7825,
+          "loss": 0.6389926456451416,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.7753,
+          "loss": 0.6374598786354065,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.78,
+          "loss": 0.6385560311317444,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.8027,
+          "loss": 0.5839005422592163,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.8396,
+          "loss": 0.4995324553012848,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.851,
+          "loss": 0.47058850665092467,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "lsa-inspired-late-mnist-20-20261004",
+      "path": "results/raw/federated/lsa-inspired-late-mnist-20-20261004",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "none",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.7872,
+      "loss": 0.6517599781036377,
+      "asr": null,
+      "runtime": 128.94717079994734,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1056,
+          "loss": 2.2853276584625246,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1117,
+          "loss": 2.2549893070220945,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.2304,
+          "loss": 2.2224161594390868,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.4126,
+          "loss": 2.176897646713257,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.5082,
+          "loss": 2.1095137588500976,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.5421,
+          "loss": 2.005716464996338,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.5586,
+          "loss": 1.8462450679779052,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.5807,
+          "loss": 1.622532835960388,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6044,
+          "loss": 1.3637228193283082,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6343,
+          "loss": 1.1359174110412598,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.6747,
+          "loss": 0.9695514953613281,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.708,
+          "loss": 0.85205557346344,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7319,
+          "loss": 0.7689188616752625,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7598,
+          "loss": 0.6952210248947144,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7825,
+          "loss": 0.6389926456451416,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.766,
+          "loss": 0.7034013536453247,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.7049,
+          "loss": 0.8846104079246521,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.7207,
+          "loss": 0.8318515961647034,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.7794,
+          "loss": 0.6694009051322937,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.7872,
+          "loss": 0.6517599781036377,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "lsa-mnist-reject-smoke-20261004",
+      "path": "results/raw/federated/lsa-mnist-reject-smoke-20261004",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "none",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 2,
+      "accuracy": 0.1052,
+      "loss": 2.258449052810669,
+      "asr": null,
+      "runtime": 12.356060299905948,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1051,
+          "loss": 2.287141999053955,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1052,
+          "loss": 2.258449052810669,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "lsa-inspired-mnist-iid-quick-20-20261004",
+      "path": "results/raw/federated/lsa-inspired-mnist-iid-quick-20-20261004",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "none",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.8425,
+      "loss": 0.49926201038360596,
+      "asr": null,
+      "runtime": 174.28865050000604,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1048,
+          "loss": 2.284927438735962,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1049,
+          "loss": 2.254779527282715,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.2287,
+          "loss": 2.2220334217071533,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.3994,
+          "loss": 2.176207469177246,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.4725,
+          "loss": 2.1078673805236816,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.4963,
+          "loss": 2.0039979570388793,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.5317,
+          "loss": 1.8468666843414308,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.5884,
+          "loss": 1.6290366617202758,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6493,
+          "loss": 1.3699810106277466,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6886,
+          "loss": 1.1282962535858154,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.7204,
+          "loss": 0.949667165184021,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.7419,
+          "loss": 0.8309564764976501,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7593,
+          "loss": 0.751515386390686,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7762,
+          "loss": 0.6939106790542603,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7922,
+          "loss": 0.6471794890403748,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.8045,
+          "loss": 0.6101463691711426,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.8146,
+          "loss": 0.5795637887954712,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.8262,
+          "loss": 0.5508493167877198,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.8356,
+          "loss": 0.523430163860321,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.8425,
+          "loss": 0.49926201038360596,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "fedavg-mnist-iid-reference-20-20261004",
+      "path": "results/raw/federated/fedavg-mnist-iid-reference-20-20261004",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "none",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.8554,
+      "loss": 0.46638440537452697,
+      "asr": null,
+      "runtime": 119.1783996000886,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1056,
+          "loss": 2.2853276584625246,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1117,
+          "loss": 2.2549893070220945,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.2304,
+          "loss": 2.2224161594390868,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.4126,
+          "loss": 2.176897646713257,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.5082,
+          "loss": 2.1095137588500976,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.5421,
+          "loss": 2.005716464996338,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.5586,
+          "loss": 1.8462450679779052,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.5807,
+          "loss": 1.622532835960388,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6044,
+          "loss": 1.3637228193283082,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6343,
+          "loss": 1.1359174110412598,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.6747,
+          "loss": 0.9695514953613281,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.708,
+          "loss": 0.85205557346344,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7319,
+          "loss": 0.7689188616752625,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7598,
+          "loss": 0.6952210248947144,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7825,
+          "loss": 0.6389926456451416,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.8029,
+          "loss": 0.589362794303894,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.8183,
+          "loss": 0.5509370277404785,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.8333,
+          "loss": 0.5178747519969941,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.8455,
+          "loss": 0.4906163456916809,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.8554,
+          "loss": 0.46638440537452697,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "lsa-mnist-attack-smoke-20261004",
+      "path": "results/raw/federated/lsa-mnist-attack-smoke-20261004",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "none",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 2,
+      "accuracy": 0.1049,
+      "loss": 2.254779527282715,
+      "asr": null,
+      "runtime": 17.737699499935843,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1048,
+          "loss": 2.284927438735962,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1049,
+          "loss": 2.254779527282715,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "fedavg-fingerprint-smoke-20261004",
+      "path": "results/raw/federated/fedavg-fingerprint-smoke-20261004",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "none",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 1,
+      "accuracy": 0.1056,
+      "loss": 2.2853276584625246,
+      "asr": null,
+      "runtime": 6.5509559999918565,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1056,
+          "loss": 2.2853276584625246,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "fedavg-mnist-iid-quick-20rounds-20261004",
+      "path": "results/raw/federated/fedavg-mnist-iid-quick-20rounds-20261004",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "none",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 20,
+      "accuracy": 0.8554,
+      "loss": 0.46638440537452697,
+      "asr": null,
+      "runtime": 112.82882429996971,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1056,
+          "loss": 2.2853276584625246,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1117,
+          "loss": 2.2549893070220945,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.2304,
+          "loss": 2.2224161594390868,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.4126,
+          "loss": 2.176897646713257,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.5082,
+          "loss": 2.1095137588500976,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.5421,
+          "loss": 2.005716464996338,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.5586,
+          "loss": 1.8462450679779052,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.5807,
+          "loss": 1.622532835960388,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6044,
+          "loss": 1.3637228193283082,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6343,
+          "loss": 1.1359174110412598,
+          "asr": null
+        },
+        {
+          "round": 11,
+          "accuracy": 0.6747,
+          "loss": 0.9695514953613281,
+          "asr": null
+        },
+        {
+          "round": 12,
+          "accuracy": 0.708,
+          "loss": 0.85205557346344,
+          "asr": null
+        },
+        {
+          "round": 13,
+          "accuracy": 0.7319,
+          "loss": 0.7689188616752625,
+          "asr": null
+        },
+        {
+          "round": 14,
+          "accuracy": 0.7598,
+          "loss": 0.6952210248947144,
+          "asr": null
+        },
+        {
+          "round": 15,
+          "accuracy": 0.7825,
+          "loss": 0.6389926456451416,
+          "asr": null
+        },
+        {
+          "round": 16,
+          "accuracy": 0.8029,
+          "loss": 0.589362794303894,
+          "asr": null
+        },
+        {
+          "round": 17,
+          "accuracy": 0.8183,
+          "loss": 0.5509370277404785,
+          "asr": null
+        },
+        {
+          "round": 18,
+          "accuracy": 0.8333,
+          "loss": 0.5178747519969941,
+          "asr": null
+        },
+        {
+          "round": 19,
+          "accuracy": 0.8455,
+          "loss": 0.4906163456916809,
+          "asr": null
+        },
+        {
+          "round": 20,
+          "accuracy": 0.8554,
+          "loss": 0.46638440537452697,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "fedavg-mnist-iid-quick-10rounds-20261004",
+      "path": "results/raw/federated/fedavg-mnist-iid-quick-10rounds-20261004",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "none",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 10,
+      "accuracy": 0.6343,
+      "loss": 1.1359174110412598,
+      "asr": null,
+      "runtime": 56.71222250000574,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1056,
+          "loss": 2.2853276584625246,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1117,
+          "loss": 2.2549893070220945,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.2304,
+          "loss": 2.2224161594390868,
+          "asr": null
+        },
+        {
+          "round": 4,
+          "accuracy": 0.4126,
+          "loss": 2.176897646713257,
+          "asr": null
+        },
+        {
+          "round": 5,
+          "accuracy": 0.5082,
+          "loss": 2.1095137588500976,
+          "asr": null
+        },
+        {
+          "round": 6,
+          "accuracy": 0.5421,
+          "loss": 2.005716464996338,
+          "asr": null
+        },
+        {
+          "round": 7,
+          "accuracy": 0.5586,
+          "loss": 1.8462450679779052,
+          "asr": null
+        },
+        {
+          "round": 8,
+          "accuracy": 0.5807,
+          "loss": 1.622532835960388,
+          "asr": null
+        },
+        {
+          "round": 9,
+          "accuracy": 0.6044,
+          "loss": 1.3637228193283082,
+          "asr": null
+        },
+        {
+          "round": 10,
+          "accuracy": 0.6343,
+          "loss": 1.1359174110412598,
+          "asr": null
+        }
+      ]
+    },
+    {
+      "id": "fedavg-mnist-iid-quick-20261004",
+      "path": "results/raw/federated/fedavg-mnist-iid-quick-20261004",
+      "seed": 42,
+      "device": "cpu",
+      "attack": "none",
+      "aggregation": "fedavg",
+      "partition": "iid",
+      "rounds": 3,
+      "accuracy": 0.2304,
+      "loss": 2.2224161594390868,
+      "asr": null,
+      "runtime": 16.34824690001551,
+      "history": [
+        {
+          "round": 1,
+          "accuracy": 0.1056,
+          "loss": 2.2853276584625246,
+          "asr": null
+        },
+        {
+          "round": 2,
+          "accuracy": 0.1117,
+          "loss": 2.2549893070220945,
+          "asr": null
+        },
+        {
+          "round": 3,
+          "accuracy": 0.2304,
+          "loss": 2.2224161594390868,
+          "asr": null
+        }
+      ]
+    }
+  ],
+  "figures": [
+    "results/figures/attack_comparison.png",
+    "results/figures/attack_factor_sensitivity.png",
+    "results/figures/conventional-backdoor-mnist-iid-late20-20261004_learning.png",
+    "results/figures/detector_f1.png",
+    "results/figures/detector_roc_auc.png",
+    "results/figures/fedavg-fingerprint-smoke-20261004_learning.png",
+    "results/figures/fedavg-mnist-dirichlet-a01-20-20261004_learning.png",
+    "results/figures/fedavg-mnist-iid-quick-10rounds-20261004_learning.png",
+    "results/figures/fedavg-mnist-iid-quick-20261004_learning.png",
+    "results/figures/fedavg-mnist-iid-quick-20rounds-20261004_learning.png",
+    "results/figures/fedavg-mnist-iid-reference-20-20261004_learning.png",
+    "results/figures/fedavg-mnist-iid-reference-seed21-20261004_learning.png",
+    "results/figures/fedavg-mnist-iid-reference-seed7-20261004_learning.png",
+    "results/figures/lsa-coordinate-median-late20-seed42-20261004_learning.png",
+    "results/figures/lsa-inspired-high-malicious40-late20-seed42-20261004_learning.png",
+    "results/figures/lsa-inspired-late-mnist-20-20261004_learning.png",
+    "results/figures/lsa-inspired-late-mnist-seed21-20261004_learning.png",
+    "results/figures/lsa-inspired-late-mnist-seed7-20261004_learning.png",
+    "results/figures/lsa-inspired-mnist-iid-quick-20-20261004_learning.png",
+    "results/figures/lsa-inspired-noniid-alpha01-late20-seed42-20261004_learning.png",
+    "results/figures/lsa-mnist-attack-smoke-20261004_learning.png",
+    "results/figures/lsa-mnist-reject-smoke-20261004_learning.png",
+    "results/figures/lsa-multi-krum-late20-seed42-20261004_learning.png",
+    "results/figures/lsa-tclad-downweight-late20-attacked-20261004_learning.png",
+    "results/figures/lsa-tclad-reject-late20-20261004_learning.png",
+    "results/figures/lsa-tclad-reject-late20-attacked-20261004_learning.png",
+    "results/figures/lsa-trimmed-mean-late20-seed42-20261004_learning.png",
+    "results/figures/tclad-ablation-seed42-20261004-down_weight-A_layer_learning.png",
+    "results/figures/tclad-ablation-seed42-20261004-down_weight-B_layer_temporal_learning.png",
+    "results/figures/tclad-ablation-seed42-20261004-down_weight-C_layer_cross_layer_learning.png",
+    "results/figures/tclad-ablation-seed42-20261004-down_weight-D_temporal_cross_layer_learning.png",
+    "results/figures/tclad-ablation-seed42-20261004-down_weight-E_full_tclad_learning.png",
+    "results/figures/tclad-conventional-late-20-robust-scale-20261004_cross_layer.png",
+    "results/figures/tclad-conventional-late-20-robust-scale-20261004_layer_heatmap.png",
+    "results/figures/tclad-conventional-late-20-robust-scale-20261004_roc_pr.png",
+    "results/figures/tclad-conventional-late-20-robust-scale-20261004_score_distribution.png",
+    "results/figures/tclad-conventional-late-20-robust-scale-20261004_temporal.png",
+    "results/figures/tclad-conventional-seed42-bounded-20261004_cross_layer.png",
+    "results/figures/tclad-conventional-seed42-bounded-20261004_layer_heatmap.png",
+    "results/figures/tclad-conventional-seed42-bounded-20261004_roc_pr.png",
+    "results/figures/tclad-conventional-seed42-bounded-20261004_score_distribution.png",
+    "results/figures/tclad-conventional-seed42-bounded-20261004_temporal.png",
+    "results/figures/tclad-downweight-bounded-seed42-20261004_learning.png",
+    "results/figures/tclad-high-fraction-seed42-bounded-20261004_cross_layer.png",
+    "results/figures/tclad-high-fraction-seed42-bounded-20261004_layer_heatmap.png",
+    "results/figures/tclad-high-fraction-seed42-bounded-20261004_roc_pr.png",
+    "results/figures/tclad-high-fraction-seed42-bounded-20261004_score_distribution.png",
+    "results/figures/tclad-high-fraction-seed42-bounded-20261004_temporal.png",
+    "results/figures/tclad-lsa-late-20-robust-scale-20261004_cross_layer.png",
+    "results/figures/tclad-lsa-late-20-robust-scale-20261004_layer_heatmap.png",
+    "results/figures/tclad-lsa-late-20-robust-scale-20261004_roc_pr.png",
+    "results/figures/tclad-lsa-late-20-robust-scale-20261004_score_distribution.png",
+    "results/figures/tclad-lsa-late-20-robust-scale-20261004_temporal.png",
+    "results/figures/tclad-lsa-late-seed42-bounded-20261004_cross_layer.png",
+    "results/figures/tclad-lsa-late-seed42-bounded-20261004_layer_heatmap.png",
+    "results/figures/tclad-lsa-late-seed42-bounded-20261004_roc_pr.png",
+    "results/figures/tclad-lsa-late-seed42-bounded-20261004_score_distribution.png",
+    "results/figures/tclad-lsa-late-seed42-bounded-20261004_temporal.png",
+    "results/figures/tclad-lsa-late-seed7-20261004_cross_layer.png",
+    "results/figures/tclad-lsa-late-seed7-20261004_layer_heatmap.png",
+    "results/figures/tclad-lsa-late-seed7-20261004_roc_pr.png",
+    "results/figures/tclad-lsa-late-seed7-20261004_score_distribution.png",
+    "results/figures/tclad-lsa-late-seed7-20261004_temporal.png",
+    "results/figures/tclad-lsa-late-seed7-bounded-20261004_cross_layer.png",
+    "results/figures/tclad-lsa-late-seed7-bounded-20261004_layer_heatmap.png",
+    "results/figures/tclad-lsa-late-seed7-bounded-20261004_roc_pr.png",
+    "results/figures/tclad-lsa-late-seed7-bounded-20261004_score_distribution.png",
+    "results/figures/tclad-lsa-late-seed7-bounded-20261004_temporal.png",
+    "results/figures/tclad-noniid-seed42-bounded-20261004_cross_layer.png",
+    "results/figures/tclad-noniid-seed42-bounded-20261004_layer_heatmap.png",
+    "results/figures/tclad-noniid-seed42-bounded-20261004_roc_pr.png",
+    "results/figures/tclad-noniid-seed42-bounded-20261004_score_distribution.png",
+    "results/figures/tclad-noniid-seed42-bounded-20261004_temporal.png",
+    "results/figures/tclad-reject-bounded-failclosed-seed42-20261004_learning.png",
+    "results/figures/tclad-reject-bounded-seed42-20261004_learning.png",
+    "results/figures/threshold_sensitivity_detection_rate.png",
+    "results/figures/threshold_sensitivity_false_positive_rate.png"
+  ],
+  "tables": [
+    "results/tables/attack_comparison.csv",
+    "results/tables/attack_factor_sensitivity.csv",
+    "results/tables/baseline_and_attack_runs.csv",
+    "results/tables/detector_comparison.csv",
+    "results/tables/detector_seed_metrics.csv",
+    "results/tables/detector_seed_summary.csv",
+    "results/tables/mitigation_ablation.csv",
+    "results/tables/overhead.csv",
+    "results/tables/robust_aggregation_comparison.csv",
+    "results/tables/threshold_sensitivity.csv"
+  ],
+  "runs": {}
+}
